@@ -414,22 +414,22 @@ function renderCurrentLesson() {
 
   elements.currentLessonTitle.textContent = lesson.title;
   elements.lessonMeta.innerHTML = `
-    <p>${lesson.moduleTitle} • ${lesson.type === "video" ? "Video" : "PDF"}${lesson.duration ? ` • ${lesson.duration}` : ""}</p>
+    <p class="lesson-module-label">${lesson.moduleTitle}</p>
+    <p>${lesson.type === "video" ? "Video" : "PDF"}${lesson.duration ? ` • ${lesson.duration}` : ""}</p>
   `;
 
   elements.viewerContainer.innerHTML = "";
 
-  const iframe = document.createElement("iframe");
-  iframe.className = "viewer-frame";
-  iframe.src = previewUrl;
-  if (lesson.type === "pdf") {
-    iframe.height = "700px";
-    iframe.style.height = "700px";
-  }
-  iframe.setAttribute("frameborder", "0");
-
   if (lesson.type === "video") {
-    iframe.setAttribute("allow", "autoplay");
+    const videoEl = document.createElement("video");
+    videoEl.className = "viewer-frame";
+    videoEl.controls = true;
+    videoEl.preload = "metadata";
+    videoEl.setAttribute("playsinline", "");
+    videoEl.innerHTML = `
+      <source src="https://gdrive-proxy.alan-tcn1.workers.dev/?id=${lesson.driveId}" type="video/mp4">
+      Seu navegador não suporta o player de vídeo.
+    `;
     const videoWrapper = document.createElement("div");
     videoWrapper.className = "video-wrapper";
 
@@ -440,14 +440,20 @@ function renderCurrentLesson() {
       <p>Carregando vídeo...</p>
     `;
 
-    iframe.addEventListener("load", () => {
-      iframe.closest(".video-wrapper")?.classList.add("is-loaded");
+    videoEl.addEventListener("canplay", () => {
+      videoEl.closest(".video-wrapper")?.classList.add("is-loaded");
     });
 
     videoWrapper.appendChild(videoPlaceholder);
-    videoWrapper.appendChild(iframe);
+    videoWrapper.appendChild(videoEl);
     elements.viewerContainer.appendChild(videoWrapper);
   } else {
+    const iframe = document.createElement("iframe");
+    iframe.className = "viewer-frame";
+    iframe.src = previewUrl;
+    iframe.height = "700px";
+    iframe.style.height = "700px";
+    iframe.setAttribute("frameborder", "0");
     elements.viewerContainer.appendChild(iframe);
   }
 
@@ -548,7 +554,7 @@ function isLessonWatched(lessonId) {
 }
 
 function getDrivePreviewUrl(driveId) {
-  return `https://drive.google.com/file/d/${driveId}/preview`;
+  return `https://drive.google.com/file/d/${driveId}/preview?rm=minimal`;
 }
 
 function getDriveDownloadUrl(driveId) {
