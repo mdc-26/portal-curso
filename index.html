@@ -18,11 +18,13 @@
   <main class="site-shell">
     <section id="login-view" class="login-view" aria-labelledby="login-title">
       <div class="login-card">
-        
-        <h1 id="login-title">Acesso restrito</h1>
-        <p class="login-description">
-          Informe a senha para acessar as aulas em video e os materiais em PDF.
-        </p>
+        <div class="login-card-header">
+          <span class="login-badge">Portal do Curso</span>
+          <h1 id="login-title">Acesso restrito</h1>
+          <p class="login-description">
+            Informe a senha para acessar as aulas em video e os materiais em PDF.
+          </p>
+        </div>
 
         <form id="login-form" class="login-form">
           <label class="field-label" for="password-input">Senha</label>
@@ -65,6 +67,7 @@
           </div>
           <p id="login-error" class="form-message" aria-live="polite"></p>
           <button type="submit" class="button button-primary button-block">Entrar</button>
+          <p class="login-footnote">Seu acesso permanece ativo somente durante esta sessão.</p>
         </form>
       </div>
     </section>
