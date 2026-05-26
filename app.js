@@ -409,9 +409,26 @@ function renderCurrentLesson() {
 
   if (lesson.type === "video") {
     iframe.setAttribute("allow", "autoplay");
-  }
+    const videoWrapper = document.createElement("div");
+    videoWrapper.className = "video-wrapper";
 
-  elements.viewerContainer.appendChild(iframe);
+    const videoPlaceholder = document.createElement("div");
+    videoPlaceholder.className = "video-placeholder";
+    videoPlaceholder.innerHTML = `
+      <div class="play-icon">▶</div>
+      <p>Carregando vídeo...</p>
+    `;
+
+    iframe.addEventListener("load", () => {
+      iframe.closest(".video-wrapper")?.classList.add("is-loaded");
+    });
+
+    videoWrapper.appendChild(videoPlaceholder);
+    videoWrapper.appendChild(iframe);
+    elements.viewerContainer.appendChild(videoWrapper);
+  } else {
+    elements.viewerContainer.appendChild(iframe);
+  }
 
   elements.prevButton.disabled = currentIndex <= 0;
   elements.nextButton.disabled = currentIndex === -1 || currentIndex >= state.flatLessons.length - 1;
