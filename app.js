@@ -333,24 +333,19 @@ function renderCurrentLesson() {
 
   elements.viewerContainer.innerHTML = "";
 
-  const lessonHeading = document.createElement("div");
-  lessonHeading.className = "lesson-heading";
-  lessonHeading.innerHTML = `
-    <h2>${lesson.title}</h2>
-    <p>${lesson.moduleTitle}</p>
-  `;
-
   const iframe = document.createElement("iframe");
   iframe.className = "viewer-frame";
   iframe.src = previewUrl;
-  iframe.height = lesson.type === "video" ? "500px" : "700px";
+  if (lesson.type === "pdf") {
+    iframe.height = "700px";
+    iframe.style.height = "700px";
+  }
   iframe.setAttribute("frameborder", "0");
 
   if (lesson.type === "video") {
     iframe.setAttribute("allow", "autoplay");
   }
 
-  elements.viewerContainer.appendChild(lessonHeading);
   elements.viewerContainer.appendChild(iframe);
 
   elements.prevButton.disabled = currentIndex <= 0;
