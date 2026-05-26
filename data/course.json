@@ -3,18 +3,18 @@
     "title": "Escola de Ministros",
     "modules": [
       {
-        "id": "trilha-1-1-introdu-o-comece-por-aqui",
-        "title": "TRILHA FORMAÇÃO DO MINISTRO — INTRODUÇÃO - Comece por aqui",
-        "thumbnail": "./assets/thumbnails/trilha1-introducao.png",
+        "id": "modulo-1",
+        "title": "TRILHA FORMACAO DO MINISTRO - Gabi Sampaio | Comece por aqui",
+        "thumbnail": "./assets/thumbnails/1.png",
         "lessons": [
           {
-            "id": "1-1-01-introdu-o-escola-de",
+            "id": "m1-aula-01",
             "title": "01 - Introdução à Escola de Ministros",
             "type": "video",
             "driveId": "1RGI0wP_V9b8QlD31RQ3R98wNhVUEhn0L"
           },
           {
-            "id": "1-2-02-miss-o-vis-o-e-valore",
+            "id": "m1-aula-02",
             "title": "02 - Missão, Visão e Valores do seu Ministério",
             "type": "video",
             "driveId": "1D8rKIY7WcP5BDcFkvfHytudUz16fVZKj"
@@ -22,168 +22,168 @@
         ]
       },
       {
-        "id": "trilha-1-1-m-dulo-1-criando-fundamentos",
-        "title": "TRILHA FORMAÇÃO DO MINISTRO — MÓDULO 1 - Criando Fundamentos",
-        "thumbnail": "./assets/thumbnails/trilha1-modulo1.png",
+        "id": "modulo-2",
+        "title": "TRILHA FORMACAO DO MINISTRO - Gabi Sampaio | Modulo 01",
+        "thumbnail": "./assets/thumbnails/2.png",
         "lessons": [
           {
-            "id": "1-1-aula-01-montando-um-bom-r",
+            "id": "m2-aula-01",
             "title": "Aula 01 - Montando um bom repertório (Sessão 01)",
             "type": "video",
             "driveId": "1m1Zn4KM727JTjbNxJJKkDy12NgQAQQKF"
           },
           {
-            "id": "1-2-aula-02-montando-um-bom-r",
+            "id": "m2-aula-02",
             "title": "Aula 02 - Montando um bom repertório (Sessão 02)",
             "type": "video",
             "driveId": "1YcCGU6Krbb-6fTKxti54RH2Sevfqp0A0"
           },
           {
-            "id": "1-3-aula-03-montando-um-bom-r",
+            "id": "m2-aula-03",
             "title": "Aula 03 - Montando um bom repertório (Sessão 03)",
             "type": "video",
             "driveId": "1Dzv1ZDGcvzqnW7bdM5ZihocG4SS3SVv7"
           },
           {
-            "id": "1-4-aula-04-entendendo-o-prop",
+            "id": "m2-aula-04",
             "title": "Aula 04 - Entendendo o Propósito (Sessão 01)",
             "type": "video",
             "driveId": "1VkR2Hqzj4Sk08GPWJtA9wQ8A99wpssVG"
           },
           {
-            "id": "1-5-aula-05-entendendo-o-prop",
+            "id": "m2-aula-05",
             "title": "Aula 05 - Entendendo o Propósito (Sessão 02)",
             "type": "video",
             "driveId": "1dNdszEaF8vIkjbyzOKyzVoZtP17CSts3"
           },
           {
-            "id": "1-6-aula-06-un-o-excel-ncia",
+            "id": "m2-aula-06",
             "title": "Aula 06 - Unção, excelência e perseverança",
             "type": "video",
             "driveId": "1__fW5ow6evzXUzkr-zEazSX2NS99R9pq"
           },
           {
-            "id": "1-7-aula-07-cora-o-x-talento",
+            "id": "m2-aula-07",
             "title": "Aula 07 - Coração x Talento (Sessão 01)",
             "type": "video",
             "driveId": "1Ho26PjdtGULbtevidHfbjFaw6iXIiljM"
           },
           {
-            "id": "1-8-aula-08-cora-o-x-talento",
+            "id": "m2-aula-08",
             "title": "Aula 08 - Coração x Talento (Sessão 02)",
             "type": "video",
             "driveId": "1pJ4It8KjXPLw5_giKndCpvGG6KpmP-tf"
           },
           {
-            "id": "1-9-aula-09-aprimorando-o-lou",
+            "id": "m2-aula-09",
             "title": "Aula 09 - Aprimorando o Louvor (Parte 01) (Sessão 01)",
             "type": "video",
             "driveId": "1V77fyk33CUkKDlq4ojuUUthjqBxunr7R"
           },
           {
-            "id": "1-10-aula-10-aprimorando-o-lo",
+            "id": "m2-aula-10",
             "title": "Aula 10 - Aprimorando o Louvor (Parte 01) (Sessão 02)",
             "type": "video",
             "driveId": "1fhrwb0VIQVB_kT1KGreyqn9-SKusyIns"
           },
           {
-            "id": "1-11-aula-11-aprimorando-o-lo",
+            "id": "m2-aula-11",
             "title": "Aula 11 - Aprimorando o Louvor (Parte 02) (Sessão 01)",
             "type": "video",
             "driveId": "1ntkpnk-gGEW128Z3B-eaX_7_a50aWeou"
           },
           {
-            "id": "1-12-aula-12-aprimorando-o-lo",
+            "id": "m2-aula-12",
             "title": "Aula 12 - Aprimorando o Louvor (Parte 02) (Sessão 02)",
             "type": "video",
             "driveId": "1gCW8KsAq943Ol75DMyWRtXAQPhs4m7yj"
           },
           {
-            "id": "1-13-aula-13-aprimorando-o-lo",
+            "id": "m2-aula-13",
             "title": "Aula 13 - Aprimorando o Louvor (Parte 02) (Sessão 03)",
             "type": "video",
             "driveId": "1TIbVkcCP8ibpFavMBU_j8bj861Hj-XM5"
           },
           {
-            "id": "1-14-aula-14-promessa-x-proce",
+            "id": "m2-aula-14",
             "title": "Aula 14 - Promessa x Processo (Sessão 01)",
             "type": "video",
             "driveId": "1jWchNrN_6sgFbdfejmJX8ZQ2_BYVJJ9x"
           },
           {
-            "id": "1-15-aula-15-promessa-x-proce",
+            "id": "m2-aula-15",
             "title": "Aula 15 - Promessa x Processo (Sessão 02)",
             "type": "video",
             "driveId": "1mvj_QZLYZ3W5gjjBAdFE25IY-iaWhTSW"
           },
           {
-            "id": "1-16-aula-16-promessa-x-proce",
+            "id": "m2-aula-16",
             "title": "Aula 16 - Promessa x Processo (Sessão 03)",
             "type": "video",
             "driveId": "1-_Uvk4WQ3K-kIdC4mtD3Qit5TPamWSAd"
           },
           {
-            "id": "1-17-aula-17-composi-o-sess",
+            "id": "m2-aula-17",
             "title": "Aula 17 - Composição (Sessão 01)",
             "type": "video",
             "driveId": "1-szWv2QAqWFl2sANe-zEpzgN70Z6_pqJ"
           },
           {
-            "id": "1-18-aula-18-composi-o-sess",
+            "id": "m2-aula-18",
             "title": "Aula 18 - Composição (Sessão 02)",
             "type": "video",
             "driveId": "1arBGGmuDVmaG11Mm8NWIV-KLUzNK89v_"
           },
           {
-            "id": "1-19-aula-19-composi-o-sess",
+            "id": "m2-aula-19",
             "title": "Aula 19 - Composição (Sessão 03)",
             "type": "video",
             "driveId": "1xcAGNBpajppXhOiaEHDccWD50PsFo2ex"
           },
           {
-            "id": "1-20-aula-20-conduta-do-minis",
+            "id": "m2-aula-20",
             "title": "Aula 20 - Conduta do Ministro de Louvor (Sessão 01)",
             "type": "video",
             "driveId": "1JKiVPu0jnZ9VZBRMfKougCK8OjVMcJFv"
           },
           {
-            "id": "1-21-aula-21-conduta-do-minis",
+            "id": "m2-aula-21",
             "title": "Aula 21 - Conduta do Ministro de Louvor (Sessão 02)",
             "type": "video",
             "driveId": "1dz_xV-IAuUiC5R2BScALsBEsLwHzxKBk"
           },
           {
-            "id": "1-22-aula-22-conduta-do-minis",
+            "id": "m2-aula-22",
             "title": "Aula 22 - Conduta do Ministro de Louvor (Sessão 03)",
             "type": "video",
             "driveId": "16xBCv-O3hee9j60qVp_lkzs8w57lwr74"
           },
           {
-            "id": "1-23-aula-23-aprimorando-as-v",
+            "id": "m2-aula-23",
             "title": "Aula 23 - Aprimorando as Versões (Sessão 01)",
             "type": "video",
             "driveId": "1PlH3NALdDEWFEB8pqHFmI9O2ZalEpKt4"
           },
           {
-            "id": "1-24-aula-24-aprimorando-as-v",
+            "id": "m2-aula-24",
             "title": "Aula 24 - Aprimorando as Versões (Sessão 02)",
             "type": "video",
             "driveId": "1byOXSJxl3APQmzCeM7QLtFM18W1Q8Ai-"
           },
           {
-            "id": "1-25-aula-25-aprimorando-as-v",
+            "id": "m2-aula-25",
             "title": "Aula 25 - Aprimorando as Versões (Sessão 03)",
             "type": "video",
             "driveId": "1dVlNjgXO4PyowxyLMLykTsKoWD_sLBND"
           },
           {
-            "id": "1-26-aula-26-respondendo-ao-a",
+            "id": "m2-aula-26",
             "title": "Aula 26 - Respondendo ao Amor de Deus (Sessão 01)",
             "type": "video",
             "driveId": "1K9plFMkRl1x74y-tBK17kecMIz9RjQqa"
           },
           {
-            "id": "1-27-aula-27-respondendo-ao-a",
+            "id": "m2-aula-27",
             "title": "Aula 27 - Respondendo ao Amor de Deus (Sessão 02)",
             "type": "video",
             "driveId": "1xNA3-QV2mebNMY4m9d5tG_L6u7XTG-GR"
@@ -191,138 +191,138 @@
         ]
       },
       {
-        "id": "trilha-1-1-m-dulo-2-ser-um-ministro-de",
-        "title": "TRILHA FORMAÇÃO DO MINISTRO — MÓDULO 2 - Ser um Ministro de Excelência",
-        "thumbnail": "./assets/thumbnails/trilha1-modulo2.png",
+        "id": "modulo-3",
+        "title": "TRILHA FORMACAO DO MINISTRO - Gabi Sampaio | Modulo 02",
+        "thumbnail": "./assets/thumbnails/3.png",
         "lessons": [
           {
-            "id": "1-1-aula-01-dream-team-viven",
-            "title": "Aula 01 - Dream Team_ vivendo em um só entendimento (Sessão 01)",
+            "id": "m3-aula-01",
+            "title": "Aula 01 - Dream Team: vivendo em um só entendimento (Sessão 01)",
             "type": "video",
             "driveId": "1RKrV-waVWKIpT4VgfsRsBnoY4gxuDyBP"
           },
           {
-            "id": "1-2-aula-02-dream-team-vivend",
+            "id": "m3-aula-02",
             "title": "Aula 02 - Dream Team vivendo em um só entendimento (Sessão 02)",
             "type": "video",
             "driveId": "1HQHcv4RGZo9zXsJFcNykvB_t6egOAAnT"
           },
           {
-            "id": "1-3-aula-03-dream-team-vivend",
+            "id": "m3-aula-03",
             "title": "Aula 03 - Dream Team vivendo em um só entendimento (Sessão 03)",
             "type": "video",
             "driveId": "1bhpf_gSCenqb9B1QkT7KX2TrU7ycI1j6"
           },
           {
-            "id": "1-4-aula-04-pr-requisito-de",
+            "id": "m3-aula-04",
             "title": "Aula 04 - Pré-requisito de um mensageiro (Sessão 01)",
             "type": "video",
             "driveId": "1PrnDnibqn7x7H1o_BIP6JZPFO493h3Ax"
           },
           {
-            "id": "1-5-aula-05-pr-requisito-de",
+            "id": "m3-aula-05",
             "title": "Aula 05 - Pré-requisito de um mensageiro (Sessão 02)",
             "type": "video",
             "driveId": "1kJ7xGfOO7_aQsLKumJIVRvZ70DxVwj2a"
           },
           {
-            "id": "1-6-aula-06-pr-requisito-de",
+            "id": "m3-aula-06",
             "title": "Aula 06 - Pré-requisito de um mensageiro (Sessão 03)",
             "type": "video",
             "driveId": "13bpOeEmsHtKzJgabKjrkwd6JvyqHQmhn"
           },
           {
-            "id": "1-7-aula-07-lideran-a-parte",
+            "id": "m3-aula-07",
             "title": "Aula 07 - Liderança (Parte 01) (Sessão 01)",
             "type": "video",
             "driveId": "1I0q7lcWcdoVQjV3DqWQAB95IqlPvWhBo"
           },
           {
-            "id": "1-8-aula-08-lideran-a-parte",
+            "id": "m3-aula-08",
             "title": "Aula 08 - Liderança (Parte 01) (Sessão 02)",
             "type": "video",
             "driveId": "1d4D-zfKFChOjDeeGXc_Cw8E4Ll-XyCUJ"
           },
           {
-            "id": "1-9-aula-09-lideran-a-parte",
+            "id": "m3-aula-09",
             "title": "Aula 09 - Liderança (Parte 02) (Sessão 01)",
             "type": "video",
             "driveId": "1ftAqBS1JqMQB601j11L4lSlGdfKlwYFu"
           },
           {
-            "id": "1-10-aula-10-lideran-a-parte",
+            "id": "m3-aula-10",
             "title": "Aula 10 - Liderança (Parte 02) (Sessão 02)",
             "type": "video",
             "driveId": "1lHIfvVok8V_ofx1ao2we-9-hYpBChyN4"
           },
           {
-            "id": "1-11-aula-11-aprimorando-o-lo",
+            "id": "m3-aula-11",
             "title": "Aula 11 - Aprimorando o Louvor (Parte 01) (Sessão 01)",
             "type": "video",
             "driveId": "1S6Ygo0jPB3jhDWjCT-aUNcBsgpWHJxn-"
           },
           {
-            "id": "1-12-aula-12-aprimorando-o-lo",
+            "id": "m3-aula-12",
             "title": "Aula 12 - Aprimorando o Louvor (Parte 01) (Sessão 02)",
             "type": "video",
             "driveId": "19MWFspcwIkYAxDws4Kx3_7dako8c6b8W"
           },
           {
-            "id": "1-13-aula-13-aprimorando-o-lo",
+            "id": "m3-aula-13",
             "title": "Aula 13 - Aprimorando o Louvor (Parte 02) (Sessão 01)",
             "type": "video",
             "driveId": "1RUS-M2Nfs4SYojS4H3aLhCOe6qASMFOY"
           },
           {
-            "id": "1-14-aula-14-aprimorando-o-lo",
+            "id": "m3-aula-14",
             "title": "Aula 14 - Aprimorando o Louvor (Parte 02) (Sessão 02)",
             "type": "video",
             "driveId": "1trbG7EZVoiJxp9uuoIUnuJtuRpuVqERd"
           },
           {
-            "id": "1-15-aula-15-adorando-com-a-p",
+            "id": "m3-aula-15",
             "title": "Aula 15 - Adorando com a Palavra (Sessão 01)",
             "type": "video",
             "driveId": "1LYALM51x_-vTynOTPcy999Xmi-XOOebd"
           },
           {
-            "id": "1-16-aula-16-adorando-com-a-p",
+            "id": "m3-aula-16",
             "title": "Aula 16 - Adorando com a Palavra (Sessão 02)",
             "type": "video",
             "driveId": "1mfS8Nxkc9G3WaGI1C0UNx1bd9UQ8-VW1"
           },
           {
-            "id": "1-17-aula-17-humildade-e-orgu",
+            "id": "m3-aula-17",
             "title": "Aula 17 - Humildade e Orgulho (Sessão 01)",
             "type": "video",
             "driveId": "1LdRp8sEWSNnY16EArZg7TOUyklrKo-Qe"
           },
           {
-            "id": "1-18-aula-18-humildade-e-orgu",
+            "id": "m3-aula-18",
             "title": "Aula 18 - Humildade e Orgulho (Sessão 02)",
             "type": "video",
             "driveId": "1TACqhR4486gorsd4-5hzDW8kB-H8lrPF"
           },
           {
-            "id": "1-19-aula-19-espont-neos-fund",
+            "id": "m3-aula-19",
             "title": "Aula 19 - Espontâneos Fundamentos (Sessão 01)",
             "type": "video",
             "driveId": "1mfPO7-dNRXeHGSisiJMxBHtqw1WuVtXh"
           },
           {
-            "id": "1-20-aula-20-espont-neos-fund",
+            "id": "m3-aula-20",
             "title": "Aula 20 - Espontâneos Fundamentos (Sessão 02)",
             "type": "video",
             "driveId": "1jEoR02JyenM-HVfawAQD_sHjjRh4bPCh"
           },
           {
-            "id": "1-21-aula-21-espont-neo-part",
+            "id": "m3-aula-21",
             "title": "Aula 21 - Espontâneo (Parte 02) (Sessão 01)",
             "type": "video",
             "driveId": "1MKVVZByze8hCnta2F6ekvBLcEUjy5Oih"
           },
           {
-            "id": "1-22-aula-22-espont-neo-part",
+            "id": "m3-aula-22",
             "title": "Aula 22 - Espontâneo (Parte 02) (Sessão 02)",
             "type": "video",
             "driveId": "1B3XqI6m_XutJs3jslA1lT9QGzgmtGG-C"
@@ -330,36 +330,36 @@
         ]
       },
       {
-        "id": "trilha-1-1-m-dulo-3-evoluindo-sua-minis",
-        "title": "TRILHA FORMAÇÃO DO MINISTRO — MÓDULO 3 - Evoluindo sua Ministração",
-        "thumbnail": "./assets/thumbnails/trilha1-modulo3.png",
+        "id": "modulo-4",
+        "title": "TRILHA FORMACAO DO MINISTRO - Gabi Sampaio | Modulo 03",
+        "thumbnail": "./assets/thumbnails/4.png",
         "lessons": [
           {
-            "id": "1-1-aula-01-o-poder-da-m-sica",
+            "id": "m4-aula-01",
             "title": "Aula 01 - O Poder da Música",
             "type": "video",
             "driveId": "1jsRdT_2l7NkLI9aP_Umx9v2rOYWcXWsh"
           },
           {
-            "id": "1-2-aula-02-desvendando-os-se",
+            "id": "m4-aula-02",
             "title": "Aula 02 - Desvendando os segredos dos Medleys",
             "type": "video",
             "driveId": "1FJwuqmgC_k1U9abo4jiwRqRWGlGKVW_5"
           },
           {
-            "id": "1-3-aula-03-o-que-ser-um-mi",
+            "id": "m4-aula-03",
             "title": "Aula 03 - O que é ser um MINISTRO",
             "type": "video",
             "driveId": "1ESETXeUEr8dRrywnij_qocj_HlbFFFYs"
           },
           {
-            "id": "1-4-aula-04-ferramentas-e-dic",
+            "id": "m4-aula-04",
             "title": "Aula 04 - Ferramentas e dicas para sua evolução",
             "type": "video",
             "driveId": "1DjDrq8yXEBJQCVqnfdu-IDPppnYuy75W"
           },
           {
-            "id": "1-5-aula-05-construindo-o-amb",
+            "id": "m4-aula-05",
             "title": "Aula 05 - Construindo o ambiente para a presença de Deus",
             "type": "video",
             "driveId": "1MLYOVst7zZfha0LiO7u8F3PNxS1ItNL-"
@@ -367,96 +367,96 @@
         ]
       },
       {
-        "id": "trilha-1-1-m-dulo-4-ministra-o-na-pr-t",
-        "title": "TRILHA FORMAÇÃO DO MINISTRO — MÓDULO 4 - Ministração na Prática",
-        "thumbnail": "./assets/thumbnails/trilha1-modulo4.png",
+        "id": "modulo-5",
+        "title": "TRILHA FORMACAO DO MINISTRO - Gabi Sampaio | Modulo 04",
+        "thumbnail": "./assets/thumbnails/5.png",
         "lessons": [
           {
-            "id": "1-1-aula-01-introdu-o-minist",
+            "id": "m5-aula-01",
             "title": "Aula 01 - Introdução Ministração na Prática",
             "type": "video",
             "driveId": "1oT7pN52ym0Ts_EzQcunUEFsLunEjw4x7"
           },
           {
-            "id": "1-2-aula-02-passagem-de-som",
+            "id": "m5-aula-02",
             "title": "Aula 02 - Passagem de Som (Parte 01)",
             "type": "video",
             "driveId": "16EyJiKfAyfyBrwEqaZySBPVn7xYwGAGY"
           },
           {
-            "id": "1-3-aula-03-passagem-de-som",
+            "id": "m5-aula-03",
             "title": "Aula 03 - Passagem de Som (Parte 02)",
             "type": "video",
             "driveId": "1V8vRDMar5V9IYwfQbr2WX7QoBI8qs0jW"
           },
           {
-            "id": "1-4-aula-04-click-e-vs-na-pr",
+            "id": "m5-aula-04",
             "title": "Aula 04 - Click e VS na prática",
             "type": "video",
             "driveId": "1kMYQKjN3p_68WifZa_NS3_ZfluWrbIYO"
           },
           {
-            "id": "1-5-aula-05-formas-de-abrir-o",
+            "id": "m5-aula-05",
             "title": "Aula 05 - Formas de abrir o culto",
             "type": "video",
             "driveId": "1QgiyTTHs6OFcgqMJazOfS42JPMeq6RA5"
           },
           {
-            "id": "1-6-aula-06-divis-o-de-vozes",
-            "title": "Aula 06 - Divisão de vozes, intensidade, dinâmica, crescimen",
+            "id": "m5-aula-06",
+            "title": "Aula 06 - Divisão de vozes, intensidade, dinâmica, crescimento dos instrumentos na música (Parte 01)",
             "type": "video",
             "driveId": "1SD4dnJq4EmiWhrkUjoSnBjaVsfK_cc6c"
           },
           {
-            "id": "1-7-aula-07-divis-o-de-vozes",
+            "id": "m5-aula-07",
             "title": "Aula 07 - Divisão de vozes (Parte 02)",
             "type": "video",
             "driveId": "1ivBfyfIRKIxKOguxkEDLxnWjMp7dJSnM"
           },
           {
-            "id": "1-8-aula-08-formas-de-abrir-o",
+            "id": "m5-aula-08",
             "title": "Aula 08 - Formas de abrir o culto (Parte 02)",
             "type": "video",
             "driveId": "1MWy-X-GCGXp90fpGA51YDGRUZ1-hldRi"
           },
           {
-            "id": "1-9-aula-09-o-que-fazer-quand",
+            "id": "m5-aula-09",
             "title": "Aula 09 - O que fazer quando perder o tempo da música",
             "type": "video",
             "driveId": "1_n1AylNmc4fAZHB-gLvJRAgh0UQkVPNH"
           },
           {
-            "id": "1-10-aula-10-n-o-uso-vs-o-qu",
-            "title": "Aula 10 - Não uso VS, o que fazer",
+            "id": "m5-aula-10",
+            "title": "Aula 10 - Não uso VS, o que fazer?",
             "type": "video",
             "driveId": "1D1HdLIG9BB75K8s8z43od6B6b_MQ7P5f"
           },
           {
-            "id": "1-11-aula-11-m-sicas-r-pidas",
+            "id": "m5-aula-11",
             "title": "Aula 11 - Músicas rápidas e lentas",
             "type": "video",
             "driveId": "1HSsXj96I3-FoOMhIc1Gsg-qr-AxdchzK"
           },
           {
-            "id": "1-12-aula-12-como-eu-fa-o-os",
+            "id": "m5-aula-12",
             "title": "Aula 12 - Como eu faço os Medleys",
             "type": "video",
             "driveId": "1dNx4GApO7JeGDjaUKnSh2m2YGM-xWb_I"
           },
           {
-            "id": "1-13-aula-13-comunica-o-com",
+            "id": "m5-aula-13",
             "title": "Aula 13 - Comunicação com a Banda",
             "type": "video",
             "driveId": "1Bq6MYK2qOIl7gd5nc9qxDqLKHF0sa6a5"
           },
           {
-            "id": "1-14-aula-14-postura-no-momen",
+            "id": "m5-aula-14",
             "title": "Aula 14 - Postura no momento do Louvor",
             "type": "video",
             "driveId": "1NNMiCok09GiPm7Iaya1EXIarpnukFD1g"
           },
           {
-            "id": "1-15-aula-15-posicionamento-t",
+            "id": "m5-aula-15",
             "title": "Aula 15 - Posicionamento Técnico",
             "type": "video",
             "driveId": "1sa0THCZDhP-8ZgFHgi9Bzsb6Ft5ArHpt"
@@ -464,109 +464,109 @@
         ]
       },
       {
-        "id": "trilha-3",
-        "title": "TRILHA FORMAÇÃO DO MINISTRO (Lives)",
-        "thumbnail": "./assets/thumbnails/trilha3-lives.png",
+        "id": "modulo-6",
+        "title": "TRILHA FORMACAO DO MINISTRO - Gabi Sampaio | Live",
+        "thumbnail": "./assets/thumbnails/6.png",
         "lessons": [
           {
-            "id": "3-9-live-como-conduzir-plenam",
-            "title": "Live - Como Conduzir Plenamente o Momento do Louvor",
+            "id": "m6-live---como-conduzir",
+            "title": "Live 01 - Escola de Ministros",
             "type": "pdf",
             "driveId": "14SLUuEs3bvlHJTPdqbeD9uOnuR_Ag2Vg"
           },
           {
-            "id": "3-9-live-como-conduzir-plenam",
-            "title": "Live - Como Conduzir Plenamente o Momento do Louvor",
+            "id": "m6-live---como-conduzir",
+            "title": "Live 02 - Escola de Ministros",
             "type": "video",
             "driveId": "1XhP3_dRhugNizkK3ylxAedcDgpvnUIb_"
           },
           {
-            "id": "3-1-live-01-escola-de-ministr",
-            "title": "Live 01 - Escola de Ministros",
+            "id": "m6-live-01---escola",
+            "title": "Live 03 - Escola de Ministros",
             "type": "video",
             "driveId": "1TryL9ajmfQ9snqOj6pHMEuZ2TAiYDc8o"
           },
           {
-            "id": "3-5-live-01-escola-de-ministr",
-            "title": "Live 01 - Escola de Ministros 2.0",
+            "id": "m6-live-01---escola-2-0",
+            "title": "Live 04 - Escola de Ministros",
             "type": "video",
             "driveId": "1-bDEcSui4GNh2K_y_rbCB0GRDOCsObKK"
           },
           {
-            "id": "3-2-live-02-escola-de-ministr",
-            "title": "Live 02 - Escola de Ministros",
+            "id": "m6-live-02---escola",
+            "title": "Live 01 - Escola de Ministros 2.0",
             "type": "video",
             "driveId": "1sU1wqpZ2Z_Mn-eNIwf5g-fZWenRucuk_"
           },
           {
-            "id": "3-6-live-02-escola-de-ministr",
+            "id": "m6-live-02---escola-2-0",
             "title": "Live 02 - Escola de Ministros 2.0",
             "type": "video",
             "driveId": "1g84BtH80dk3B8g_lem9iRk8iwZ_2My3q"
           },
           {
-            "id": "3-3-live-03-escola-de-ministr",
-            "title": "Live 03 - Escola de Ministros",
+            "id": "m6-live-03---escola",
+            "title": "Live 03 - Escola de Ministros 2.0",
             "type": "video",
             "driveId": "1otL1uD8iI1ENAA2PGopWMJNRBeoA-f8t"
           },
           {
-            "id": "3-7-live-03-escola-de-ministr",
-            "title": "Live 03 - Escola de Ministros 2.0",
+            "id": "m6-live-03---escola-2-0",
+            "title": "Live 04 - Escola de Ministros 2.0",
             "type": "video",
             "driveId": "1y21vu_81hFVMbIv11gmiQQRg6dEqv-gf"
           },
           {
-            "id": "3-4-live-04-escola-de-ministr",
-            "title": "Live 04 - Escola de Ministros",
+            "id": "m6-live-04---escola",
+            "title": "Live - Como Conduzir Plenamente o Momento do Louvor",
             "type": "video",
             "driveId": "1FzSEG8kSYk7VyKqH_kfN5bkk8dQ_07QN"
           },
           {
-            "id": "3-8-live-04-escola-de-ministr",
-            "title": "Live 04 - Escola de Ministros 2.0",
+            "id": "m6-live-04---escola-2-0",
+            "title": "Ebook - Como Conduzir Plenamente o Momento do Louvor (PDF)",
             "type": "video",
             "driveId": "1o6fu0INvU73dGVsPXc72eind3QJcsb5d"
           }
         ]
       },
       {
-        "id": "trilha-2",
-        "title": "TRILHA ADORAÇÃO NA PRÁTICA",
-        "thumbnail": "./assets/thumbnails/trilha2-adoracao-pratica.png",
+        "id": "modulo-7",
+        "title": "TRILHA ADORACAO NA PRATICA - Gabi Sampaio",
+        "thumbnail": "./assets/thumbnails/7.png",
         "lessons": [
           {
-            "id": "2-aula-1-entrar-com-confian-a",
+            "id": "m7-aula-01",
             "title": "Aula 1 - Entrar com confiança na Sala do Trono",
             "type": "video",
             "driveId": "1jvveQHKcIQSEU7RpwttYgy7FZBTI8Jq3"
           },
           {
-            "id": "2-aula-2-sem-zelo-voc-n-o-dur",
+            "id": "m7-aula-02",
             "title": "Aula 2 - Sem zelo você não dura",
             "type": "video",
             "driveId": "1IfGioRC0YZw5FwPD_UukvSJVCiFxZSbj"
           },
           {
-            "id": "2-aula-3-conduzindo-a-igreja-p",
+            "id": "m7-aula-03",
             "title": "Aula 3 - Conduzindo a Igreja para a Adoração",
             "type": "video",
             "driveId": "1xJPZPIE7zkvRYJEEsfYGp9CxzAqA1PvQ"
           },
           {
-            "id": "2-aula-4-a-beleza-da-arte",
+            "id": "m7-aula-04",
             "title": "Aula 4 - A Beleza da Arte",
             "type": "video",
             "driveId": "1zCHiVb6fKpORoGSOXsOWouvB0_Hr6CpI"
           },
           {
-            "id": "2-aula-5-adorar-a-partir-de-qu",
+            "id": "m7-aula-05",
             "title": "Aula 5 - Adorar a partir de Quem Ele É",
             "type": "video",
             "driveId": "189tiXQD-2gorYgy0z67MWML7spg1Ypmz"
           },
           {
-            "id": "2-aula-6-excel-ncia-extremam",
+            "id": "m7-aula-06",
             "title": "Aula 6 - Excelência é extremamente Espiritual",
             "type": "video",
             "driveId": "1wd52ZbQYAVQ9gpmdkw6-1RGKyMnfdt5j"
@@ -574,48 +574,48 @@
         ]
       },
       {
-        "id": "trilha-4",
-        "title": "TRILHA FORMAÇÃO TEOLÓGICA E MINISTERIAL (PARTE I) - Renato Marinoni",
-        "thumbnail": "./assets/thumbnails/trilha4-teologica-parte1.png",
+        "id": "modulo-8",
+        "title": "TRILHA FORMACAO TEOLOGICA - Renato Marinoni | Modulo 01",
+        "thumbnail": "./assets/thumbnails/8.png",
         "lessons": [
           {
-            "id": "4-1-aula-01-panorama-da-hist",
+            "id": "m8-aula-01",
             "title": "Aula 01 - Panorama da História da Música Contemporânea",
             "type": "video",
             "driveId": "1wTId1xZRFLL1eeynCPLulZWunk_-_nmI"
           },
           {
-            "id": "4-2-aula-02-m-dulo-01",
+            "id": "m8-aula-02",
             "title": "Aula 02 - Módulo 01",
             "type": "video",
             "driveId": "1OFZ8B3CAY7hIaar8RHM1YexcBlm72mLY"
           },
           {
-            "id": "4-3-aula-03-m-dulo-01",
+            "id": "m8-aula-03",
             "title": "Aula 03 - Módulo 01",
             "type": "video",
             "driveId": "1bB2tS_AIq5W0TVwDsLxvRz9fGFEXQIE0"
           },
           {
-            "id": "4-4-aula-04-m-dulo-01",
+            "id": "m8-aula-04",
             "title": "Aula 04 - Módulo 01",
             "type": "video",
             "driveId": "1wEILdXHK6XJoMksrHDCNH6Ab5OSzN5t_"
           },
           {
-            "id": "4-5-aula-05-m-dulo-01",
+            "id": "m8-aula-05",
             "title": "Aula 05 - Módulo 01",
             "type": "video",
             "driveId": "1trQVaxnG8OB5-CNDhxnh17mxyzJcB3Dq"
           },
           {
-            "id": "4-6-aula-06-m-dulo-01",
+            "id": "m8-aula-06",
             "title": "Aula 06 - Módulo 01",
             "type": "video",
             "driveId": "1YQsIUla0g3wcD6_gCvBRFt3cIRpyAMIc"
           },
           {
-            "id": "4-7-aula-07-m-dulo-01",
+            "id": "m8-aula-07",
             "title": "Aula 07 - Módulo 01",
             "type": "video",
             "driveId": "1r-o0KsJg_vF5NXj2cXmLG-U9KDEi9POO"
@@ -623,167 +623,2229 @@
         ]
       },
       {
-        "id": "trilha-5",
-        "title": "TRILHA FORMAÇÃO TEOLÓGICA E MINISTERIAL (PARTE II) - Renato Marinoni",
-        "thumbnail": "./assets/thumbnails/trilha5-teologica-parte2.png",
+        "id": "modulo-9",
+        "title": "TRILHA FORMACAO TEOLOGICA - Renato Marinoni | Modulo 02",
+        "thumbnail": "./assets/thumbnails/9.png",
         "lessons": [
           {
-            "id": "5-1-aula-01-o-que-o-grupo-d",
-            "title": "Aula 01 - O que é o grupo de louvor",
+            "id": "m9-aula-01",
+            "title": "Aula 01 - O que é o grupo de louvor?",
             "type": "video",
             "driveId": "1QBd_Wfq3NqUDGg44uPPgSPH1VyMmcbBG"
           },
           {
-            "id": "5-2-aula-02-a-figura-do-l-der",
+            "id": "m9-aula-02",
             "title": "Aula 02 - A figura do líder de louvor",
             "type": "video",
             "driveId": "1G2jsQvXxGgHlGIG4bCltFIjBROwuD8sq"
           },
           {
-            "id": "5-3-aula-03-qualifica-es-do",
+            "id": "m9-aula-03",
             "title": "Aula 03 - Qualificações do líder de louvor",
             "type": "video",
             "driveId": "10K8xzXZlcuLUaxUdBpJ9sp_ncmbr_ovV"
           },
           {
-            "id": "5-4-aula-04-conselhos-para-l",
+            "id": "m9-aula-04",
             "title": "Aula 04 - Conselhos para líderes de louvor",
             "type": "video",
             "driveId": "1i-bOS6OwSGMEwyJae3D3AmpacToHIPAV"
           },
           {
-            "id": "5-5-aula-05-pensando-no-culto",
+            "id": "m9-aula-05",
             "title": "Aula 05 - Pensando no culto como um todo",
             "type": "video",
             "driveId": "1ztvMO_vh1MrC5cOTGY4WE_z2LzqXxFn1"
           },
           {
-            "id": "5-6-aula-06-construindo-um-re",
+            "id": "m9-aula-06",
             "title": "Aula 06 - Construindo um repertório que seja equilibrado e coerente",
             "type": "video",
             "driveId": "19v1KP8fYJUy8c5eQQmBgjXG3HMWF--T-"
           },
           {
-            "id": "5-7-aula-07-o-que-devo-falar",
-            "title": "Aula 07 - O que devo falar",
+            "id": "m9-aula-07",
+            "title": "Aula 07 - O que devo falar?",
             "type": "video",
             "driveId": "1wtizTBl657M5n1Nzr-8QU88iJOkXySdo"
           }
         ]
       },
       {
-        "id": "trilha-6",
-        "title": "TRILHA FORMAÇÃO TEOLÓGICA E MINISTERIAL (PARTE III) - Renato Marinoni",
-        "thumbnail": "./assets/thumbnails/trilha6-teologica-parte3.png",
+        "id": "modulo-10",
+        "title": "TRILHA FORMACAO TEOLOGICA - Renato Marinoni | Modulo 03",
+        "thumbnail": "./assets/thumbnails/10.png",
         "lessons": [
           {
-            "id": "6-1-aula-01-princ-pios-de-ado",
+            "id": "m10-aula-01",
             "title": "Aula 01 - Princípios de adoração do AT",
             "type": "video",
             "driveId": "1UMUxXWaCiCmEoBXCUny7KobMxo6avMe4"
           },
           {
-            "id": "6-2-aula-02-a-habita-o-de-de",
-            "title": "Aula 02 - A habitação de Deus_ os 2 templos e o tabernáculo",
+            "id": "m10-aula-02",
+            "title": "Aula 02 - A habitação de Deus: os 2 templos e o tabernáculo de Davi (Parte 01)",
             "type": "video",
             "driveId": "1oOxfCDqJtJrpSPayNpSazfL41aQztYmk"
           },
           {
-            "id": "6-3-aula-03-a-habita-o-de-de",
-            "title": "Aula 03 - A habitação de Deus_ os 2 templos e o tabernáculo",
+            "id": "m10-aula-03",
+            "title": "Aula 03 - A habitação de Deus: os 2 templos e o tabernáculo de Davi (Parte 02)",
             "type": "video",
             "driveId": "1ov3LEpuYHGRFVK8dD2auvyhQ48OTGPRD"
           },
           {
-            "id": "6-4-aula-04-a-adora-o-da-nov",
+            "id": "m10-aula-04",
             "title": "Aula 04 - A adoração da Nova Aliança (Parte 01)",
             "type": "video",
             "driveId": "1tgyOfpBY-oKSv2WGq3nC3sjHLXimOLJE"
           },
           {
-            "id": "6-5-aula-05-a-adora-o-da-nov",
+            "id": "m10-aula-05",
             "title": "Aula 05 - A adoração da Nova Aliança (Parte 02)",
             "type": "video",
             "driveId": "1zH0jJlkOpJ-n1DSj0YpHqEZXb46gKOqe"
           },
           {
-            "id": "6-6-aula-06-entendendo-o-sace",
-            "title": "Aula 06 - Entendendo o sacerdócio Levítico e a ordem de Melq",
+            "id": "m10-aula-06",
+            "title": "Aula 06 - Entendendo o sacerdócio Levítico e a ordem de Melquisedeque",
             "type": "video",
             "driveId": "1cMOiZjXISMIR-RvIkAhvIEvhRdMef52R"
           },
           {
-            "id": "6-7-aula-07-a-verdadeira-ador",
+            "id": "m10-aula-07",
             "title": "Aula 07 - A verdadeira adoração x idolatria",
             "type": "video",
             "driveId": "1MZMZ1knzAxOBHoGPCHgPNTXE__78grRY"
           },
           {
-            "id": "6-8-aula-08-adora-o-escatol",
-            "title": "Aula 08 - Adoração escatológica_ a Nova Jerusalém",
+            "id": "m10-aula-08",
+            "title": "Aula 08 - Adoração escatológica: a Nova Jerusalém",
             "type": "video",
             "driveId": "1HA7vSQPY6QRYP4gRm_7fPhq2YrV2Iw9z"
           }
         ]
       },
       {
-        "id": "trilha-7",
-        "title": "TRILHA ADORAÇÃO PROFÉTICA DOS ÚLTIMOS DIAS - Renato Marinoni",
-        "thumbnail": "./assets/thumbnails/trilha7-adoracao-profetica.png",
+        "id": "modulo-11",
+        "title": "TRILHA ADORACAO PROFETICA - Renato Marinoni | Modulo 01",
+        "thumbnail": "./assets/thumbnails/11.png",
         "lessons": [
           {
-            "id": "7-1-aula-01-por-que-devemos-no",
-            "title": "Aula 01- Por que devemos nos Importar com a volta de Jesus",
+            "id": "m11-aula-01",
+            "title": "Aula 01 - Por que devemos nos Importar com a volta de Jesus?",
             "type": "video",
             "driveId": "1i503OvzEBxNmiBi4s0kKqMzwxJcqv1Lg"
           },
           {
-            "id": "7-2-aula-02-panorama-hist-ric",
-            "title": "Aula 02 - Panorama histórico sobre as principais visões esca",
+            "id": "m11-aula-02",
+            "title": "Aula 02 - Panorama histórico sobre as principais visões escatológicas (Parte 01)",
             "type": "video",
             "driveId": "1Cxv5BacQlv1qNTaecVb_QHIBESYEJgNn"
           },
           {
-            "id": "7-3-aula-03-panorama-hist-ric",
-            "title": "Aula 03 - Panorama histórico sobre as principais visões esca",
+            "id": "m11-aula-03",
+            "title": "Aula 03 - Panorama histórico sobre as principais visões escatológicas (Parte 02)",
             "type": "video",
             "driveId": "1x07W24dpbOyc8grvx7vpd4G8Pdi9cK-i"
           },
           {
-            "id": "7-4-aula-04-um-panorama-sobre",
-            "title": "Aula 04 - Um panorama sobre o que a Igreja já cantou sobre a",
+            "id": "m11-aula-04",
+            "title": "Aula 04 - Um panorama sobre o que a Igreja já cantou sobre a volta de Jesus",
             "type": "video",
             "driveId": "1D8DcCxnzDSez16J7h7rq9NY22ggRfkj0"
           },
           {
-            "id": "7-5-aula-05-adora-o-como-sin",
+            "id": "m11-aula-05",
             "title": "Aula 05 - Adoração como sinal da nova criação",
             "type": "video",
             "driveId": "1p915rqgY20GsmLwhh7-IaBeWlCjMJoZl"
           },
           {
-            "id": "7-6-aula-06-entendendo-apocal",
+            "id": "m11-aula-06",
             "title": "Aula 06 - Entendendo Apocalipse como um livro de adoração",
             "type": "video",
             "driveId": "1iqPDMwP3FxRDnmVsTDFkJisiPWC5WxgT"
           },
           {
-            "id": "7-7-aula-07-do-den-nova-je",
+            "id": "m11-aula-07",
             "title": "Aula 07 - Do Éden à Nova Jerusalém",
             "type": "video",
             "driveId": "1WVQxMjoW5V1rLNfAfwiupdGjbEJNhz6r"
           },
           {
-            "id": "7-8-aula-08-perspectivas-sobr",
+            "id": "m11-aula-08",
             "title": "Aula 08 - Perspectivas sobre a presença do Espírito no culto",
             "type": "video",
             "driveId": "1x2VHcm0NV40n-YV2WEMhCp_PBNQd5ptF"
           },
           {
-            "id": "7-9-aula-09-a-import-ncia-de",
-            "title": "Aula 09 - A importância de uma adoração verdadeiramente prof",
+            "id": "m11-aula-09",
+            "title": "Aula 09 - A importância de uma adoração verdadeiramente profética",
             "type": "video",
             "driveId": "1rm6v_gqns-xCvf550J8osmryf6riaiky"
+          }
+        ]
+      },
+      {
+        "id": "modulo-12",
+        "title": "TRILHA TEOLOGIA EVANGELISMO - Thiago Diniz | Modulo 01",
+        "thumbnail": "./assets/thumbnails/12.png",
+        "lessons": [
+          {
+            "id": "m12-aula-01",
+            "title": "Aula 01 - Módulo 01",
+            "type": "video",
+            "driveId": "1YVIiJgflPpxMgM6OQnEhx1veOMZ4kmQl"
+          },
+          {
+            "id": "m12-aula-02",
+            "title": "Aula 02 - Módulo 01",
+            "type": "video",
+            "driveId": "1UlX9Ej-lTqzZQ3ZoHgYox_J67NacfIKf"
+          },
+          {
+            "id": "m12-aula-03",
+            "title": "Aula 03 - Módulo 01",
+            "type": "video",
+            "driveId": "1Eu9Js24F-X4LtRqt1SyEyWT9pkJZZoIH"
+          },
+          {
+            "id": "m12-aula-04",
+            "title": "Aula 04 - Módulo 01",
+            "type": "video",
+            "driveId": "1MxdtnyuMxyaI-Qg5ikYeaWFa5ax0z2bn"
+          },
+          {
+            "id": "m12-aula-05",
+            "title": "Aula 05 - Módulo 01",
+            "type": "video",
+            "driveId": "1Tu62tXpNqQNkTOT1JG_pX6S_Owne_WyD"
+          },
+          {
+            "id": "m12-aula-06",
+            "title": "Aula 06 - Módulo 01",
+            "type": "video",
+            "driveId": "1JAclBjm5L_vVe11lSrt-ZB6bEuPHS_3O"
+          },
+          {
+            "id": "m12-aula-07",
+            "title": "Aula 07 - Módulo 01",
+            "type": "video",
+            "driveId": "1HpF8T2eI6mliSzL2bp6Uen7K2GMRbtcO"
+          },
+          {
+            "id": "m12-aula-08",
+            "title": "Aula 08 - Módulo 01",
+            "type": "video",
+            "driveId": "1zseoVm25rjkWhDL-NU-AvlL6gdQdDwbh"
+          },
+          {
+            "id": "m12-aula-09",
+            "title": "Aula 09 - Módulo 01",
+            "type": "video",
+            "driveId": "1d-_lxDzy-Cp77behZQHXEO6sh9Alt0Gc"
+          },
+          {
+            "id": "m12-aula-10",
+            "title": "Aula 10 - Módulo 01",
+            "type": "video",
+            "driveId": "1PGQMetTBdeqngqoos076_lAFrrGkajpJ"
+          },
+          {
+            "id": "m12-aula-11",
+            "title": "Aula 11 - Evangelhos Apócrifos",
+            "type": "video",
+            "driveId": "17uvdD3WNNicYVBE4ZsbujhWzdvmpdUr-"
+          },
+          {
+            "id": "m12-aula-12",
+            "title": "Aula 12 - Módulo 01",
+            "type": "video",
+            "driveId": "1q9fEbYlMTXiTnzn1J_x611Mhj9StaHTQ"
+          },
+          {
+            "id": "m12-aula-13",
+            "title": "Aula 13 - Módulo 01",
+            "type": "video",
+            "driveId": "1IjxFwAOg67AWw6ncHbKgHEAq4eBSlPvS"
+          }
+        ]
+      },
+      {
+        "id": "modulo-13",
+        "title": "TRILHA DE LOUVOR E ADORACAO - Fogo Inteligente",
+        "thumbnail": "./assets/thumbnails/13.png",
+        "lessons": [
+          {
+            "id": "m13-aula-01",
+            "title": "Boas Vindas - Ronan Castro na Escola de Ministros",
+            "type": "video",
+            "driveId": "1RxqNgaFyp6V4wPi-WlatOPMUjxY_i49A"
+          },
+          {
+            "id": "m13-aula-02",
+            "title": "Aula 01 - Servindo com Entendimento",
+            "type": "video",
+            "driveId": "1IlRWe53zfQbiGbHqz-WQjDE5_j4aiYIX"
+          },
+          {
+            "id": "m13-aula-03",
+            "title": "Aula 02 - Planejamento Versus Espírito Santo",
+            "type": "video",
+            "driveId": "1bAMfWECX_Rij2IDD0s12QC01mxXqzCnZ"
+          },
+          {
+            "id": "m13-boas-vindas",
+            "title": "Aula 03 - Louvor Profético",
+            "type": "video",
+            "driveId": "1Le8oj_mAEVkLvTZReBDUgNQ28Y17ogOV"
+          }
+        ]
+      },
+      {
+        "id": "modulo-14",
+        "title": "TRILHA DE LOUVOR E ADORACAO - Nathalie Kollen",
+        "thumbnail": "./assets/thumbnails/14.png",
+        "lessons": [
+          {
+            "id": "m14-aula-01",
+            "title": "Aula 01 - A Importância do Louvor e Adoração",
+            "type": "video",
+            "driveId": "1uprsGjRBboceeM_NLEo6fyZ_HTrfeg4T"
+          },
+          {
+            "id": "m14-aula-02",
+            "title": "Aula 02 - O Significado bíblico da Verdadeira Adoração",
+            "type": "video",
+            "driveId": "13yDspJRRbFyzj5Oq7nFBxVtdFXLA-yY3"
+          },
+          {
+            "id": "m14-aula-03",
+            "title": "Aula 03 - O que é o Louvor?",
+            "type": "video",
+            "driveId": "1mwNlp8IiWOzEQT1fkkH6HMRb48Ga1oMl"
+          },
+          {
+            "id": "m14-aula-04",
+            "title": "Aula 04 - A importância do bom testemunho",
+            "type": "video",
+            "driveId": "1hhgP2WiD9RN63NPFKec3tKMIOTiXTOMT"
+          }
+        ]
+      },
+      {
+        "id": "modulo-15",
+        "title": "TRILHA DE LOUVOR E ADORACAO - Sarah Lanza",
+        "thumbnail": "./assets/thumbnails/15.png",
+        "lessons": [
+          {
+            "id": "m15-aula-01",
+            "title": "Aula 01 - Porque o Povo de Deus canta?",
+            "type": "video",
+            "driveId": "1xOzP__SweEKUK1uJ_JJE_1AISRT374nw"
+          },
+          {
+            "id": "m15-aula-02",
+            "title": "Aula 02 - A Bíblia é um livro de canções",
+            "type": "video",
+            "driveId": "1-fcqVwDzol4jOa9G5henQyObTu4qYEs2"
+          },
+          {
+            "id": "m15-aula-03",
+            "title": "Aula 03 - Como o Louvor entrou no Cenário Litúrgico | Tabernáculo de Moisés (Parte 01)",
+            "type": "video",
+            "driveId": "1GRO2xfN13Sd9d4wphiI7SX618NKxCbZs"
+          },
+          {
+            "id": "m15-aula-04",
+            "title": "Aula 04 - Como o Louvor entrou no Cenário | Tabernáculo de David | E até os dias de hoje (Parte 02)",
+            "type": "video",
+            "driveId": "1RNY_QU2m5W3GAWVj1I_999AmnlW9ccoE"
+          },
+          {
+            "id": "m15-aula-05",
+            "title": "Aula 05 - Por que continuamos a cantar como Igreja?",
+            "type": "video",
+            "driveId": "1M3O55a6apKuqQAgvUHkWXBYGsh3p8rcG"
+          },
+          {
+            "id": "m15-aula-06",
+            "title": "Aula 06 - Louvor e Adoração: o que isso tem a ver com o conhecimento de Deus?",
+            "type": "video",
+            "driveId": "1EvRzQCKRiUVJaD6Kp0KJnrUS41cMKf-w"
+          }
+        ]
+      },
+      {
+        "id": "modulo-16",
+        "title": "TRILHA TECNICAS DE CANTO - Priscila Martins | Modulo 01",
+        "thumbnail": "./assets/thumbnails/16.png",
+        "lessons": [
+          {
+            "id": "m16-aula-01",
+            "title": "Aula 01 - A base do canto",
+            "type": "video",
+            "driveId": "15zCan6b3d7Fl8XWWl2cyCxXS62o2EbdD"
+          },
+          {
+            "id": "m16-aula-02",
+            "title": "Aula 02 - Respiração",
+            "type": "video",
+            "driveId": "11olXz61GWyCJVJ1Mstkhk0gFUDYymQJx"
+          },
+          {
+            "id": "m16-aula-03",
+            "title": "Aula 03 - Tirando as tensões",
+            "type": "video",
+            "driveId": "1IVKHdrkB_9sXAsLsscKuDGzLum0r1cGD"
+          },
+          {
+            "id": "m16-aula-04",
+            "title": "Aula 04 - Prega vocal",
+            "type": "video",
+            "driveId": "1WvKxnZ6oZqsuqZ5CJVfjzGHjfwHXYRZz"
+          },
+          {
+            "id": "m16-aula-05",
+            "title": "Aula 05 - Aquecendo a voz",
+            "type": "video",
+            "driveId": "1u9yRa5pE7x0OJinXXaL9IfGzunF5E19z"
+          },
+          {
+            "id": "m16-aula-06",
+            "title": "Aula 06 - Voz presa nunca mais",
+            "type": "video",
+            "driveId": "1ElunU1N1RxY1Xjyjecv6tTecIXs4wXrT"
+          }
+        ]
+      },
+      {
+        "id": "modulo-17",
+        "title": "TRILHA TECNICAS DE CANTO - Priscila Martins | Modulo 02",
+        "thumbnail": "./assets/thumbnails/17.png",
+        "lessons": [
+          {
+            "id": "m17-aula-01",
+            "title": "Aula 01 - Respiração Correta (Parte 01)",
+            "type": "video",
+            "driveId": "1NZAU8ML5s78YqKuczdaVVUZq77ztV3PB"
+          },
+          {
+            "id": "m17-aula-02",
+            "title": "Aula 02 - Respiração Correta (Parte 02)",
+            "type": "video",
+            "driveId": "1vr0UoyDCaW9PvE0ziZApTL726HH1Z9a1"
+          },
+          {
+            "id": "m17-aula-03",
+            "title": "Aula 03 - Respiração Correta (Parte 03)",
+            "type": "video",
+            "driveId": "1yoL-_2IDI89wcsEO-2aIO3sQPoEcrFG2"
+          },
+          {
+            "id": "m17-aula-04",
+            "title": "Aula 04 - Aquecimento (Parte 01)",
+            "type": "video",
+            "driveId": "1CgTYuCxy6QeB8dbGwY16T6WcMXwkw-cE"
+          },
+          {
+            "id": "m17-aula-05",
+            "title": "Aula 05 - Aquecimento (Parte 02)",
+            "type": "video",
+            "driveId": "1bhSE2KHf5i2EnIcLxOsoQsnMK1-zRxIj"
+          },
+          {
+            "id": "m17-aula-06",
+            "title": "Aula 06 - Cuidado com a Voz",
+            "type": "video",
+            "driveId": "1HQXN478l-vNJbkQD3MuiWQTnT5nSzzgh"
+          },
+          {
+            "id": "m17-aula-07",
+            "title": "Aula 07 - Desaquecendo a Voz",
+            "type": "video",
+            "driveId": "12eAyyIZNV7skRFYGFbbJV9uXUY2PVn7I"
+          },
+          {
+            "id": "m17-aula-08",
+            "title": "Aula 08 - Interpretação da Música na Voz",
+            "type": "video",
+            "driveId": "1F4SOBLJldgkvPgO1vFz3QQ_KLB7yBBo5"
+          },
+          {
+            "id": "m17-aula-09",
+            "title": "Aula 09 - Desenvolvendo Equilíbrio Vocal",
+            "type": "video",
+            "driveId": "1v3JnFwJYheRFF5ymJzVLI5Lx0JcqGxlM"
+          }
+        ]
+      },
+      {
+        "id": "modulo-18",
+        "title": "TRILHA TECNICAS DE CANTO - Carol Cidral | Modulo 01",
+        "thumbnail": "./assets/thumbnails/18.png",
+        "lessons": [
+          {
+            "id": "m18-aula-01",
+            "title": "Aula 01 - Introdução",
+            "type": "video",
+            "driveId": "18LyL9OQ7ekTcafTmgyW978rniAaOW-jZ"
+          },
+          {
+            "id": "m18-aula-02",
+            "title": "Aula 02 - Propriedades do som e o cantor - Duração, Timbre, Altura e Intensidade",
+            "type": "video",
+            "driveId": "1khP8tlw0HvFfg7ZbXe8K0os_lYvjHI5e"
+          },
+          {
+            "id": "m18-aula-03",
+            "title": "Aula 03 - Os 3 pilares da música (ritmo, harmonia e melodia)",
+            "type": "video",
+            "driveId": "1MHaR051YP_NB4PjVjpP0-tFWXsL-0gtC"
+          },
+          {
+            "id": "m18-aula-04",
+            "title": "Aula 04 - Cantar é ouvir - A forma como a gente ouve",
+            "type": "video",
+            "driveId": "1vBzuucYA_8YaIHSIfzONjrblc0qcWAtA"
+          },
+          {
+            "id": "m18-aula-05",
+            "title": "Aula 05 - Afinação - Ouvir, Pensar e Corrigir",
+            "type": "video",
+            "driveId": "1cOq0GG6bEy3yUcCXMr2QqkXguS_7fisR"
+          }
+        ]
+      },
+      {
+        "id": "modulo-19",
+        "title": "TRILHA TECNICAS DE CANTO - Carol Cidral | Modulo 2",
+        "thumbnail": "./assets/thumbnails/19.png",
+        "lessons": [
+          {
+            "id": "m19-aula-01",
+            "title": "Aula 01 - Alongamento e relaxamento: diminuindo a tensão muscular",
+            "type": "video",
+            "driveId": "1mEa96vpQ63dUm8Lkj0L5GkaH7fs-nGTX"
+          },
+          {
+            "id": "m19-aula-02",
+            "title": "Aula 02 - Saúde vocal: seu corpo é seu instrumento!",
+            "type": "video",
+            "driveId": "1at0MHpHhUp8CT1Bsw69aZPs1ZzykCe5K"
+          }
+        ]
+      },
+      {
+        "id": "modulo-20",
+        "title": "TRILHA TECNICAS DE CANTO - Carol Cidral | Modulo 3",
+        "thumbnail": "./assets/thumbnails/20.png",
+        "lessons": [
+          {
+            "id": "m20-aula-01",
+            "title": "Aula 01 - Tipos de Respiração",
+            "type": "video",
+            "driveId": "1PV-mtWSRWOIoLYsCogXN6mQxreOOYXIB"
+          },
+          {
+            "id": "m20-aula-02",
+            "title": "Exercícios - Aula 01",
+            "type": "video",
+            "driveId": "18YL3tYqgzdX2dk7K4C6JKEbVYyq7wDFn"
+          },
+          {
+            "id": "m20-aula-03",
+            "title": "Aula 02 - Mudanças de registro vocal",
+            "type": "video",
+            "driveId": "1QD_0q3yKbH5KS1HHV1R6Iyen6yHocoZI"
+          },
+          {
+            "id": "m20-aula-04",
+            "title": "Exercícios - Aula 02",
+            "type": "video",
+            "driveId": "17zjFUd9Fc_RQgKfDLOYKRVyLVnkDLJxL"
+          },
+          {
+            "id": "m20-aula-05",
+            "title": "Aula 03 - Ressonância e Filtro",
+            "type": "video",
+            "driveId": "159hMYTIvIcGpS-NS0pyum_hDOqG4HSdW"
+          },
+          {
+            "id": "m20-exercicios-aula-01",
+            "title": "Aula 04 - Controle de volume",
+            "type": "video",
+            "driveId": "1I5msEgvo4gZWYpK3CnovKJm3kHe8ez9V"
+          },
+          {
+            "id": "m20-exercicios-aula-02",
+            "title": "Aula 05 - Classificação vocal e o canto na igreja",
+            "type": "video",
+            "driveId": "1NQtouoy0VEgplV3XSj6sdmrP8anbouRa"
+          }
+        ]
+      },
+      {
+        "id": "modulo-21",
+        "title": "TRILHA TECNICAS DE CANTO - Carol Cidral | Modulo 4",
+        "thumbnail": "./assets/thumbnails/21.png",
+        "lessons": [
+          {
+            "id": "m21-aula-01",
+            "title": "Aula 01 - Timbragem e sonoridade na igreja, como introduzir novos integrantes",
+            "type": "video",
+            "driveId": "1nv4o7K5AJ3__pTpuknEkzDtxzjKPXBjq"
+          },
+          {
+            "id": "m21-aula-02",
+            "title": "Aula 02 - Ornamentos: Deixando seu som mais refinado e profissional",
+            "type": "video",
+            "driveId": "1-hROfnlzHzggjtjWKSkwvzg_HS26NIGg"
+          },
+          {
+            "id": "m21-aula-03",
+            "title": "Aula 03 - Improvisação e interpretação",
+            "type": "video",
+            "driveId": "12AYvHvGcQY4QONhrnC51PZgtZ7KwBvV1"
+          },
+          {
+            "id": "m21-aula-04",
+            "title": "Aula 04 - Técnica Vocal x Linguagem",
+            "type": "video",
+            "driveId": "1NiWV-l6Uul1hyGpO5j0wGy0kYu1cjQ0C"
+          },
+          {
+            "id": "m21-aula-05",
+            "title": "Aula 05 - O cantor que é servo",
+            "type": "video",
+            "driveId": "1xoalHw31AoOeac0GDOjfDKpyiGA9RDpH"
+          }
+        ]
+      },
+      {
+        "id": "modulo-22",
+        "title": "TRILHA TECNICAS DE CANTO - Thiago Henrique | Modulo 1",
+        "thumbnail": "./assets/thumbnails/22.png",
+        "lessons": [
+          {
+            "id": "m22-aula-01",
+            "title": "Aula 01 - Preparação Vocal e Divisão de Naipes",
+            "type": "video",
+            "driveId": "19ox4U2o-gS9t2PKB9MWqwzH-tvsslaHl"
+          },
+          {
+            "id": "m22-aula-02",
+            "title": "Aula 02 - A Beleza do Uníssono bem feito",
+            "type": "video",
+            "driveId": "1Z3Rm2OOOLr3x5bPlMIXOv4TEHpJDiVui"
+          },
+          {
+            "id": "m22-aula-03",
+            "title": "Aula 03 - Camadas da Divisão Vocal",
+            "type": "video",
+            "driveId": "1QhRK1xF0w_hBiKe4Q4U_QhA_9uZtkJ-9"
+          },
+          {
+            "id": "m22-aula-04",
+            "title": "Aula 04 - Cantando junto",
+            "type": "video",
+            "driveId": "1S1_07mUjhYoBfnvzwx7H9G0MW--rYa8x"
+          },
+          {
+            "id": "m22-aula-05",
+            "title": "Aula 05 - Orientações finais",
+            "type": "video",
+            "driveId": "1H_ercHvpRBklPj4jTQN6D31nqPEczXCL"
+          }
+        ]
+      },
+      {
+        "id": "modulo-23",
+        "title": "TRILHA TECNICAS DE CANTO - Thiago Henrique | Modulo 2",
+        "thumbnail": "./assets/thumbnails/23.png",
+        "lessons": [
+          {
+            "id": "m23-aula-01",
+            "title": "Aula 01 – O que é divisão vocal?",
+            "type": "video",
+            "driveId": "13LKm9nQLh_LveQrZyyWf_3HKNWq_pRNn"
+          },
+          {
+            "id": "m23-aula-02",
+            "title": "Aula 02 – Princípios da divisão vocal",
+            "type": "video",
+            "driveId": "1eON87lY4NqqxV0WK6e5WumhsFBcD7NQz"
+          },
+          {
+            "id": "m23-aula-03",
+            "title": "Aula 03 – Descubra sua classificação vocal",
+            "type": "video",
+            "driveId": "1vrK8ldFpZvAIbiL14ZM8429NuLivHXuv"
+          },
+          {
+            "id": "m23-aula-04",
+            "title": "Aula 04 – Para harmonizar precisa ser afinado",
+            "type": "video",
+            "driveId": "1HXqLZ_EH1ycYhGUSocFhGU95Zi0JDu7n"
+          },
+          {
+            "id": "m23-aula-05",
+            "title": "Aula 05 – Aprenda a encontrar a sua voz",
+            "type": "video",
+            "driveId": "1FJIpVsWtQGcGViabGejiWTuADtD64fMT"
+          },
+          {
+            "id": "m23-aula-06",
+            "title": "Aula 06 – Naipes e timbragem",
+            "type": "video",
+            "driveId": "1ri143MUtlIp_RlZfeh1jjADl1qXz7dMU"
+          },
+          {
+            "id": "m23-aula-07",
+            "title": "Aula 07 – Uníssono bonito",
+            "type": "video",
+            "driveId": "1RcWDAELAuUZsBf1sLj321oKYAgqfse2j"
+          },
+          {
+            "id": "m23-aula-08",
+            "title": "Aula 08 – Dinâmicas de intensidade",
+            "type": "video",
+            "driveId": "1t48PfHE87ooEchUAAxEm0RKHMb5g_F80"
+          },
+          {
+            "id": "m23-aula-09",
+            "title": "Aula 09 – Contracantos e cânones",
+            "type": "video",
+            "driveId": "1Rcz_C5L_MLZmVyCH6rwVN201Hz_mzkkz"
+          },
+          {
+            "id": "m23-aula-10",
+            "title": "Aula 10 – Agora é com você",
+            "type": "video",
+            "driveId": "1sitHT11dsZL7oANxt1fWnpYkf8K85Nju"
+          },
+          {
+            "id": "m23-material-pdf",
+            "title": "Material Complementar (PDF)",
+            "type": "pdf",
+            "driveId": "1s-N0uignjkgWNTHQVjX0LFuVqsOL19Uf"
+          }
+        ]
+      },
+      {
+        "id": "modulo-24",
+        "title": "TRILHA DE CANTO - Tais Jamili | Modulo 01",
+        "thumbnail": "./assets/thumbnails/24.png",
+        "lessons": [
+          {
+            "id": "m24-aula-01",
+            "title": "Aula 01 - Rotina de treinos e vocalizes com musica",
+            "type": "video",
+            "driveId": "1HrF7BklVBNNm7BfgVHRN3Vb4lCCStccP"
+          },
+          {
+            "id": "m24-aula-02",
+            "title": "Aula 02 - Rotina de treino Completa",
+            "type": "video",
+            "driveId": "19fBQJrbB7PtS8csDeFGMr6QwT5E5b6dH"
+          },
+          {
+            "id": "m24-aula-03",
+            "title": "Aula 03 - Aquecimentos universais",
+            "type": "video",
+            "driveId": "1vb2_uuj5ZSDkzjRfQA2lXoQsFHWt8YX3"
+          },
+          {
+            "id": "m24-aula-04",
+            "title": "Aula 04 - Vocalize universal",
+            "type": "video",
+            "driveId": "10blWjWUyn-SipbWTosXrraDt9HQOHgbz"
+          }
+        ]
+      },
+      {
+        "id": "modulo-25",
+        "title": "TRILHA DE CANTO - Tais Jamili | Modulo 02",
+        "thumbnail": "./assets/thumbnails/25.png",
+        "lessons": [
+          {
+            "id": "m25-aula-01",
+            "title": "Aula 01 - Respiração teoria",
+            "type": "video",
+            "driveId": "1YQ-u8gDzfNeNS01qzLURr0wKZ-QjtYiT"
+          },
+          {
+            "id": "m25-aula-02",
+            "title": "Aula 02 - Respiração na pratica do iniciante ao avançado",
+            "type": "video",
+            "driveId": "1ZAs-5BFqjaabjxz8k6MsK5GzHF0XC3VG"
+          },
+          {
+            "id": "m25-aula-03",
+            "title": "Aula 03 - Mapeação",
+            "type": "video",
+            "driveId": "16CA_e4Z5jFfbiDEonS6wEQ_aWPKKYu2w"
+          },
+          {
+            "id": "m25-aula-04",
+            "title": "Aula 04 - Exercício de Respiração",
+            "type": "video",
+            "driveId": "1WSAw7RW8-BKjJdsNVcNZz1foKxqiALVk"
+          }
+        ]
+      },
+      {
+        "id": "modulo-26",
+        "title": "TRILHA DE CANTO - Tais Jamili | Modulo 03",
+        "thumbnail": "./assets/thumbnails/26.png",
+        "lessons": [
+          {
+            "id": "m26-aula-01",
+            "title": "Aula 01 - Cobertura Vocal e Agudos",
+            "type": "video",
+            "driveId": "1WUR_xiu8XLQH4PGXFZ0RlVsIDxkxeANA"
+          },
+          {
+            "id": "m26-aula-02",
+            "title": "Aula 02 - Vocalize de cobertura vocal",
+            "type": "video",
+            "driveId": "1hVDZnZW33XX5HZKt7Itrs-5uPFZLU_zY"
+          }
+        ]
+      },
+      {
+        "id": "modulo-27",
+        "title": "TRILHA DE CANTO - Tais Jamili | Modulo 04",
+        "thumbnail": "./assets/thumbnails/27.png",
+        "lessons": [
+          {
+            "id": "m27-aula-01",
+            "title": "Aula 01 - Dos Bastidores ao Palco",
+            "type": "video",
+            "driveId": "1zDqiAOe9zdz0_29koVkB1jfg223hFjNS"
+          }
+        ]
+      },
+      {
+        "id": "modulo-28",
+        "title": "TRILHA DA FONO - Priscilla Moreira | Modulo 1",
+        "thumbnail": "./assets/thumbnails/28.png",
+        "lessons": [
+          {
+            "id": "m28-aula-01",
+            "title": "Aula 01 - Minha história",
+            "type": "video",
+            "driveId": "1-yeGD1LzCR6f4IGD50hYlcsaYGVBfa4c"
+          },
+          {
+            "id": "m28-aula-02",
+            "title": "Aula 02 - Psicodinâmica da Voz",
+            "type": "video",
+            "driveId": "1w-QxnW7-8l0eBBjS7vlbrZSmNTFK3e3S"
+          },
+          {
+            "id": "m28-aula-03",
+            "title": "Aula 03 - A Importância da Voz",
+            "type": "video",
+            "driveId": "14O0RIqb5v4mLATCTYjbyiO2oGYv_Z794"
+          },
+          {
+            "id": "m28-aula-04",
+            "title": "Aula 04 - Produção Vocal",
+            "type": "video",
+            "driveId": "1y1AeSc_mIIwLBeb1nDmrjX2kJLaPHcnx"
+          },
+          {
+            "id": "m28-aula-05",
+            "title": "Aula 05 - Limites vocais",
+            "type": "video",
+            "driveId": "1ddfLCcb8Kn6O8rKS_GnkK21RDcEis4y8"
+          },
+          {
+            "id": "m28-aula-06",
+            "title": "Aula 06 - Quais alimentos que trazem benefícios para voz?",
+            "type": "video",
+            "driveId": "12qpAJyumzWIzDMX8OcEMp7fAXHx1DrbM"
+          },
+          {
+            "id": "m28-aula-07",
+            "title": "Aula 07 - Hidratação vocal direta ou indireta?",
+            "type": "video",
+            "driveId": "1ah4X8S0V-ywLrMLIUohfXGeHW83lXefK"
+          },
+          {
+            "id": "m28-aula-08",
+            "title": "Aula 08 - Alimentos que não trazem benefícios para voz",
+            "type": "video",
+            "driveId": "1K7XFClA7DYHH2O2RSGqjLhPa9iVz3e3c"
+          }
+        ]
+      },
+      {
+        "id": "modulo-29",
+        "title": "TRILHA DE VIOLAO - Felipe Souza Ferreira | Modulo 1",
+        "thumbnail": "./assets/thumbnails/29.png",
+        "lessons": [
+          {
+            "id": "m29-aula-01",
+            "title": "Aula 01 - Bem Vindo Ao VPG",
+            "type": "video",
+            "driveId": "12gShPYk68mi0ZB8S9vbuLyTQJCnIolyO"
+          },
+          {
+            "id": "m29-aula-02",
+            "title": "Aula 02 - Historia do violão",
+            "type": "video",
+            "driveId": "142j5gSZLDpFOXwJluWoASCzHKI98HKQP"
+          },
+          {
+            "id": "m29-aula-03",
+            "title": "Aula 03 - Conhecendo o Violão",
+            "type": "video",
+            "driveId": "1KwLQ03i5dfhsyzCFiZhqQm3pXpHX3dzN"
+          },
+          {
+            "id": "m29-aula-04",
+            "title": "Aula 04 - Os Principais Modelos de Violão",
+            "type": "video",
+            "driveId": "1uINZAy91h5LElZ63ODTNeWS6p13Ef56b"
+          },
+          {
+            "id": "m29-aula-05",
+            "title": "Aula 05 - Como escolher o meu primeiro violão?",
+            "type": "video",
+            "driveId": "1eTJEojXVgqkgPewl-axA9rkbxOPEoH2X"
+          }
+        ]
+      },
+      {
+        "id": "modulo-30",
+        "title": "TRILHA DE VIOLAO - Felipe Souza Ferreira | Modulo 2",
+        "thumbnail": "./assets/thumbnails/30.png",
+        "lessons": [
+          {
+            "id": "m30-aula-01",
+            "title": "Aula 01 - Conceito Básico",
+            "type": "video",
+            "driveId": "1OGyv_sflpJ294dohVBVJ2kCJkm57DC0K"
+          },
+          {
+            "id": "m30-aula-02",
+            "title": "Aula 02 - Notas Musicais e Suas Letras",
+            "type": "video",
+            "driveId": "1DerqbLsBWMxntoHvsGpJWxkreZWS8pd5"
+          },
+          {
+            "id": "m30-aula-03",
+            "title": "Aula 03 - Tom, Semitom e Sinais de Alteração",
+            "type": "video",
+            "driveId": "16_nNRJpA0m_re3r6cj2nW4N_BAkNxPaj"
+          },
+          {
+            "id": "m30-aula-04",
+            "title": "Aula 04 - Nome das Cordas e Notas no Braço",
+            "type": "video",
+            "driveId": "1JkMWdG-iyEF4CwE2gC8JWN5AAuBfFmId"
+          },
+          {
+            "id": "m30-aula-05",
+            "title": "Aula 05 - Postura",
+            "type": "video",
+            "driveId": "1ih9u-WbPAEuEFayxoPape6B9XHbbtfJj"
+          },
+          {
+            "id": "m30-aula-06",
+            "title": "Aula 5.1 - Dedos e Diagramas",
+            "type": "video",
+            "driveId": "1qahzO1hcPyEYJyJydFB-1zWi76blQleR"
+          },
+          {
+            "id": "m30-aula-07",
+            "title": "Aula 06 - Taplatura",
+            "type": "video",
+            "driveId": "1ozjCw1FpEve4e2MReK0zGOB3_B5Ww2fT"
+          },
+          {
+            "id": "m30-aula-5-1",
+            "title": "Aula 07 - Compasso",
+            "type": "video",
+            "driveId": "1szwDwsvSCSUkfdMO-luJdIKzEgZOqhRc"
+          }
+        ]
+      },
+      {
+        "id": "modulo-31",
+        "title": "TRILHA DE VIOLAO - Felipe Souza Ferreira | Modulo 3",
+        "thumbnail": "./assets/thumbnails/31.png",
+        "lessons": [
+          {
+            "id": "m31-aula-01",
+            "title": "Aula 01 - Maximize os Resultados",
+            "type": "video",
+            "driveId": "1vDU8KhrQ9H8Dzk6i2aQtMnuqkMExxkJG"
+          },
+          {
+            "id": "m31-aula-02",
+            "title": "Aula 02 - Técnicas Específicas",
+            "type": "video",
+            "driveId": "1v89AUVX58I7z1xBXsHJszfBoGerA4lLN"
+          },
+          {
+            "id": "m31-exercicio-01",
+            "title": "Exercício 01",
+            "type": "video",
+            "driveId": "12xG44s2CNsgIG8rccdzKJOmCE16n-sVq"
+          },
+          {
+            "id": "m31-exercicio-02",
+            "title": "Exercício 02",
+            "type": "video",
+            "driveId": "1IOSNe7PSzc6HlxidqLDvMO89iFVLWld8"
+          },
+          {
+            "id": "m31-exercicio-03",
+            "title": "Exercício 03",
+            "type": "video",
+            "driveId": "17o065wwzFA5KAmpMXofYJtmPSgT0-pRu"
+          },
+          {
+            "id": "m31-exercicio-04",
+            "title": "Exercício 04",
+            "type": "video",
+            "driveId": "1SZxQ-eIADC66OdhkMvmHB78q2IXUC7e3"
+          },
+          {
+            "id": "m31-exercicio-05",
+            "title": "Exercício 05",
+            "type": "video",
+            "driveId": "1FMzYoptFErIL6GwlOISD-9OILryI2CwO"
+          },
+          {
+            "id": "m31-exercicio-06",
+            "title": "Exercício 06",
+            "type": "video",
+            "driveId": "1_w1fROOh_P98zNmS4_VpyQch7d8CRqSa"
+          },
+          {
+            "id": "m31-exercicio-07",
+            "title": "Exercício 07",
+            "type": "video",
+            "driveId": "1p8AfMWNeqSdRbYgcX6PxFG2RuNL3tDiD"
+          },
+          {
+            "id": "m31-exercicio-08",
+            "title": "Exercício 08",
+            "type": "video",
+            "driveId": "1dFz55M_k1vchvIEVmV7f-iugkDX_z6V0"
+          },
+          {
+            "id": "m31-exercicio-09",
+            "title": "Exercício 09",
+            "type": "video",
+            "driveId": "1b3ypbuLTIrElAD_8NG3Wi-Gep88ReEiO"
+          },
+          {
+            "id": "m31-exercicio-10",
+            "title": "Exercício 10",
+            "type": "video",
+            "driveId": "16IPewf955hL9sB4h3SJsKhDvX5e8iCG0"
+          },
+          {
+            "id": "m31-exercicio-11",
+            "title": "Exercício 11",
+            "type": "video",
+            "driveId": "17Fo4ELnxKwaYH8kgzsezrBHxIUzXUjA2"
+          },
+          {
+            "id": "m31-exercicio-12",
+            "title": "Exercício 12",
+            "type": "video",
+            "driveId": "1kvfce5BXvEoRqMbosIV6j5pphjIXQj3k"
+          },
+          {
+            "id": "m31-exercicio-13",
+            "title": "Exercício 13",
+            "type": "video",
+            "driveId": "1dygErxaiXw1GB1qtUXXbKVZFIe2alRJB"
+          },
+          {
+            "id": "m31-exercicio-14",
+            "title": "Exercício 14",
+            "type": "video",
+            "driveId": "1JG-P_t5Gokc6V06r2_wpi9cEkv6hbB4f"
+          },
+          {
+            "id": "m31-exercicio-15",
+            "title": "Exercício 15",
+            "type": "video",
+            "driveId": "1o6QCv64DPKh6gLQBFS5W80-LnedDzJPM"
+          },
+          {
+            "id": "m31-exercicio-16",
+            "title": "Exercício 16",
+            "type": "video",
+            "driveId": "1Q6n0RawDlDqtM6g8j_X1OvqK21_5spcJ"
+          },
+          {
+            "id": "m31-exercicio-17",
+            "title": "Exercício 17",
+            "type": "video",
+            "driveId": "1p8Qk3VNMU_hZBly1kdrViwLmIW86XJ7u"
+          },
+          {
+            "id": "m31-exercicio-18",
+            "title": "Exercício 18",
+            "type": "video",
+            "driveId": "1cVhzpO9NgeWl5ISpLhG5TO0eiWD5TLiC"
+          },
+          {
+            "id": "m31-exercicio-19",
+            "title": "Exercício 19",
+            "type": "video",
+            "driveId": "1-sxWfneB1PK5jCf5RL-oB8JDYC5hjrbo"
+          },
+          {
+            "id": "m31-exercicio-20",
+            "title": "Exercício 20",
+            "type": "video",
+            "driveId": "1bGkp5a1aY9mwyh4j0E7f3ObgurEaltD9"
+          }
+        ]
+      },
+      {
+        "id": "modulo-32",
+        "title": "TRILHA DE VIOLAO - Felipe Souza Ferreira | Modulo 4",
+        "thumbnail": "./assets/thumbnails/32.png",
+        "lessons": [
+          {
+            "id": "m32-aula-01",
+            "title": "Aula 01 - O que é uma Escala Musical?",
+            "type": "video",
+            "driveId": "1WIXOlZh_kOIRV7PyaxTMCWjVoG-3Xekq"
+          },
+          {
+            "id": "m32-aula-02",
+            "title": "Aula 02 - Shape Escalas Maiores",
+            "type": "video",
+            "driveId": "1QvZtSGCjlPfmMooX9U79blFJ0DTmImYb"
+          },
+          {
+            "id": "m32-aula-04",
+            "title": "Aula 3.1 - Treinando as escalas com o ciclo de quartas",
+            "type": "video",
+            "driveId": "1HSdv4tHyZbf6wjmxO5tNCSge4RvSoJsg"
+          },
+          {
+            "id": "m32-aula-05",
+            "title": "Aula 3.2 - Treinando as escalas com o ciclo de quartas e quintas",
+            "type": "video",
+            "driveId": "1J9BfU4mFM-sZKCRewbJXfbZgmAs62Ofg"
+          },
+          {
+            "id": "m32-aula-06",
+            "title": "Aula 04 - O que é Intervalo?",
+            "type": "video",
+            "driveId": "1fTS09qhRTBHYOElEP6oY9NJ1QCHEhQQ7"
+          },
+          {
+            "id": "m32-aula-06",
+            "title": "Aula 05 - Menor Relativa",
+            "type": "pdf",
+            "driveId": "1Qe532qlwX5fIoiWl6twghmUgOQDhXiFj"
+          },
+          {
+            "id": "m32-aula-07",
+            "title": "Aula 06 - Shape Escalas Menores",
+            "type": "video",
+            "driveId": "1PUzGHxMAa0fu9xkF9lXuvJ6q8l7Fdq-O"
+          },
+          {
+            "id": "m32-aula-3-1",
+            "title": "Aula 07 - Ciclo de quartas com escala menor",
+            "type": "video",
+            "driveId": "1KgpLOplEjhV1gmcsqc7kux-_7o7ey22z"
+          },
+          {
+            "id": "m32-aula-3-2",
+            "title": "Aula 3.2",
+            "type": "video",
+            "driveId": "1dYH0F0HYX6WBSQtC3UZflRHWkt3lI7vL"
+          }
+        ]
+      },
+      {
+        "id": "modulo-34",
+        "title": "TRILHA DE BATERIA - Bruno Drum | Comeco de tudo",
+        "thumbnail": "./assets/thumbnails/34.png",
+        "lessons": [
+          {
+            "id": "m34-aula-01",
+            "title": "Aula 01 - Entenda como são as aulas",
+            "type": "video",
+            "driveId": "1TUsb5G2k63_NOFENF0r6XY8nsmig5kgD"
+          },
+          {
+            "id": "m34-aula-02",
+            "title": "Aula 02 - Bateria (Componentes)",
+            "type": "video",
+            "driveId": "1qkRFhJsfrzd05Pb6bsXHlq5oy55PaZPJ"
+          },
+          {
+            "id": "m34-aula-03",
+            "title": "Aula 03 - Como Se Posicionar Na Bateria",
+            "type": "video",
+            "driveId": "18-MgGXUpDsT__WsuG1222n4lK12LT7My"
+          },
+          {
+            "id": "m34-aula-04",
+            "title": "Aula 04 - Como Segurar Na Baqueta",
+            "type": "video",
+            "driveId": "1vSVkIiBOY6W60s4JSF-gLvp0W7AICwtP"
+          }
+        ]
+      },
+      {
+        "id": "modulo-35",
+        "title": "TRILHA DE BATERIA - Bruno Drum | Modulo 01",
+        "thumbnail": "./assets/thumbnails/35.png",
+        "lessons": [
+          {
+            "id": "m35-aula-01",
+            "title": "Aula 01 - Ritmo 01 (Inicial)",
+            "type": "video",
+            "driveId": "12Risuxczwt8YPS8L-dwlwFTlMvUx_SGW"
+          },
+          {
+            "id": "m35-aula-02",
+            "title": "Aula 02 - Tribal 01 (Inicial)",
+            "type": "video",
+            "driveId": "1On-NcIJTzWGbNwa_KdT_wbGobP2iwKj4"
+          },
+          {
+            "id": "m35-aula-03",
+            "title": "Aula 03 - Virada 01 (Inicial)",
+            "type": "video",
+            "driveId": "102sfWwuizj_39yBeK3Us9zyrhq2OSdLW"
+          }
+        ]
+      },
+      {
+        "id": "modulo-36",
+        "title": "TRILHA DE BATERIA - Bruno Drum | Modulo 02",
+        "thumbnail": "./assets/thumbnails/36.png",
+        "lessons": [
+          {
+            "id": "m36-aula-01",
+            "title": "Aula 01 - Ritmo 01 (Intermediário)",
+            "type": "video",
+            "driveId": "1mHnyiNll7gFPH-w9PhYnDlR8WP0mdJ08"
+          },
+          {
+            "id": "m36-aula-02",
+            "title": "Aula 02 - Tribal 01 (Intermediário)",
+            "type": "video",
+            "driveId": "1qXvEmJyWTXrFw_Pj7Y3lbhT6QqwM-6uA"
+          },
+          {
+            "id": "m36-aula-03",
+            "title": "Aula 03 - Virada 01 (Intermediário)",
+            "type": "video",
+            "driveId": "1zOFUSEzKV_MzOBQ6aS2qHhs_V7-MBzXW"
+          }
+        ]
+      },
+      {
+        "id": "modulo-37",
+        "title": "TRILHA DE BATERIA - Bruno Drum | Modulo 03",
+        "thumbnail": "./assets/thumbnails/37.png",
+        "lessons": [
+          {
+            "id": "m37-aula-01",
+            "title": "Aula 01 - Ritmo 01 Avançado",
+            "type": "video",
+            "driveId": "1q5KQd0B1W9BYIb4EY4MzMjbxoCTCMdkW"
+          },
+          {
+            "id": "m37-aula-02",
+            "title": "Aula 02 - Tribal 01 (Avançado)",
+            "type": "video",
+            "driveId": "1pRfK9IF8Gus3Niy5oRt0jaEZrQ-XQto4"
+          },
+          {
+            "id": "m37-aula-03",
+            "title": "Aula 03 - Virada 01 (Avançado)",
+            "type": "video",
+            "driveId": "1m9kpnTJsRIcPoKbcbm4gPc7C7MN6RsNv"
+          }
+        ]
+      },
+      {
+        "id": "modulo-38",
+        "title": "TRILHA DE BATERIA - Bruno Drum | Modulo 04",
+        "thumbnail": "./assets/thumbnails/38.png",
+        "lessons": [
+          {
+            "id": "m38-aula-01",
+            "title": "Aula 01 - Ritmo 01 (Expert)",
+            "type": "video",
+            "driveId": "10hiVQ1ANC87N0qaCsxAJ9EZHq7xBHEb_"
+          },
+          {
+            "id": "m38-aula-02",
+            "title": "Aula 02 - Tribal 01 (Expert)",
+            "type": "video",
+            "driveId": "16MJrlL6N4j4IQjF2-gnzQDVPteuon8Jk"
+          },
+          {
+            "id": "m38-aula-03",
+            "title": "Aula 03 - Virada 01 (Expert)",
+            "type": "video",
+            "driveId": "1G4Rlg55BnoNcuSeiLqjx_oaSp-yWIJlb"
+          }
+        ]
+      },
+      {
+        "id": "modulo-39",
+        "title": "TRILHA DE BATERIA - Bruno Drum | Mega Oferta",
+        "thumbnail": "./assets/thumbnails/39.png",
+        "lessons": [
+          {
+            "id": "m39-bonus",
+            "title": "Curso Completo | Mega Oferta para alunos da Escola de Ministros 2.0",
+            "type": "video",
+            "driveId": "1GYN19XDkDQT_ayoa7P_dGhvLKTlIW8o7"
+          }
+        ]
+      },
+      {
+        "id": "modulo-40",
+        "title": "TRILHA DE TECLADO - Lucas Bertolozo | Modulo 01",
+        "thumbnail": "./assets/thumbnails/40.png",
+        "lessons": [
+          {
+            "id": "m40-aula-01",
+            "title": "Aula 01 - Apresentação",
+            "type": "video",
+            "driveId": "1DkiwaRVSuxSS75QnRISHUlgPx-FvZtwv"
+          },
+          {
+            "id": "m40-aula-02",
+            "title": "Aula 02 - Qual Teclado comprar",
+            "type": "video",
+            "driveId": "1UkLgQXhi2ewmYABxwiuEa_UzRH1dnwL8"
+          },
+          {
+            "id": "m40-aula-03",
+            "title": "Aula 03 - Cifras",
+            "type": "pdf",
+            "driveId": "1ymKhGja3zRlxlsI23HbDDm3qJ3DZBw7g"
+          },
+          {
+            "id": "m40-aula-03",
+            "title": "Aula 04 - Notas no Teclado",
+            "type": "video",
+            "driveId": "1PTyfUxYzNsLakhxbs4CSbkMNrkbQmDz1"
+          },
+          {
+            "id": "m40-aula-04",
+            "title": "Aula 05 - Intervalos Musicais",
+            "type": "pdf",
+            "driveId": "1mqJNxNYhDt_Vg9ZSGlVCBT8L12TJzKz2"
+          },
+          {
+            "id": "m40-aula-04",
+            "title": "Aula 06 - Escala Maior",
+            "type": "video",
+            "driveId": "1sVS3ASOjAcamvaka6CVZ-GQ57dGkhBFK"
+          },
+          {
+            "id": "m40-aula-05",
+            "title": "Aula 07 - Como praticar as escalas",
+            "type": "pdf",
+            "driveId": "1HY86MXycVXSdP1f8fV5-JLN8UHtjiNBp"
+          },
+          {
+            "id": "m40-aula-05",
+            "title": "Aula 08 - Escala de E",
+            "type": "video",
+            "driveId": "1dY0r5yZJUpIVGVCfKakzzv2RftNxudlR"
+          },
+          {
+            "id": "m40-aula-06",
+            "title": "Aula 09 - Escada de F",
+            "type": "pdf",
+            "driveId": "1-7YQ3W65npnVrg2kp-2MYxM-2II1B-de"
+          },
+          {
+            "id": "m40-aula-06",
+            "title": "Aula 10 - Escada de G",
+            "type": "video",
+            "driveId": "1jyZOdMUj0TW9LOn9iGNoTLooXIZNS4ls"
+          },
+          {
+            "id": "m40-aula-07",
+            "title": "Aula 11 - Escada de A",
+            "type": "pdf",
+            "driveId": "1QGjrt8AwCqcKUpj-vRp3mdmQ51whd0LJ"
+          },
+          {
+            "id": "m40-aula-07",
+            "title": "Aula 12 - Escada de B",
+            "type": "video",
+            "driveId": "1gZpYcZ9tk4aUl-B82l0xZHbe4cnmR8eU"
+          },
+          {
+            "id": "m40-aula-08",
+            "title": "Aula 13 - Escada de C#",
+            "type": "video",
+            "driveId": "1GfAKbx_MVc4L34-kLi9LLWF4yAbZ1UHe"
+          },
+          {
+            "id": "m40-aula-09",
+            "title": "Aula 14 - Escada de Eb",
+            "type": "video",
+            "driveId": "111yqFxeyi-KPu-WkXe1Tz3qiP9CdQ0DQ"
+          },
+          {
+            "id": "m40-aula-10",
+            "title": "Aula 15 - Escada de F#",
+            "type": "video",
+            "driveId": "1aqJhbKShFXRkUb9cqyMB5CrkesU2IXrN"
+          },
+          {
+            "id": "m40-aula-11",
+            "title": "Aula 16 - Escada de Ab",
+            "type": "video",
+            "driveId": "1NV1nLA9vzLhe9eV03oVstwJkOIfxEqmb"
+          },
+          {
+            "id": "m40-aula-12",
+            "title": "Aula 17 - Escada de Bb",
+            "type": "video",
+            "driveId": "12iBBvuq5m0BXiNKBYl8w1sJJBkFUJsMI"
+          },
+          {
+            "id": "m40-aula-13",
+            "title": "Aula 18 - Dica do Professor",
+            "type": "video",
+            "driveId": "1kWjP9QGrbp4Fi5zQaij58mrRYS9ZjUhX"
+          },
+          {
+            "id": "m40-aula-14",
+            "title": "Aula 19 - Acordes Maiores",
+            "type": "video",
+            "driveId": "1qptcHuA-y9mUnb7G5E6PyoIJasEtK4Ql"
+          },
+          {
+            "id": "m40-aula-15",
+            "title": "Aula 20 - Todos os Acordes Maiores",
+            "type": "video",
+            "driveId": "1ZrD71siQw1S0hJThbe9v5eR64JmZH2JN"
+          },
+          {
+            "id": "m40-aula-16",
+            "title": "Aula 21 - Tocando a primeira música",
+            "type": "video",
+            "driveId": "1fjijVtAv7N7X7bYJMt7XuoYfy-fu8nIL"
+          },
+          {
+            "id": "m40-aula-17",
+            "title": "Aula 22 - Acorde Menores",
+            "type": "video",
+            "driveId": "1AL_dyZjc14Snd9w2ooOT_1pv1-wh5b2L"
+          },
+          {
+            "id": "m40-aula-18",
+            "title": "Aula 23 - Lindo És",
+            "type": "video",
+            "driveId": "1o0qotUVE-gQK6eNOEgQwX1Jp9k_KSN67"
+          },
+          {
+            "id": "m40-aula-19",
+            "title": "Aula 24 - Poderoso Deus",
+            "type": "video",
+            "driveId": "1RQBy52cy2wnrTV6DN6xKOrY5CnItavO3"
+          },
+          {
+            "id": "m40-aula-20",
+            "title": "Aula 25 - Eu Navegarei",
+            "type": "pdf",
+            "driveId": "1rsMPQNpVcbbsskOvA11wAyHKqjZ2aHdI"
+          },
+          {
+            "id": "m40-aula-20",
+            "title": "Aula 26 - Para que Entre o Rei",
+            "type": "video",
+            "driveId": "1VMKKUwP0l30CO8fannSXZt-DD6iWPA-m"
+          },
+          {
+            "id": "m40-aula-21",
+            "title": "Aula 27 - Pra Sempre",
+            "type": "pdf",
+            "driveId": "1BlO88tSfGrbFWxXAM9TtGy_4ecGIi66m"
+          },
+          {
+            "id": "m40-aula-21",
+            "title": "Aula 28 - Santo Espírito",
+            "type": "video",
+            "driveId": "1tgveCBF5CnJR7ELpvRs4wQtrOZNY3OmG"
+          },
+          {
+            "id": "m40-aula-22",
+            "title": "Aula 29 - Ó Quão Lindo esse Nome é",
+            "type": "pdf",
+            "driveId": "1xjDA_yk5zrFjIWFbogdB0GKPMc_5bX9Z"
+          },
+          {
+            "id": "m40-aula-22",
+            "title": "Aula 30 - Quando ele Vem",
+            "type": "video",
+            "driveId": "1wtCKdQ2hA5ss5u15hPb-7de832ZMIDZe"
+          },
+          {
+            "id": "m40-aula-23",
+            "title": "Aula 31 - Lugar Secreto",
+            "type": "video",
+            "driveId": "1hx0Dcq-CH6b7U-5plOEw0icBj4g6H_xh"
+          },
+          {
+            "id": "m40-aula-24",
+            "title": "Aula 32 - Quebro Meu Vaso",
+            "type": "video",
+            "driveId": "176UDoCJI6XbLbL1con4OECZNyPDl7i2R"
+          },
+          {
+            "id": "m40-aula-24---poderoso-deus",
+            "title": "Aula 33 - Usando o Pedal de Sustain",
+            "type": "pdf",
+            "driveId": "1LRV0lGMde_U0pvJlliJ6uadcWXyVg4zH"
+          },
+          {
+            "id": "m40-aula-25",
+            "title": "Aula 34 - Fim",
+            "type": "pdf",
+            "driveId": "16w-V2_zRQZhhjCQSs2kUrs9fr2uLGvYj"
+          },
+          {
+            "id": "m40-aula-25",
+            "title": "Aula 25",
+            "type": "video",
+            "driveId": "1n_pMCQqb9RnDPfn4mO2q-DnLqHLyboRs"
+          },
+          {
+            "id": "m40-aula-26",
+            "title": "Aula 26",
+            "type": "pdf",
+            "driveId": "1HelADGEqpOUQ9I1umbLsFZYkK7-_17kP"
+          },
+          {
+            "id": "m40-aula-26",
+            "title": "Aula 26",
+            "type": "video",
+            "driveId": "10KX6KJZ88b8WZDvkBKdKRIlhoZICTBSE"
+          },
+          {
+            "id": "m40-aula-27",
+            "title": "Aula 27",
+            "type": "pdf",
+            "driveId": "1MJoAthNDy4mJdssANquo7zQFG0h7wRUu"
+          },
+          {
+            "id": "m40-aula-27",
+            "title": "Aula 27",
+            "type": "video",
+            "driveId": "1SPHVqA_XZfhZa1vNHvc4nLXndKQR9KY2"
+          },
+          {
+            "id": "m40-aula-28",
+            "title": "Aula 28",
+            "type": "pdf",
+            "driveId": "1D4IhqeczngZDYLZdcB57e9BFOSbrGWlr"
+          },
+          {
+            "id": "m40-aula-28",
+            "title": "Aula 28",
+            "type": "video",
+            "driveId": "1uY2zYFj_GbCF8O4NCbJ8xEa-Ufac2Y1V"
+          },
+          {
+            "id": "m40-aula-29",
+            "title": "Aula 29",
+            "type": "pdf",
+            "driveId": "1ymrisSHZ-5qv9S-y8whap8qojQEHgtk5"
+          },
+          {
+            "id": "m40-aula-29",
+            "title": "Aula 29",
+            "type": "video",
+            "driveId": "196I5zfhSRFxOaD0icvkR2j44nrK5trx1"
+          },
+          {
+            "id": "m40-aula-30",
+            "title": "Aula 30",
+            "type": "pdf",
+            "driveId": "1z6Cf1H5GAOp4wLjdziaSySvzddxv1kOF"
+          },
+          {
+            "id": "m40-aula-30",
+            "title": "Aula 30",
+            "type": "video",
+            "driveId": "1e6ifx4EFlzMlEQYFWJr0eW0Zv0Mn0wll"
+          },
+          {
+            "id": "m40-aula-31",
+            "title": "Aula 31",
+            "type": "pdf",
+            "driveId": "1vtz8WNXEFiQOIRFwVXB5hvWqtSONDmbB"
+          },
+          {
+            "id": "m40-aula-31",
+            "title": "Aula 31",
+            "type": "video",
+            "driveId": "1LylUqZk1uLXPL50KQpRz4VLfseWpxFV3"
+          },
+          {
+            "id": "m40-aula-32",
+            "title": "Aula 32",
+            "type": "pdf",
+            "driveId": "1Di-BemDwyiNVt6NOKWvdKW3zzHFAafFI"
+          },
+          {
+            "id": "m40-aula-32",
+            "title": "Aula 32",
+            "type": "video",
+            "driveId": "1MxbgBsMJmmv6tm8YaEyC6XTnTdTuHezV"
+          },
+          {
+            "id": "m40-aula-33",
+            "title": "Aula 33",
+            "type": "video",
+            "driveId": "1NApJFnWb792uWehBKQKenmRPi3cTNliK"
+          },
+          {
+            "id": "m40-aula-34",
+            "title": "Aula 34",
+            "type": "video",
+            "driveId": "1m5FXdSfeXHwY3Doc_-mK-LD78zIOhFJ8"
+          },
+          {
+            "id": "m40-bonus",
+            "title": "Bonus",
+            "type": "video",
+            "driveId": "1qIyzKrtxWK7cYPa_3xALaNeBLNYlhUhe"
+          }
+        ]
+      },
+      {
+        "id": "modulo-41",
+        "title": "TRILHA DE TECLADO - Wesley Betordo | Modulo 01",
+        "thumbnail": "./assets/thumbnails/41.png",
+        "lessons": [
+          {
+            "id": "m41-aula-01",
+            "title": "Aula 01 - Conhecendo as Notas no teclado",
+            "type": "video",
+            "driveId": "1dGjD4XM_j7PvhKz0SFhINi2OvLf6RZIx"
+          },
+          {
+            "id": "m41-aula-02",
+            "title": "Aula 02 - Sustenido",
+            "type": "video",
+            "driveId": "15KyT5cYNAAb9bf35dPYVirqx7pUfU7Qg"
+          },
+          {
+            "id": "m41-aula-03",
+            "title": "Aula 03 - Bemol",
+            "type": "video",
+            "driveId": "1R8LyC8Xfa8qNVtcEY4mHxOIIubZFw6So"
+          },
+          {
+            "id": "m41-aula-04",
+            "title": "Aula 04 - Cifras",
+            "type": "video",
+            "driveId": "1auTnsFFZ0gPGPJ_pjI1I2wVsBixhV0Bj"
+          },
+          {
+            "id": "m41-aula-05",
+            "title": "Aula 05 - Diferença entre TOM e SEMITOM",
+            "type": "video",
+            "driveId": "1fY5WQyScqLfqf62PFjL2jeMbOilNfPVg"
+          },
+          {
+            "id": "m41-material-complementar",
+            "title": "Material Complementar",
+            "type": "pdf",
+            "driveId": "1G65A2FYaOyW6z-5jfqC7cvbNqgAUgRcY"
+          }
+        ]
+      },
+      {
+        "id": "modulo-42",
+        "title": "TRILHA DE TECLADO - Wesley Betordo | Modulo 02",
+        "thumbnail": "./assets/thumbnails/42.png",
+        "lessons": [
+          {
+            "id": "m42-aula-01",
+            "title": "Aula 01 - Escala Maior",
+            "type": "video",
+            "driveId": "1hDFPt6zso6KL6dFUcD7I8K1ner0dzBXE"
+          },
+          {
+            "id": "m42-aula-02",
+            "title": "Aula 02 - Triade Maior",
+            "type": "video",
+            "driveId": "1dJUTJQm6R5r3jbh3D6pUzoYRS29XBZ1N"
+          },
+          {
+            "id": "m42-aula-03",
+            "title": "Aula 03 - Triade Menor",
+            "type": "video",
+            "driveId": "1SkbQRBB-jinRSi3CssjWr1863XSWp7YA"
+          },
+          {
+            "id": "m42-aula-04",
+            "title": "Aula 04 - Acorde Aumentado",
+            "type": "video",
+            "driveId": "1go6YMLIPUlkBdlMfMhavJrbEjhjArpzs"
+          },
+          {
+            "id": "m42-aula-05",
+            "title": "Aula 05 - Triade Diminuto",
+            "type": "video",
+            "driveId": "1cgsjRMvBSJ8TkdFl8vrqIgPg60wqoVj2"
+          },
+          {
+            "id": "m42-bonus",
+            "title": "Bônus Tetrade (Acorde com 7 9 13)",
+            "type": "video",
+            "driveId": "1mAx6-2KZrnRzuMITs21y-XWBRC_c0wbA"
+          }
+        ]
+      },
+      {
+        "id": "modulo-43",
+        "title": "TRILHA DE TECLADO - Wesley Betordo | Modulo 03",
+        "thumbnail": "./assets/thumbnails/43.png",
+        "lessons": [
+          {
+            "id": "m43-aula-01",
+            "title": "Aula 01 - Acorde Maior",
+            "type": "video",
+            "driveId": "155ahw_WV0LsXqnRfrh2RoRo_gZ47zBPe"
+          },
+          {
+            "id": "m43-aula-02",
+            "title": "Aula 02 - Acorde Menor",
+            "type": "video",
+            "driveId": "1qw__UaUani56pLRsykzbk05NtxYlKaBl"
+          },
+          {
+            "id": "m43-aula-03",
+            "title": "Aula 03 - Acorde Aumentado",
+            "type": "video",
+            "driveId": "1kI8G9TEpB-fwfM-cteYzizcLwb5-Wyrz"
+          },
+          {
+            "id": "m43-aula-04",
+            "title": "Aula 04 - Acorde Diminuto",
+            "type": "video",
+            "driveId": "1npOBnhzBBxeFNFlAo6enKlNhTU57EEp3"
+          }
+        ]
+      },
+      {
+        "id": "modulo-44",
+        "title": "TRILHA DE TECLADO - Wesley Betordo | Modulo 04",
+        "thumbnail": "./assets/thumbnails/44.png",
+        "lessons": [
+          {
+            "id": "m44-aula-01",
+            "title": "Aula 01 - Inversão de acordes",
+            "type": "video",
+            "driveId": "1UWEkkAopdObYauFHdpnsCqTotJkYChE9"
+          },
+          {
+            "id": "m44-aula-02",
+            "title": "Aula 02 - Inversão dos Baixos",
+            "type": "video",
+            "driveId": "1XS47a3YjdTKJswcZRaAvV7tdbdPdpx0D"
+          },
+          {
+            "id": "m44-aula-03",
+            "title": "Aula 03 - Inversão de acordes na prática",
+            "type": "video",
+            "driveId": "1ZBNUA8cgOhzYELdOdmQX3wNxOi_c3r8x"
+          },
+          {
+            "id": "m44-aula-04",
+            "title": "Aula 04 - Inversão dos baixos na prática",
+            "type": "video",
+            "driveId": "12MduPFfAG1KA40Ave2rCwbtfhy1FwggH"
+          }
+        ]
+      },
+      {
+        "id": "modulo-45",
+        "title": "TRILHA DE TECLADO - Wesley Betordo | Modulo 05",
+        "thumbnail": "./assets/thumbnails/45.png",
+        "lessons": [
+          {
+            "id": "m45-aula-01",
+            "title": "Aula 01 - Mão esquerda T 5 8",
+            "type": "video",
+            "driveId": "1Dmc_We8vgLZdewpYA74S7dFXmrZusj3g"
+          },
+          {
+            "id": "m45-aula-02",
+            "title": "Aula 02 - Mão esquerda T 5 8 9 10",
+            "type": "video",
+            "driveId": "1t5xut9jKXxubPwzqRSjql0ySud85FpQZ"
+          },
+          {
+            "id": "m45-aula-03",
+            "title": "Aula 03 - 2 Notas antes da última nota, 1, 2 e última",
+            "type": "video",
+            "driveId": "1xiOM7ohM9u-CdU0oKCICqR7azDbX6x7T"
+          },
+          {
+            "id": "m45-aula-04",
+            "title": "Aula 04 - 2 Notas depois da última nota, 1 2 e última",
+            "type": "video",
+            "driveId": "19vohYpfiaruPLkL5ucrvHanhiM2MP-d7"
+          },
+          {
+            "id": "m45-aula-05",
+            "title": "Aula 05 - Dedilhado - última, primeira e segunda nota",
+            "type": "video",
+            "driveId": "1GH0Aa87IC7wC0h5rlFk_6GCeE_80mRsc"
+          },
+          {
+            "id": "m45-aula-06",
+            "title": "Aula 06 - Arpejo em 4",
+            "type": "video",
+            "driveId": "1rii0z7KSwriFXheUQy-DxHkrT1c6Bgx5"
+          }
+        ]
+      },
+      {
+        "id": "modulo-46",
+        "title": "TRILHA DE STREAMING - Alvaro Theml | Modulo 01",
+        "thumbnail": "./assets/thumbnails/46.png",
+        "lessons": [
+          {
+            "id": "m46-aula-01",
+            "title": "Aula 01 - Introdução",
+            "type": "video",
+            "driveId": "1EnrUwTb2gbv9s7F3rPe2Ylx3YSucitNN"
+          },
+          {
+            "id": "m46-aula-02",
+            "title": "Aula 02 - Organização e Color Code",
+            "type": "video",
+            "driveId": "1MFZdSIwdA8oD5wKeY74DYwp-MLBvwuWr"
+          },
+          {
+            "id": "m46-aula-03",
+            "title": "Aula 03 - Naming",
+            "type": "video",
+            "driveId": "1Vo4hbKtSGQI9d_v5fUo0pcnWrjVYojqT"
+          },
+          {
+            "id": "m46-aula-04",
+            "title": "Aula 04 - Buss Groups",
+            "type": "video",
+            "driveId": "1VXYQD5u3RD6y8LLe43m4ZpjDqXeoCQ1j"
+          },
+          {
+            "id": "m46-aula-05",
+            "title": "Aula 05 - Processamento ABCD",
+            "type": "video",
+            "driveId": "1-bSa3Z-NZJFB3v0XGJQC7wsoV0Q5rF0_"
+          },
+          {
+            "id": "m46-aula-06",
+            "title": "Aula 06 - Organizando Tracks de Efeitos",
+            "type": "video",
+            "driveId": "17szkiLq7Q4V4zRRnxw9uPXdDgGl9yPnJ"
+          },
+          {
+            "id": "m46-aula-bonus",
+            "title": "Aula 07 - Material Complementar Organização e Workflow (PDF)",
+            "type": "video",
+            "driveId": "1Zq0IikiQLW-QEdq7w532EjE1Tziq_eLh"
+          }
+        ]
+      },
+      {
+        "id": "modulo-47",
+        "title": "TRILHA DE STREAMING - Alvaro Theml | Modulo 02",
+        "thumbnail": "./assets/thumbnails/47.png",
+        "lessons": [
+          {
+            "id": "m47-aula-01",
+            "title": "Aula 01 – Roteamento para buss groups",
+            "type": "video",
+            "driveId": "119V8B6l9aJMBMUtMV_3likE04N31fHU2"
+          },
+          {
+            "id": "m47-aula-02",
+            "title": "Aula 02 – Roteamento ABCD",
+            "type": "video",
+            "driveId": "1V6E-TOz_qRd_j04-VErLJk1z5ccBnuZv"
+          },
+          {
+            "id": "m47-aula-03",
+            "title": "Aula 03 – Processamento paralelo e efeitos",
+            "type": "video",
+            "driveId": "1F3um-1JqIKjWaFb5l5u2P5n_zKsxkx8k"
+          },
+          {
+            "id": "m47-aula-04",
+            "title": "Aula 04 – Roteamento para master fader",
+            "type": "video",
+            "driveId": "16SuCRFtKtQqsitE-ClPzLcAj3BwTR_39"
+          },
+          {
+            "id": "m47-aula-05",
+            "title": "Aula 05 – Monitoramento e protocolos",
+            "type": "video",
+            "driveId": "1IvDI82AGAKkjDg5Io049aeKzoKl4ND_s"
+          },
+          {
+            "id": "m47-aula-bonus-vca",
+            "title": "Aula bônus – VCA",
+            "type": "video",
+            "driveId": "1yWsk6nLwjej-zya1riXXobwmOIRqRwOH"
+          },
+          {
+            "id": "m47-live-02--material-complementar-",
+            "title": "Live 02 Roteamento de sinal (Material Complementar) (PDF)",
+            "type": "pdf",
+            "driveId": "1Mh8WhKcBmO0jBBzs913mD5MiMor6yBuG"
+          }
+        ]
+      },
+      {
+        "id": "modulo-48",
+        "title": "TRILHA DE STREAMING - Alvaro Theml | Modulo 03",
+        "thumbnail": "./assets/thumbnails/48.png",
+        "lessons": [
+          {
+            "id": "m48-aula-01",
+            "title": "Aula 01 – Estrutura de ganho e balanceamento",
+            "type": "video",
+            "driveId": "1-_ZCDOlgk9vX4BKlQUFntWe-GbCtCgQB"
+          },
+          {
+            "id": "m48-aula-02",
+            "title": "Aula 02 – Equalização de bateria",
+            "type": "video",
+            "driveId": "1n80rgzISkW3BdfKVbYLKTtRBIdLpDcr_"
+          },
+          {
+            "id": "m48-aula-03",
+            "title": "Aula 03 – Equalização de baixo",
+            "type": "video",
+            "driveId": "1KfG11-aH1lne7PLbuuZ16_FjoLu60Xxv"
+          },
+          {
+            "id": "m48-aula-04",
+            "title": "Aula 04 – Equalização de violão",
+            "type": "video",
+            "driveId": "1HDd3aQU_gBEVa6TgE_Dgw1xAuUPNXL0I"
+          },
+          {
+            "id": "m48-aula-05",
+            "title": "Aula 05 – Equalização de guitarra",
+            "type": "video",
+            "driveId": "1cxRMAHw77yK17_RYFRODbYuoOAnnri0A"
+          },
+          {
+            "id": "m48-aula-06",
+            "title": "Aula 06 – Equalização de teclados",
+            "type": "video",
+            "driveId": "18odzHcxWW-5nO1OLUvu2q6JFRms-5rsH"
+          },
+          {
+            "id": "m48-aula-07",
+            "title": "Aula 07 – Equalização de vozes",
+            "type": "video",
+            "driveId": "1_QO4ZWDdrjCBYN0sbZk8X2pKD3873ACH"
+          },
+          {
+            "id": "m48-aula-08",
+            "title": "Aula 08 – Multitrack",
+            "type": "video",
+            "driveId": "1BSg0XnIYl-DgoaMWTFpNggg4q7-j8_6I"
+          },
+          {
+            "id": "m48-aula-09",
+            "title": "Aula 09 – Gates",
+            "type": "video",
+            "driveId": "1GJ8mbGe7s736vTM8BkljauhtnLh1rYuz"
+          },
+          {
+            "id": "m48-aula-10",
+            "title": "Aula 10 – Compressão de bateria",
+            "type": "video",
+            "driveId": "1lDw6xuFrcXfGS0_oOsTQLKGtsCwliWRD"
+          },
+          {
+            "id": "m48-aula-11",
+            "title": "Aula 11 – Compressão dos demais elementos",
+            "type": "video",
+            "driveId": "1R6YCS_OorbBuVaPJWN031fp3FQW4o-He"
+          },
+          {
+            "id": "m48-aula-12",
+            "title": "Aula 12 – Efeitos",
+            "type": "video",
+            "driveId": "18QbDNtcYvZfAeXSf6gs3cilECqabYDkv"
+          },
+          {
+            "id": "m48-aula-13",
+            "title": "Aula 13 – Pilotagem",
+            "type": "video",
+            "driveId": "1uaCNHISQRge6gczV-ZlvvDSrSzRKYNoU"
+          },
+          {
+            "id": "m48-live-03--material-complementar-",
+            "title": "Live 03 Roteamento de sinal (Material Complementar) (PDF)",
+            "type": "pdf",
+            "driveId": "1ra3g-lfmHuISmWZ14jmWfdMbShtJd-Kl"
+          }
+        ]
+      },
+      {
+        "id": "modulo-49",
+        "title": "TRILHA DE STREAMING - Alvaro Theml | Modulo 04",
+        "thumbnail": "./assets/thumbnails/49.png",
+        "lessons": [
+          {
+            "id": "m49-aula-01",
+            "title": "Aula 01 - Introdução",
+            "type": "video",
+            "driveId": "1T7wiEbNcZRsz4S5r6_7A74nzWZVswcdX"
+          },
+          {
+            "id": "m49-aula-02",
+            "title": "Aula 02 - Unidades de Medida",
+            "type": "video",
+            "driveId": "11Mur7h33HOguc6409G-OBEZOdQUeLbcF"
+          },
+          {
+            "id": "m49-aula-03",
+            "title": "Aula 03 - Equalização",
+            "type": "video",
+            "driveId": "1bgzIpXxF8ugEBeTUd1Ryqt6b_r78cTRT"
+          },
+          {
+            "id": "m49-aula-04",
+            "title": "Aula 04 - Compressão VCA",
+            "type": "video",
+            "driveId": "1qcLY0Mv0s54zJUm0ooFyckZAvbqNcEnL"
+          },
+          {
+            "id": "m49-aula-05",
+            "title": "Aula 05 - Compressão Multibanda",
+            "type": "video",
+            "driveId": "1wMIA60ochBsB4uGlUz4MTaTzMCnN3x9W"
+          },
+          {
+            "id": "m49-aula-06",
+            "title": "Aula 06 - Cliping",
+            "type": "video",
+            "driveId": "1kFCfuUR0IgBIBSDKkrUaV8pUYjEWzL8r"
+          },
+          {
+            "id": "m49-aula-07",
+            "title": "Aula 07 - Limiter",
+            "type": "video",
+            "driveId": "1ELjgaeS8S8Bo1IZ9XkoL0d6A6lFQkNGR"
+          },
+          {
+            "id": "m49-aula-08",
+            "title": "Aula 08 - Formatos de Áudio",
+            "type": "video",
+            "driveId": "1faQw-jPn50DWaacjo0_DcHWfsZp9t3eQ"
+          },
+          {
+            "id": "m49-bonus",
+            "title": "Material Complementar - Masterização para Streaming (PDF)",
+            "type": "video",
+            "driveId": "19IJuXURZK8tIibHtYL0DvaIwfv_lVIT-"
+          },
+          {
+            "id": "m49-material-complementar",
+            "title": "Curso Completo | Mega Oferta para alunos da Escola de Ministros 2.0",
+            "type": "pdf",
+            "driveId": "19XE2t-6cBRAfg2oUwYfkBEq9Kd3vo8n-"
+          }
+        ]
+      },
+      {
+        "id": "modulo-50",
+        "title": "TRILHA MENTE SINTONIZADA E CORACAO AFINADO - Isaque Prado | Modulo 01",
+        "thumbnail": "./assets/thumbnails/50.png",
+        "lessons": [
+          {
+            "id": "m50-sessao-01---mergulhando-na-teologia-da-a",
+            "title": "Sessão 01 - Mergulhando na Teologia da adoração",
+            "type": "video",
+            "driveId": "146YM3TEFqX8M-jkviSYjKuRn1aGNEDsB"
+          },
+          {
+            "id": "m50-sessao-01---neurofisiologia-da-musica",
+            "title": "Sessão 01 - O Poder da Música no ser humano",
+            "type": "video",
+            "driveId": "1Hqz9pD80PY8uFRFkTe_ciaGlikmvirtV"
+          },
+          {
+            "id": "m50-sessao-01---o-poder-da-musica-no-ser-hum",
+            "title": "Sessão 01 - Neurofisiologia da música",
+            "type": "video",
+            "driveId": "1jYLhbkOMG4KVB8zP7oI72NHr9QpXmLmj"
+          },
+          {
+            "id": "m50-sessao-01---o-efeito-da-musica-nas-emoco",
+            "title": "Sessão 01 - O efeito da música nas emoções",
+            "type": "video",
+            "driveId": "1ogdcQj_ekkeBqYA5VKOBiNnleWJmuBEJ"
+          },
+          {
+            "id": "m50-sessao-01---o-que-e-musica",
+            "title": "Sessão 01 - O que é música",
+            "type": "video",
+            "driveId": "1esMyI-Oe6xEZUI6a5N0MD5P5_IWF6d10"
+          },
+          {
+            "id": "m50-sessao-01---silencio",
+            "title": "Sessão 01 - Silêncio",
+            "type": "video",
+            "driveId": "1xxoC4QMl4cxNEH2zNKmwSDBR854kXAyP"
+          },
+          {
+            "id": "m50-sessao-01---som-e-frequencia--parte-01-",
+            "title": "Sessão 01 - Som e frequência (Parte 01)",
+            "type": "video",
+            "driveId": "1cXPwWAv-F8hKuwyUTErNZeBfu3vvRuEr"
+          },
+          {
+            "id": "m50-sessao-01---som-e-frequencia--parte-02-",
+            "title": "Sessão 01 - Som e frequência (Parte 02)",
+            "type": "video",
+            "driveId": "1ylvdENiClWBa1or_UnBPyZyvjdGPYgMg"
+          },
+          {
+            "id": "m50-sessao-01---som-e-frequencia--parte-03-",
+            "title": "Sessão 01 - Som e frequência (Parte 03)",
+            "type": "video",
+            "driveId": "1ElIkNa4jJy2FgmwrjcZ8nHryOz8MbC6-"
+          },
+          {
+            "id": "m50-sessao-01---som-e-frequencia--parte-04-",
+            "title": "Sessão 01 - Som e frequência (Parte 04)",
+            "type": "video",
+            "driveId": "1Z6KGXCLMz3hkYlM8ckCEhyKzLQdGsPDn"
+          },
+          {
+            "id": "m50-sessao-02---teologia-da-adoracao",
+            "title": "Sessão 02 - Teologia da Adoração",
+            "type": "video",
+            "driveId": "19D4g3h-L51RroolD-EdAA_zW8G763T_x"
+          },
+          {
+            "id": "m50-sessao-03---processo-criativo-de-composi",
+            "title": "Sessão 03 - Processo Criativo de Composição",
+            "type": "video",
+            "driveId": "1ZFFfQApdcHUgjhUzCLXvcgFIRJyiz0m1"
+          }
+        ]
+      },
+      {
+        "id": "modulo-51",
+        "title": "TRILHA MENTE SINTONIZADA E CORACAO AFINADO - Isaque Prado | Modulo 02",
+        "thumbnail": "./assets/thumbnails/51.png",
+        "lessons": [
+          {
+            "id": "m51-aula-01---introducao",
+            "title": "Aula 01 - Introdução",
+            "type": "video",
+            "driveId": "1R0d33XGIG_pGp5_cDxcBQNZZxE4HLnlt"
+          },
+          {
+            "id": "m51-aula-02---as-7-marcas",
+            "title": "Aula 02 - As 7 marcas",
+            "type": "video",
+            "driveId": "19H1riC5NNiLR9BFwB1NZhuJyqKz_8SmK"
+          },
+          {
+            "id": "m51-aula-03---sussurro",
+            "title": "Aula 03 - Sussurro",
+            "type": "video",
+            "driveId": "1yD49HXO9kA_5ZxfPBGC5wnUH9-EGBO-P"
+          },
+          {
+            "id": "m51-aula-04---fala-senhor",
+            "title": "Aula 04 - Fala Senhor",
+            "type": "video",
+            "driveId": "1uwFmp91bk-hbS4RIsjmM5M84Na_2ChcV"
+          }
+        ]
+      },
+      {
+        "id": "modulo-52",
+        "title": "TRILHA A CASA DE DAVI - RENATO MARINONI",
+        "thumbnail": "./assets/thumbnails/52.png",
+        "lessons": [
+          {
+            "id": "m52-aula-01",
+            "title": "Aula 01",
+            "type": "video",
+            "driveId": "1iuiv7bqLqkVeA4ZIfrwm7nTKU-Du8ijO"
+          },
+          {
+            "id": "m52-aula-02",
+            "title": "Aula 02",
+            "type": "video",
+            "driveId": "189ddkA2bVlOV8Ij3Egswg2Bdt_d4Efol"
+          },
+          {
+            "id": "m52-aula-03",
+            "title": "Aula 03",
+            "type": "video",
+            "driveId": "1SM8iO7zvTZZaOzt6ieqm5QeDYwJYLE9f"
+          },
+          {
+            "id": "m52-aula-04",
+            "title": "Aula 04",
+            "type": "video",
+            "driveId": "1uh-O9gM-FHBz6m4n8777C0xrw67VJgPI"
+          },
+          {
+            "id": "m52-aula-05",
+            "title": "Aula 05",
+            "type": "video",
+            "driveId": "133fdNrwGsI6o536nBHbXpgNsZNXvC7gf"
+          },
+          {
+            "id": "m52-aula-06",
+            "title": "Aula 06",
+            "type": "video",
+            "driveId": "1bIZcDEa52rzI5Inza6NAh50-j_qpAVVU"
+          },
+          {
+            "id": "m52-aula-07",
+            "title": "Aula 07",
+            "type": "video",
+            "driveId": "1RgDFAZwstwHMwj6S9TMJChFQOdKwocSA"
+          },
+          {
+            "id": "m52-aula-08",
+            "title": "Aula 08",
+            "type": "video",
+            "driveId": "1en76BdpWxIXGPUa4jXM6TfvpaWf1-HGH"
           }
         ]
       }
