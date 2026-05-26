@@ -6,6 +6,7 @@ const PASSWORD_BASE64 = "bG91dm9yMjY="; // Gerada com btoa("louvor26")
 const state = {
   course: null,
   flatLessons: [],
+  currentModuleId: null,
   currentLessonId: null,
   expandedModules: new Set(),
 };
@@ -25,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   if (isLoggedIn()) {
-    await openPortal();
+    await openHome();
     return;
   }
 
@@ -34,11 +35,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 function cacheElements() {
   elements.loginView = document.getElementById("login-view");
+  elements.homeView = document.getElementById("home-view");
   elements.portalView = document.getElementById("portal-view");
   elements.loginForm = document.getElementById("login-form");
   elements.passwordInput = document.getElementById("password-input");
   elements.loginError = document.getElementById("login-error");
-  elements.courseTitle = document.getElementById("course-title");
+  elements.homeCourseTitle = document.getElementById("home-course-title");
+  elements.homeModuleGrid = document.getElementById("home-module-grid");
+  elements.currentModuleTitle = document.getElementById("current-module-title");
   elements.moduleList = document.getElementById("module-list");
   elements.currentLessonTitle = document.getElementById("current-lesson-title");
   elements.lessonMeta = document.getElementById("lesson-meta");
@@ -47,22 +51,29 @@ function cacheElements() {
   elements.nextButton = document.getElementById("next-button");
   elements.downloadButton = document.getElementById("download-button");
   elements.markWatchedButton = document.getElementById("mark-watched-button");
-  elements.themeToggle = document.getElementById("theme-toggle");
-  elements.logoutButton = document.getElementById("logout-button");
+  elements.themeToggles = Array.from(document.querySelectorAll("[data-theme-toggle]"));
+  elements.logoutButtons = Array.from(document.querySelectorAll("[data-logout-button]"));
   elements.menuButton = document.getElementById("menu-button");
   elements.mobileOverlay = document.getElementById("mobile-overlay");
+  elements.backToHomeButton = document.getElementById("back-to-home-button");
 }
 
 function bindEvents() {
   elements.loginForm.addEventListener("submit", handleLoginSubmit);
+  elements.homeModuleGrid.addEventListener("click", handleHomeModuleGridClick);
   elements.moduleList.addEventListener("click", handleModuleListClick);
   elements.prevButton.addEventListener("click", () => navigateLesson(-1));
   elements.nextButton.addEventListener("click", () => navigateLesson(1));
   elements.markWatchedButton.addEventListener("click", markCurrentLessonAsWatched);
-  elements.themeToggle.addEventListener("click", toggleTheme);
-  elements.logoutButton.addEventListener("click", logout);
+  elements.themeToggles.forEach((button) => {
+    button.addEventListener("click", toggleTheme);
+  });
+  elements.logoutButtons.forEach((button) => {
+    button.addEventListener("click", logout);
+  });
   elements.menuButton.addEventListener("click", toggleDrawer);
   elements.mobileOverlay.addEventListener("click", closeDrawer);
+  elements.backToHomeButton.addEventListener("click", openHome);
   window.addEventListener("resize", handleViewportChange);
 }
 
@@ -76,11 +87,13 @@ function handleSystemThemeChange(event) {
 
 function syncThemeToggle() {
   const currentTheme = document.documentElement.getAttribute("data-theme") || "light";
-  elements.themeToggle.textContent = currentTheme === "dark" ? "☀" : "🌙";
-  elements.themeToggle.setAttribute(
-    "aria-label",
-    currentTheme === "dark" ? "Ativar tema claro" : "Ativar tema escuro"
-  );
+  elements.themeToggles.forEach((button) => {
+    button.textContent = currentTheme === "dark" ? "☀" : "🌙";
+    button.setAttribute(
+      "aria-label",
+      currentTheme === "dark" ? "Ativar tema claro" : "Ativar tema escuro"
+    );
+  });
 }
 
 function toggleTheme() {
@@ -117,7 +130,7 @@ function persistLogin() {
   sessionStorage.setItem(SESSION_KEY, JSON.stringify({ loggedIn: true }));
 }
 
-function handleLoginSubmit(event) {
+async function handleLoginSubmit(event) {
   event.preventDefault();
 
   const password = elements.passwordInput.value.trim();
@@ -132,22 +145,68 @@ function handleLoginSubmit(event) {
 
   elements.loginError.textContent = "";
   persistLogin();
-  openPortal();
+  await openHome();
 }
 
-async function openPortal() {
+async function openHome() {
+  closeDrawer();
   elements.loginView.classList.add("hidden");
-  elements.portalView.classList.remove("hidden");
+  elements.portalView.classList.add("hidden");
+  elements.homeView.classList.remove("hidden");
+  state.currentModuleId = null;
+  state.flatLessons = [];
 
-  if (!state.course) {
-    await loadCourse();
-  } else {
+  try {
+    if (!state.course) {
+      await loadCourse();
+    }
+
+    renderHome();
+  } catch (error) {
+    renderCourseLoadError(error.message);
+  }
+}
+
+async function openModule(moduleId) {
+  closeDrawer();
+
+  try {
+    if (!state.course) {
+      await loadCourse();
+    }
+
+    const module = getModuleById(moduleId);
+
+    if (!module) {
+      return;
+    }
+
+    state.currentModuleId = module.id;
+    state.flatLessons = module.lessons.map((lesson) => ({
+      ...lesson,
+      moduleId: module.id,
+      moduleTitle: module.title,
+    }));
+
+    if (!state.flatLessons.some((lesson) => lesson.id === state.currentLessonId)) {
+      state.currentLessonId = state.flatLessons[0]?.id ?? null;
+    }
+
+    ensureCurrentLessonModuleIsExpanded();
+    elements.loginView.classList.add("hidden");
+    elements.homeView.classList.add("hidden");
+    elements.portalView.classList.remove("hidden");
     renderApp();
+  } catch (error) {
+    renderCourseLoadError(error.message);
   }
 }
 
 function showLogin() {
   closeDrawer();
+  state.currentModuleId = null;
+  state.flatLessons = [];
+  elements.homeView.classList.add("hidden");
   elements.portalView.classList.add("hidden");
   elements.loginView.classList.remove("hidden");
   elements.passwordInput.value = "";
@@ -160,45 +219,28 @@ function logout() {
 }
 
 async function loadCourse() {
-  try {
-    const response = await fetch("./data/course.json");
+  const response = await fetch("./data/course.json");
 
-    if (!response.ok) {
-      throw new Error("Nao foi possivel carregar o arquivo course.json.");
-    }
-
-    const payload = await response.json();
-    const course = payload?.course;
-
-    if (!course?.modules?.length) {
-      throw new Error("Estrutura de curso invalida.");
-    }
-
-    state.course = course;
-    state.flatLessons = course.modules.flatMap((module) =>
-      module.lessons.map((lesson) => ({
-        ...lesson,
-        moduleId: module.id,
-        moduleTitle: module.title,
-      }))
-    );
-
-    state.expandedModules = new Set([course.modules[0].id]);
-
-    if (!state.currentLessonId && state.flatLessons.length > 0) {
-      state.currentLessonId = state.flatLessons[0].id;
-    }
-
-    ensureCurrentLessonModuleIsExpanded();
-    document.title = `${course.title} | Portal do Curso`;
-    renderApp();
-  } catch (error) {
-    renderCourseLoadError(error.message);
+  if (!response.ok) {
+    throw new Error("Nao foi possivel carregar o arquivo course.json.");
   }
+
+  const payload = await response.json();
+  const course = payload?.course;
+
+  if (!course?.modules?.length) {
+    throw new Error("Estrutura de curso invalida.");
+  }
+
+  state.course = course;
+  document.title = `${course.title} | Portal do Curso`;
 }
 
 function renderCourseLoadError(message) {
-  elements.courseTitle.textContent = "Erro ao carregar curso";
+  elements.loginView.classList.add("hidden");
+  elements.homeView.classList.add("hidden");
+  elements.portalView.classList.remove("hidden");
+  elements.currentModuleTitle.textContent = "Erro ao carregar curso";
   elements.currentLessonTitle.textContent = "Conteudo indisponivel";
   elements.lessonMeta.innerHTML = "";
   elements.viewerContainer.innerHTML = `
@@ -214,12 +256,80 @@ function renderCourseLoadError(message) {
   elements.markWatchedButton.disabled = true;
 }
 
-function renderApp() {
+function renderHome() {
   if (!state.course) {
     return;
   }
 
-  elements.courseTitle.textContent = state.course.title;
+  elements.homeCourseTitle.textContent = state.course.title;
+  elements.homeModuleGrid.innerHTML = "";
+
+  const fragment = document.createDocumentFragment();
+
+  state.course.modules.forEach((module) => {
+    const totalLessons = module.lessons.length;
+    const watchedLessons = module.lessons.filter((lesson) => isLessonWatched(lesson.id)).length;
+    const progress = totalLessons === 0 ? 0 : Math.round((watchedLessons / totalLessons) * 100);
+    const videoLessons = module.lessons.filter((lesson) => lesson.type === "video").length;
+    const pdfLessons = totalLessons - videoLessons;
+    const dominantIcon = videoLessons >= pdfLessons ? "▶" : "📄";
+    const moduleCard = document.createElement("button");
+    const hasThumbnail = Boolean(module.thumbnail?.trim());
+
+    moduleCard.type = "button";
+    moduleCard.className = "module-overview-card";
+    moduleCard.dataset.moduleOpen = module.id;
+    moduleCard.innerHTML = `
+      <span class="module-overview-thumb">
+        <img 
+          src="${module.thumbnail || ""}" 
+          alt="" 
+          class="card-thumbnail-img"
+          style="display:none; width:100%; height:100%; object-fit:cover; border-radius:6px 6px 0 0;"
+        >
+        <span class="module-overview-icon" aria-hidden="true">${dominantIcon}</span>
+      </span>
+      <span class="module-overview-info">
+        ${hasThumbnail ? "" : `<strong class="module-overview-title">${module.title}</strong>`}
+        <span class="module-overview-count">${totalLessons} aula(s)</span>
+        <span class="module-overview-progress">
+          <span class="progress-track" aria-hidden="true">
+            <span class="progress-bar" style="width: ${progress}%;"></span>
+          </span>
+          <span class="module-overview-progress-text">${progress}% concluído</span>
+        </span>
+      </span>
+    `;
+
+    const thumbnailImg = moduleCard.querySelector(".card-thumbnail-img");
+    const iconEl = moduleCard.querySelector(".module-overview-icon");
+
+    if (hasThumbnail) {
+      thumbnailImg.addEventListener("load", () => {
+        thumbnailImg.style.display = "block";
+        iconEl.style.display = "none";
+      });
+
+      thumbnailImg.addEventListener("error", () => {
+        thumbnailImg.style.display = "none";
+        iconEl.style.display = "";
+      });
+    }
+
+    fragment.appendChild(moduleCard);
+  });
+
+  elements.homeModuleGrid.appendChild(fragment);
+}
+
+function renderApp() {
+  const module = getCurrentModule();
+
+  if (!state.course || !module) {
+    return;
+  }
+
+  elements.currentModuleTitle.textContent = module.title;
   ensureCurrentLessonModuleIsExpanded();
   renderSidebar();
   renderCurrentLesson();
@@ -230,74 +340,29 @@ function renderSidebar() {
 
   const fragment = document.createDocumentFragment();
 
-  state.course.modules.forEach((module) => {
-    const totalLessons = module.lessons.length;
-    const watchedLessons = module.lessons.filter((lesson) => isLessonWatched(lesson.id)).length;
-    const progress = totalLessons === 0 ? 0 : (watchedLessons / totalLessons) * 100;
-    const isOpen = state.expandedModules.has(module.id);
+  state.flatLessons.forEach((lesson) => {
+    const lessonButton = document.createElement("button");
+    const watched = isLessonWatched(lesson.id);
+    const isActive = lesson.id === state.currentLessonId;
+    const icon = lesson.type === "video" ? "▶" : "📄";
 
-    const moduleCard = document.createElement("section");
-    moduleCard.className = `module-card${isOpen ? " is-open" : ""}`;
+    lessonButton.type = "button";
+    lessonButton.className = `lesson-item${isActive ? " is-active" : ""}`;
+    lessonButton.dataset.lessonId = lesson.id;
 
-    const trigger = document.createElement("button");
-    trigger.type = "button";
-    trigger.className = "module-trigger";
-    trigger.dataset.moduleToggle = module.id;
-    trigger.setAttribute("aria-expanded", String(isOpen));
-
-    trigger.innerHTML = `
-      <span class="module-chevron" aria-hidden="true">▸</span>
-      <span class="module-title-wrap">
-        <span class="module-title">${module.title}</span>
-        <span class="module-count">${totalLessons} aula(s)</span>
+    lessonButton.innerHTML = `
+      <span class="lesson-icon" aria-hidden="true">${icon}</span>
+      <span class="lesson-copy">
+        <strong>${lesson.title}</strong>
+        <span class="lesson-meta-line">
+          <span class="lesson-type">${lesson.type === "video" ? "Video" : "PDF"}</span>
+          ${lesson.duration ? `<span class="lesson-duration">${lesson.duration}</span>` : ""}
+        </span>
       </span>
-      <span class="module-progress-text">${watchedLessons}/${totalLessons} assistidas</span>
+      <span class="lesson-check" aria-label="${watched ? "Assistida" : "Nao assistida"}">${watched ? "✓" : ""}</span>
     `;
 
-    moduleCard.appendChild(trigger);
-
-    const progressWrap = document.createElement("div");
-    progressWrap.className = "module-progress";
-    progressWrap.innerHTML = `
-      <div class="progress-track" aria-hidden="true">
-        <div class="progress-bar" style="width: ${progress}%;"></div>
-      </div>
-    `;
-    moduleCard.appendChild(progressWrap);
-
-    if (isOpen) {
-      const lessonsWrap = document.createElement("div");
-      lessonsWrap.className = "lessons";
-
-      module.lessons.forEach((lesson) => {
-        const lessonButton = document.createElement("button");
-        const watched = isLessonWatched(lesson.id);
-        const isActive = lesson.id === state.currentLessonId;
-        const icon = lesson.type === "video" ? "▶" : "📄";
-
-        lessonButton.type = "button";
-        lessonButton.className = `lesson-item${isActive ? " is-active" : ""}`;
-        lessonButton.dataset.lessonId = lesson.id;
-
-        lessonButton.innerHTML = `
-          <span class="lesson-icon" aria-hidden="true">${icon}</span>
-          <span class="lesson-copy">
-            <strong>${lesson.title}</strong>
-            <span class="lesson-meta-line">
-              <span class="lesson-type">${lesson.type === "video" ? "Video" : "PDF"}</span>
-              ${lesson.duration ? `<span class="lesson-duration">${lesson.duration}</span>` : ""}
-            </span>
-          </span>
-          <span class="lesson-check" aria-label="${watched ? "Assistida" : "Nao assistida"}">${watched ? "✓" : ""}</span>
-        `;
-
-        lessonsWrap.appendChild(lessonButton);
-      });
-
-      moduleCard.appendChild(lessonsWrap);
-    }
-
-    fragment.appendChild(moduleCard);
+    fragment.appendChild(lessonButton);
   });
 
   elements.moduleList.appendChild(fragment);
@@ -355,14 +420,16 @@ function renderCurrentLesson() {
   elements.markWatchedButton.textContent = watched ? "✓ Assistida" : "✓ Marcar como assistida";
 }
 
-function handleModuleListClick(event) {
-  const moduleToggle = event.target.closest("[data-module-toggle]");
-  const lessonButton = event.target.closest("[data-lesson-id]");
+async function handleHomeModuleGridClick(event) {
+  const moduleCard = event.target.closest("[data-module-open]");
 
-  if (moduleToggle) {
-    toggleModule(moduleToggle.dataset.moduleToggle);
-    return;
+  if (moduleCard) {
+    await openModule(moduleCard.dataset.moduleOpen);
   }
+}
+
+function handleModuleListClick(event) {
+  const lessonButton = event.target.closest("[data-lesson-id]");
 
   if (lessonButton) {
     selectLesson(lessonButton.dataset.lessonId);
@@ -371,8 +438,9 @@ function handleModuleListClick(event) {
 
 function toggleModule(moduleId) {
   if (state.expandedModules.has(moduleId)) {
-    state.expandedModules.delete(moduleId);
+    state.expandedModules.clear();
   } else {
+    state.expandedModules.clear();
     state.expandedModules.add(moduleId);
   }
 
@@ -404,10 +472,24 @@ function getCurrentLesson() {
   return state.flatLessons.find((lesson) => lesson.id === state.currentLessonId) || null;
 }
 
+function getCurrentModule() {
+  if (!state.course || !state.currentModuleId) {
+    return null;
+  }
+
+  return getModuleById(state.currentModuleId);
+}
+
+function getModuleById(moduleId) {
+  return state.course?.modules.find((module) => module.id === moduleId) || null;
+}
+
 function ensureCurrentLessonModuleIsExpanded() {
   const lesson = getCurrentLesson();
 
   if (lesson?.moduleId) {
+    state.currentModuleId = lesson.moduleId;
+    state.expandedModules.clear();
     state.expandedModules.add(lesson.moduleId);
   }
 }

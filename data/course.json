@@ -1,10 +1,11 @@
 {
   "course": {
-    "title": "Curso — Ministério de Louvor",
+    "title": "Escola de Ministros",
     "modules": [
       {
         "id": "trilha-1-1-introdu-o-comece-por-aqui",
         "title": "TRILHA FORMAÇÃO DO MINISTRO — INTRODUÇÃO - Comece por aqui",
+        "thumbnail": "./assets/thumbnails/trilha1-introducao.png",
         "lessons": [
           {
             "id": "1-1-01-introdu-o-escola-de",
@@ -23,6 +24,7 @@
       {
         "id": "trilha-1-1-m-dulo-1-criando-fundamentos",
         "title": "TRILHA FORMAÇÃO DO MINISTRO — MÓDULO 1 - Criando Fundamentos",
+        "thumbnail": "./assets/thumbnails/trilha1-modulo1.png",
         "lessons": [
           {
             "id": "1-1-aula-01-montando-um-bom-r",
@@ -191,6 +193,7 @@
       {
         "id": "trilha-1-1-m-dulo-2-ser-um-ministro-de",
         "title": "TRILHA FORMAÇÃO DO MINISTRO — MÓDULO 2 - Ser um Ministro de Excelência",
+        "thumbnail": "./assets/thumbnails/trilha1-modulo2.png",
         "lessons": [
           {
             "id": "1-1-aula-01-dream-team-viven",
@@ -329,6 +332,7 @@
       {
         "id": "trilha-1-1-m-dulo-3-evoluindo-sua-minis",
         "title": "TRILHA FORMAÇÃO DO MINISTRO — MÓDULO 3 - Evoluindo sua Ministração",
+        "thumbnail": "./assets/thumbnails/trilha1-modulo3.png",
         "lessons": [
           {
             "id": "1-1-aula-01-o-poder-da-m-sica",
@@ -365,6 +369,7 @@
       {
         "id": "trilha-1-1-m-dulo-4-ministra-o-na-pr-t",
         "title": "TRILHA FORMAÇÃO DO MINISTRO — MÓDULO 4 - Ministração na Prática",
+        "thumbnail": "./assets/thumbnails/trilha1-modulo4.png",
         "lessons": [
           {
             "id": "1-1-aula-01-introdu-o-minist",
@@ -459,50 +464,9 @@
         ]
       },
       {
-        "id": "trilha-2",
-        "title": "TRILHA ADORAÇÃO NA PRÁTICA",
-        "lessons": [
-          {
-            "id": "2-aula-1-entrar-com-confian-a",
-            "title": "Aula 1 - Entrar com confiança na Sala do Trono",
-            "type": "video",
-            "driveId": "1jvveQHKcIQSEU7RpwttYgy7FZBTI8Jq3"
-          },
-          {
-            "id": "2-aula-2-sem-zelo-voc-n-o-dur",
-            "title": "Aula 2 - Sem zelo você não dura",
-            "type": "video",
-            "driveId": "1IfGioRC0YZw5FwPD_UukvSJVCiFxZSbj"
-          },
-          {
-            "id": "2-aula-3-conduzindo-a-igreja-p",
-            "title": "Aula 3 - Conduzindo a Igreja para a Adoração",
-            "type": "video",
-            "driveId": "1xJPZPIE7zkvRYJEEsfYGp9CxzAqA1PvQ"
-          },
-          {
-            "id": "2-aula-4-a-beleza-da-arte",
-            "title": "Aula 4 - A Beleza da Arte",
-            "type": "video",
-            "driveId": "1zCHiVb6fKpORoGSOXsOWouvB0_Hr6CpI"
-          },
-          {
-            "id": "2-aula-5-adorar-a-partir-de-qu",
-            "title": "Aula 5 - Adorar a partir de Quem Ele É",
-            "type": "video",
-            "driveId": "189tiXQD-2gorYgy0z67MWML7spg1Ypmz"
-          },
-          {
-            "id": "2-aula-6-excel-ncia-extremam",
-            "title": "Aula 6 - Excelência é extremamente Espiritual",
-            "type": "video",
-            "driveId": "1wd52ZbQYAVQ9gpmdkw6-1RGKyMnfdt5j"
-          }
-        ]
-      },
-      {
         "id": "trilha-3",
-        "title": "TRILHA FORMAÇÃO DO MINISTRO",
+        "title": "TRILHA FORMAÇÃO DO MINISTRO (Lives)",
+        "thumbnail": "./assets/thumbnails/trilha3-lives.png",
         "lessons": [
           {
             "id": "3-9-live-como-conduzir-plenam",
@@ -567,8 +531,52 @@
         ]
       },
       {
+        "id": "trilha-2",
+        "title": "TRILHA ADORAÇÃO NA PRÁTICA",
+        "thumbnail": "./assets/thumbnails/trilha2-adoracao-pratica.png",
+        "lessons": [
+          {
+            "id": "2-aula-1-entrar-com-confian-a",
+            "title": "Aula 1 - Entrar com confiança na Sala do Trono",
+            "type": "video",
+            "driveId": "1jvveQHKcIQSEU7RpwttYgy7FZBTI8Jq3"
+          },
+          {
+            "id": "2-aula-2-sem-zelo-voc-n-o-dur",
+            "title": "Aula 2 - Sem zelo você não dura",
+            "type": "video",
+            "driveId": "1IfGioRC0YZw5FwPD_UukvSJVCiFxZSbj"
+          },
+          {
+            "id": "2-aula-3-conduzindo-a-igreja-p",
+            "title": "Aula 3 - Conduzindo a Igreja para a Adoração",
+            "type": "video",
+            "driveId": "1xJPZPIE7zkvRYJEEsfYGp9CxzAqA1PvQ"
+          },
+          {
+            "id": "2-aula-4-a-beleza-da-arte",
+            "title": "Aula 4 - A Beleza da Arte",
+            "type": "video",
+            "driveId": "1zCHiVb6fKpORoGSOXsOWouvB0_Hr6CpI"
+          },
+          {
+            "id": "2-aula-5-adorar-a-partir-de-qu",
+            "title": "Aula 5 - Adorar a partir de Quem Ele É",
+            "type": "video",
+            "driveId": "189tiXQD-2gorYgy0z67MWML7spg1Ypmz"
+          },
+          {
+            "id": "2-aula-6-excel-ncia-extremam",
+            "title": "Aula 6 - Excelência é extremamente Espiritual",
+            "type": "video",
+            "driveId": "1wd52ZbQYAVQ9gpmdkw6-1RGKyMnfdt5j"
+          }
+        ]
+      },
+      {
         "id": "trilha-4",
         "title": "TRILHA FORMAÇÃO TEOLÓGICA E MINISTERIAL (PARTE I) - Renato Marinoni",
+        "thumbnail": "./assets/thumbnails/trilha4-teologica-parte1.png",
         "lessons": [
           {
             "id": "4-1-aula-01-panorama-da-hist",
@@ -617,6 +625,7 @@
       {
         "id": "trilha-5",
         "title": "TRILHA FORMAÇÃO TEOLÓGICA E MINISTERIAL (PARTE II) - Renato Marinoni",
+        "thumbnail": "./assets/thumbnails/trilha5-teologica-parte2.png",
         "lessons": [
           {
             "id": "5-1-aula-01-o-que-o-grupo-d",
@@ -665,6 +674,7 @@
       {
         "id": "trilha-6",
         "title": "TRILHA FORMAÇÃO TEOLÓGICA E MINISTERIAL (PARTE III) - Renato Marinoni",
+        "thumbnail": "./assets/thumbnails/trilha6-teologica-parte3.png",
         "lessons": [
           {
             "id": "6-1-aula-01-princ-pios-de-ado",
@@ -719,6 +729,7 @@
       {
         "id": "trilha-7",
         "title": "TRILHA ADORAÇÃO PROFÉTICA DOS ÚLTIMOS DIAS - Renato Marinoni",
+        "thumbnail": "./assets/thumbnails/trilha7-adoracao-profetica.png",
         "lessons": [
           {
             "id": "7-1-aula-01-por-que-devemos-no",

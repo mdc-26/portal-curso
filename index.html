@@ -41,13 +41,39 @@
       </div>
     </section>
 
+    <section id="home-view" class="home-view hidden" aria-label="Pagina inicial do curso">
+      <header class="home-header">
+        <div class="home-header-copy">
+          <p class="header-label">Curso</p>
+          <h1 id="home-course-title" class="header-title">Carregando...</h1>
+        </div>
+
+        <div class="header-actions">
+          <button data-theme-toggle class="icon-button" type="button" aria-label="Alternar tema">
+            🌙
+          </button>
+          <button data-logout-button class="button" type="button">Sair</button>
+        </div>
+      </header>
+
+      <div class="home-scroll">
+        <div class="home-section-heading">
+          <h2>Todos os módulos</h2>
+        </div>
+        <div id="home-module-grid" class="module-grid"></div>
+      </div>
+    </section>
+
     <section id="portal-view" class="portal-view hidden" aria-label="Portal do curso">
       <div id="mobile-overlay" class="mobile-overlay hidden"></div>
 
       <aside id="sidebar" class="sidebar" aria-label="Navegacao do curso">
-        <div class="sidebar-header">
-          <p class="sidebar-eyebrow">Curso</p>
-          <h2 id="course-title" class="sidebar-title">Carregando...</h2>
+        <div class="sidebar-header player-sidebar-header">
+          <button id="back-to-home-button" class="button sidebar-back-button" type="button">← Voltar</button>
+          <div class="sidebar-copy">
+            <p class="sidebar-eyebrow">Módulo atual</p>
+            <h2 id="current-module-title" class="sidebar-title">Carregando...</h2>
+          </div>
         </div>
         <div id="module-list" class="module-list"></div>
       </aside>
@@ -65,10 +91,10 @@
           </div>
 
           <div class="header-actions">
-            <button id="theme-toggle" class="icon-button" type="button" aria-label="Alternar tema">
+            <button data-theme-toggle class="icon-button" type="button" aria-label="Alternar tema">
               🌙
             </button>
-            <button id="logout-button" class="button" type="button">Sair</button>
+            <button data-logout-button class="button" type="button">Sair</button>
           </div>
         </header>
 
