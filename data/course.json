@@ -5,1056 +5,868 @@
       {
         "id": "trilha-1",
         "title": "TRILHA FORMAÇÃO DO MINISTRO",
-        "sections": [
+        "lessons": [
           {
-            "id": "1-m-dulo-1-criando-fundamentos",
-            "title": "MÓDULO 1 - Criando Fundamentos",
-            "lessons": [
-              {
-                "id": "1-1-aula-01-montando-um-bom-r",
-                "title": "Aula 01 - Montando um bom repertório (Sessão 01)",
-                "type": "video",
-                "driveId": "1m1Zn4KM727JTjbNxJJKkDy12NgQAQQKF"
-              },
-              {
-                "id": "1-10-aula-10-aprimorando-o-lo",
-                "title": "Aula 10 - Aprimorando o Louvor (Parte 01) (Sessão 02)",
-                "type": "video",
-                "driveId": "1fhrwb0VIQVB_kT1KGreyqn9-SKusyIns"
-              },
-              {
-                "id": "1-11-aula-11-aprimorando-o-lo",
-                "title": "Aula 11 - Aprimorando o Louvor (Parte 02) (Sessão 01)",
-                "type": "video",
-                "driveId": "1ntkpnk-gGEW128Z3B-eaX_7_a50aWeou"
-              },
-              {
-                "id": "1-12-aula-12-aprimorando-o-lo",
-                "title": "Aula 12 - Aprimorando o Louvor (Parte 02) (Sessão 02)",
-                "type": "video",
-                "driveId": "1gCW8KsAq943Ol75DMyWRtXAQPhs4m7yj"
-              },
-              {
-                "id": "1-13-aula-13-aprimorando-o-lo",
-                "title": "Aula 13 - Aprimorando o Louvor (Parte 02) (Sessão 03)",
-                "type": "video",
-                "driveId": "1TIbVkcCP8ibpFavMBU_j8bj861Hj-XM5"
-              },
-              {
-                "id": "1-14-aula-14-promessa-x-proce",
-                "title": "Aula 14 - Promessa x Processo (Sessão 01)",
-                "type": "video",
-                "driveId": "1jWchNrN_6sgFbdfejmJX8ZQ2_BYVJJ9x"
-              },
-              {
-                "id": "1-15-aula-15-promessa-x-proce",
-                "title": "Aula 15 - Promessa x Processo (Sessão 02)",
-                "type": "video",
-                "driveId": "1mvj_QZLYZ3W5gjjBAdFE25IY-iaWhTSW"
-              },
-              {
-                "id": "1-16-aula-16-promessa-x-proce",
-                "title": "Aula 16 - Promessa x Processo (Sessão 03)",
-                "type": "video",
-                "driveId": "1-_Uvk4WQ3K-kIdC4mtD3Qit5TPamWSAd"
-              },
-              {
-                "id": "1-17-aula-17-composi-o-sess",
-                "title": "Aula 17 - Composição (Sessão 01)",
-                "type": "video",
-                "driveId": "1-szWv2QAqWFl2sANe-zEpzgN70Z6_pqJ"
-              },
-              {
-                "id": "1-18-aula-18-composi-o-sess",
-                "title": "Aula 18 - Composição (Sessão 02)",
-                "type": "video",
-                "driveId": "1arBGGmuDVmaG11Mm8NWIV-KLUzNK89v_"
-              },
-              {
-                "id": "1-19-aula-19-composi-o-sess",
-                "title": "Aula 19 - Composição (Sessão 03)",
-                "type": "video",
-                "driveId": "1xcAGNBpajppXhOiaEHDccWD50PsFo2ex"
-              },
-              {
-                "id": "1-2-aula-02-montando-um-bom-r",
-                "title": "Aula 02 - Montando um bom repertório (Sessão 02)",
-                "type": "video",
-                "driveId": "1YcCGU6Krbb-6fTKxti54RH2Sevfqp0A0"
-              },
-              {
-                "id": "1-20-aula-20-conduta-do-minis",
-                "title": "Aula 20 - Conduta do Ministro de Louvor (Sessão 01)",
-                "type": "video",
-                "driveId": "1JKiVPu0jnZ9VZBRMfKougCK8OjVMcJFv"
-              },
-              {
-                "id": "1-21-aula-21-conduta-do-minis",
-                "title": "Aula 21 - Conduta do Ministro de Louvor (Sessão 02)",
-                "type": "video",
-                "driveId": "1dz_xV-IAuUiC5R2BScALsBEsLwHzxKBk"
-              },
-              {
-                "id": "1-22-aula-22-conduta-do-minis",
-                "title": "Aula 22 - Conduta do Ministro de Louvor (Sessão 03)",
-                "type": "video",
-                "driveId": "16xBCv-O3hee9j60qVp_lkzs8w57lwr74"
-              },
-              {
-                "id": "1-23-aula-23-aprimorando-as-v",
-                "title": "Aula 23 - Aprimorando as Versões (Sessão 01)",
-                "type": "video",
-                "driveId": "1PlH3NALdDEWFEB8pqHFmI9O2ZalEpKt4"
-              },
-              {
-                "id": "1-24-aula-24-aprimorando-as-v",
-                "title": "Aula 24 - Aprimorando as Versões (Sessão 02)",
-                "type": "video",
-                "driveId": "1byOXSJxl3APQmzCeM7QLtFM18W1Q8Ai-"
-              },
-              {
-                "id": "1-25-aula-25-aprimorando-as-v",
-                "title": "Aula 25 - Aprimorando as Versões (Sessão 03)",
-                "type": "video",
-                "driveId": "1dVlNjgXO4PyowxyLMLykTsKoWD_sLBND"
-              },
-              {
-                "id": "1-26-aula-26-respondendo-ao-a",
-                "title": "Aula 26 - Respondendo ao Amor de Deus (Sessão 01)",
-                "type": "video",
-                "driveId": "1K9plFMkRl1x74y-tBK17kecMIz9RjQqa"
-              },
-              {
-                "id": "1-27-aula-27-respondendo-ao-a",
-                "title": "Aula 27 - Respondendo ao Amor de Deus (Sessão 02)",
-                "type": "video",
-                "driveId": "1xNA3-QV2mebNMY4m9d5tG_L6u7XTG-GR"
-              },
-              {
-                "id": "1-3-aula-03-montando-um-bom-r",
-                "title": "Aula 03 - Montando um bom repertório (Sessão 03)",
-                "type": "video",
-                "driveId": "1Dzv1ZDGcvzqnW7bdM5ZihocG4SS3SVv7"
-              },
-              {
-                "id": "1-4-aula-04-entendendo-o-prop",
-                "title": "Aula 04 - Entendendo o Propósito (Sessão 01)",
-                "type": "video",
-                "driveId": "1VkR2Hqzj4Sk08GPWJtA9wQ8A99wpssVG"
-              },
-              {
-                "id": "1-5-aula-05-entendendo-o-prop",
-                "title": "Aula 05 - Entendendo o Propósito (Sessão 02)",
-                "type": "video",
-                "driveId": "1dNdszEaF8vIkjbyzOKyzVoZtP17CSts3"
-              },
-              {
-                "id": "1-6-aula-06-un-o-excel-ncia",
-                "title": "Aula 06 - Unção, excelência e perseverança",
-                "type": "video",
-                "driveId": "1__fW5ow6evzXUzkr-zEazSX2NS99R9pq"
-              },
-              {
-                "id": "1-7-aula-07-cora-o-x-talento",
-                "title": "Aula 07 - Coração x Talento (Sessão 01)",
-                "type": "video",
-                "driveId": "1Ho26PjdtGULbtevidHfbjFaw6iXIiljM"
-              },
-              {
-                "id": "1-8-aula-08-cora-o-x-talento",
-                "title": "Aula 08 - Coração x Talento (Sessão 02)",
-                "type": "video",
-                "driveId": "1pJ4It8KjXPLw5_giKndCpvGG6KpmP-tf"
-              },
-              {
-                "id": "1-9-aula-09-aprimorando-o-lou",
-                "title": "Aula 09 - Aprimorando o Louvor (Parte 01) (Sessão 01)",
-                "type": "video",
-                "driveId": "1V77fyk33CUkKDlq4ojuUUthjqBxunr7R"
-              }
-            ]
+            "id": "1-1-aula-01-montando-um-bom-r",
+            "title": "Aula 01 - Montando um bom repertório (Sessão 01)",
+            "type": "video",
+            "driveId": "1m1Zn4KM727JTjbNxJJKkDy12NgQAQQKF",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
           },
           {
-            "id": "1-m-dulo-4-ministra-o-na-pr-t",
-            "title": "MÓDULO 4 - Ministração na Prática",
-            "lessons": [
-              {
-                "id": "1-1-aula-01-introdu-o-minist",
-                "title": "Aula 01 - Introdução Ministração na Prática",
-                "type": "video",
-                "driveId": "1oT7pN52ym0Ts_EzQcunUEFsLunEjw4x7"
-              },
-              {
-                "id": "1-10-aula-10-n-o-uso-vs-o-qu",
-                "title": "Aula 10 - Não uso VS, o que fazer",
-                "type": "video",
-                "driveId": "1D1HdLIG9BB75K8s8z43od6B6b_MQ7P5f"
-              },
-              {
-                "id": "1-11-aula-11-m-sicas-r-pidas",
-                "title": "Aula 11 - Músicas rápidas e lentas",
-                "type": "video",
-                "driveId": "1HSsXj96I3-FoOMhIc1Gsg-qr-AxdchzK"
-              },
-              {
-                "id": "1-12-aula-12-como-eu-fa-o-os",
-                "title": "Aula 12 - Como eu faço os Medleys",
-                "type": "video",
-                "driveId": "1dNx4GApO7JeGDjaUKnSh2m2YGM-xWb_I"
-              },
-              {
-                "id": "1-13-aula-13-comunica-o-com",
-                "title": "Aula 13 - Comunicação com a Banda",
-                "type": "video",
-                "driveId": "1Bq6MYK2qOIl7gd5nc9qxDqLKHF0sa6a5"
-              },
-              {
-                "id": "1-14-aula-14-postura-no-momen",
-                "title": "Aula 14 - Postura no momento do Louvor",
-                "type": "video",
-                "driveId": "1NNMiCok09GiPm7Iaya1EXIarpnukFD1g"
-              },
-              {
-                "id": "1-15-aula-15-posicionamento-t",
-                "title": "Aula 15 - Posicionamento Técnico",
-                "type": "video",
-                "driveId": "1sa0THCZDhP-8ZgFHgi9Bzsb6Ft5ArHpt"
-              },
-              {
-                "id": "1-2-aula-02-passagem-de-som",
-                "title": "Aula 02 - Passagem de Som (Parte 01)",
-                "type": "video",
-                "driveId": "16EyJiKfAyfyBrwEqaZySBPVn7xYwGAGY"
-              },
-              {
-                "id": "1-3-aula-03-passagem-de-som",
-                "title": "Aula 03 - Passagem de Som (Parte 02)",
-                "type": "video",
-                "driveId": "1V8vRDMar5V9IYwfQbr2WX7QoBI8qs0jW"
-              },
-              {
-                "id": "1-4-aula-04-click-e-vs-na-pr",
-                "title": "Aula 04 - Click e VS na prática",
-                "type": "video",
-                "driveId": "1kMYQKjN3p_68WifZa_NS3_ZfluWrbIYO"
-              },
-              {
-                "id": "1-5-aula-05-formas-de-abrir-o",
-                "title": "Aula 05 - Formas de abrir o culto",
-                "type": "video",
-                "driveId": "1QgiyTTHs6OFcgqMJazOfS42JPMeq6RA5"
-              },
-              {
-                "id": "1-6-aula-06-divis-o-de-vozes",
-                "title": "Aula 06 - Divisão de vozes, intensidade, dinâmica, crescimen",
-                "type": "video",
-                "driveId": "1SD4dnJq4EmiWhrkUjoSnBjaVsfK_cc6c"
-              },
-              {
-                "id": "1-7-aula-07-divis-o-de-vozes",
-                "title": "Aula 07 - Divisão de vozes (Parte 02)",
-                "type": "video",
-                "driveId": "1ivBfyfIRKIxKOguxkEDLxnWjMp7dJSnM"
-              },
-              {
-                "id": "1-8-aula-08-formas-de-abrir-o",
-                "title": "Aula 08 - Formas de abrir o culto (Parte 02)",
-                "type": "video",
-                "driveId": "1MWy-X-GCGXp90fpGA51YDGRUZ1-hldRi"
-              },
-              {
-                "id": "1-9-aula-09-o-que-fazer-quand",
-                "title": "Aula 09 - O que fazer quando perder o tempo da música",
-                "type": "video",
-                "driveId": "1_n1AylNmc4fAZHB-gLvJRAgh0UQkVPNH"
-              }
-            ]
+            "id": "1-10-aula-10-aprimorando-o-lo",
+            "title": "Aula 10 - Aprimorando o Louvor (Parte 01) (Sessão 02)",
+            "type": "video",
+            "driveId": "1fhrwb0VIQVB_kT1KGreyqn9-SKusyIns",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
           },
           {
-            "id": "1-m-dulo-3-evoluindo-sua-minis",
-            "title": "MÓDULO 3 - Evoluindo sua Ministração",
-            "lessons": [
-              {
-                "id": "1-1-aula-01-o-poder-da-m-sica",
-                "title": "Aula 01 - O Poder da Música",
-                "type": "video",
-                "driveId": "1jsRdT_2l7NkLI9aP_Umx9v2rOYWcXWsh"
-              },
-              {
-                "id": "1-2-aula-02-desvendando-os-se",
-                "title": "Aula 02 - Desvendando os segredos dos Medleys",
-                "type": "video",
-                "driveId": "1FJwuqmgC_k1U9abo4jiwRqRWGlGKVW_5"
-              },
-              {
-                "id": "1-3-aula-03-o-que-ser-um-mi",
-                "title": "Aula 03 - O que é ser um MINISTRO",
-                "type": "video",
-                "driveId": "1ESETXeUEr8dRrywnij_qocj_HlbFFFYs"
-              },
-              {
-                "id": "1-4-aula-04-ferramentas-e-dic",
-                "title": "Aula 04 - Ferramentas e dicas para sua evolução",
-                "type": "video",
-                "driveId": "1DjDrq8yXEBJQCVqnfdu-IDPppnYuy75W"
-              },
-              {
-                "id": "1-5-aula-05-construindo-o-amb",
-                "title": "Aula 05 - Construindo o ambiente para a presença de Deus",
-                "type": "video",
-                "driveId": "1MLYOVst7zZfha0LiO7u8F3PNxS1ItNL-"
-              }
-            ]
+            "id": "1-11-aula-11-aprimorando-o-lo",
+            "title": "Aula 11 - Aprimorando o Louvor (Parte 02) (Sessão 01)",
+            "type": "video",
+            "driveId": "1ntkpnk-gGEW128Z3B-eaX_7_a50aWeou",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
           },
           {
-            "id": "1-m-dulo-2-ser-um-ministro-de",
-            "title": "MÓDULO 2 - Ser um Ministro de Excelência",
-            "lessons": [
-              {
-                "id": "1-1-aula-01-dream-team-viven",
-                "title": "Aula 01 - Dream Team_ vivendo em um só entendimento (Sessão 01)",
-                "type": "video",
-                "driveId": "1RKrV-waVWKIpT4VgfsRsBnoY4gxuDyBP"
-              },
-              {
-                "id": "1-10-aula-10-lideran-a-parte",
-                "title": "Aula 10 - Liderança (Parte 02) (Sessão 02)",
-                "type": "video",
-                "driveId": "1lHIfvVok8V_ofx1ao2we-9-hYpBChyN4"
-              },
-              {
-                "id": "1-11-aula-11-aprimorando-o-lo",
-                "title": "Aula 11 - Aprimorando o Louvor (Parte 01) (Sessão 01)",
-                "type": "video",
-                "driveId": "1S6Ygo0jPB3jhDWjCT-aUNcBsgpWHJxn-"
-              },
-              {
-                "id": "1-12-aula-12-aprimorando-o-lo",
-                "title": "Aula 12 - Aprimorando o Louvor (Parte 01) (Sessão 02)",
-                "type": "video",
-                "driveId": "19MWFspcwIkYAxDws4Kx3_7dako8c6b8W"
-              },
-              {
-                "id": "1-13-aula-13-aprimorando-o-lo",
-                "title": "Aula 13 - Aprimorando o Louvor (Parte 02) (Sessão 01)",
-                "type": "video",
-                "driveId": "1RUS-M2Nfs4SYojS4H3aLhCOe6qASMFOY"
-              },
-              {
-                "id": "1-14-aula-14-aprimorando-o-lo",
-                "title": "Aula 14 - Aprimorando o Louvor (Parte 02) (Sessão 02)",
-                "type": "video",
-                "driveId": "1trbG7EZVoiJxp9uuoIUnuJtuRpuVqERd"
-              },
-              {
-                "id": "1-15-aula-15-adorando-com-a-p",
-                "title": "Aula 15 - Adorando com a Palavra (Sessão 01)",
-                "type": "video",
-                "driveId": "1LYALM51x_-vTynOTPcy999Xmi-XOOebd"
-              },
-              {
-                "id": "1-16-aula-16-adorando-com-a-p",
-                "title": "Aula 16 - Adorando com a Palavra (Sessão 02)",
-                "type": "video",
-                "driveId": "1mfS8Nxkc9G3WaGI1C0UNx1bd9UQ8-VW1"
-              },
-              {
-                "id": "1-17-aula-17-humildade-e-orgu",
-                "title": "Aula 17 - Humildade e Orgulho (Sessão 01)",
-                "type": "video",
-                "driveId": "1LdRp8sEWSNnY16EArZg7TOUyklrKo-Qe"
-              },
-              {
-                "id": "1-18-aula-18-humildade-e-orgu",
-                "title": "Aula 18 - Humildade e Orgulho (Sessão 02)",
-                "type": "video",
-                "driveId": "1TACqhR4486gorsd4-5hzDW8kB-H8lrPF"
-              },
-              {
-                "id": "1-19-aula-19-espont-neos-fund",
-                "title": "Aula 19 - Espontâneos Fundamentos (Sessão 01)",
-                "type": "video",
-                "driveId": "1mfPO7-dNRXeHGSisiJMxBHtqw1WuVtXh"
-              },
-              {
-                "id": "1-2-aula-02-dream-team-vivend",
-                "title": "Aula 02 - Dream Team vivendo em um só entendimento (Sessão 02)",
-                "type": "video",
-                "driveId": "1HQHcv4RGZo9zXsJFcNykvB_t6egOAAnT"
-              },
-              {
-                "id": "1-20-aula-20-espont-neos-fund",
-                "title": "Aula 20 - Espontâneos Fundamentos (Sessão 02)",
-                "type": "video",
-                "driveId": "1jEoR02JyenM-HVfawAQD_sHjjRh4bPCh"
-              },
-              {
-                "id": "1-21-aula-21-espont-neo-part",
-                "title": "Aula 21 - Espontâneo (Parte 02) (Sessão 01)",
-                "type": "video",
-                "driveId": "1MKVVZByze8hCnta2F6ekvBLcEUjy5Oih"
-              },
-              {
-                "id": "1-22-aula-22-espont-neo-part",
-                "title": "Aula 22 - Espontâneo (Parte 02) (Sessão 02)",
-                "type": "video",
-                "driveId": "1B3XqI6m_XutJs3jslA1lT9QGzgmtGG-C"
-              },
-              {
-                "id": "1-3-aula-03-dream-team-vivend",
-                "title": "Aula 03 - Dream Team vivendo em um só entendimento (Sessão 03)",
-                "type": "video",
-                "driveId": "1bhpf_gSCenqb9B1QkT7KX2TrU7ycI1j6"
-              },
-              {
-                "id": "1-4-aula-04-pr-requisito-de",
-                "title": "Aula 04 - Pré-requisito de um mensageiro (Sessão 01)",
-                "type": "video",
-                "driveId": "1PrnDnibqn7x7H1o_BIP6JZPFO493h3Ax"
-              },
-              {
-                "id": "1-5-aula-05-pr-requisito-de",
-                "title": "Aula 05 - Pré-requisito de um mensageiro (Sessão 02)",
-                "type": "video",
-                "driveId": "1kJ7xGfOO7_aQsLKumJIVRvZ70DxVwj2a"
-              },
-              {
-                "id": "1-6-aula-06-pr-requisito-de",
-                "title": "Aula 06 - Pré-requisito de um mensageiro (Sessão 03)",
-                "type": "video",
-                "driveId": "13bpOeEmsHtKzJgabKjrkwd6JvyqHQmhn"
-              },
-              {
-                "id": "1-7-aula-07-lideran-a-parte",
-                "title": "Aula 07 - Liderança (Parte 01) (Sessão 01)",
-                "type": "video",
-                "driveId": "1I0q7lcWcdoVQjV3DqWQAB95IqlPvWhBo"
-              },
-              {
-                "id": "1-8-aula-08-lideran-a-parte",
-                "title": "Aula 08 - Liderança (Parte 01) (Sessão 02)",
-                "type": "video",
-                "driveId": "1d4D-zfKFChOjDeeGXc_Cw8E4Ll-XyCUJ"
-              },
-              {
-                "id": "1-9-aula-09-lideran-a-parte",
-                "title": "Aula 09 - Liderança (Parte 02) (Sessão 01)",
-                "type": "video",
-                "driveId": "1ftAqBS1JqMQB601j11L4lSlGdfKlwYFu"
-              }
-            ]
+            "id": "1-12-aula-12-aprimorando-o-lo",
+            "title": "Aula 12 - Aprimorando o Louvor (Parte 02) (Sessão 02)",
+            "type": "video",
+            "driveId": "1gCW8KsAq943Ol75DMyWRtXAQPhs4m7yj",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
           },
           {
-            "id": "1-introdu-o-comece-por-aqui",
-            "title": "INTRODUÇÃO - Comece por aqui",
-            "lessons": [
-              {
-                "id": "1-1-01-introdu-o-escola-de",
-                "title": "01 - Introdução à Escola de Ministros",
-                "type": "video",
-                "driveId": "1RGI0wP_V9b8QlD31RQ3R98wNhVUEhn0L"
-              },
-              {
-                "id": "1-2-02-miss-o-vis-o-e-valore",
-                "title": "02 - Missão, Visão e Valores do seu Ministério",
-                "type": "video",
-                "driveId": "1D8rKIY7WcP5BDcFkvfHytudUz16fVZKj"
-              }
-            ]
+            "id": "1-13-aula-13-aprimorando-o-lo",
+            "title": "Aula 13 - Aprimorando o Louvor (Parte 02) (Sessão 03)",
+            "type": "video",
+            "driveId": "1TIbVkcCP8ibpFavMBU_j8bj861Hj-XM5",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-14-aula-14-promessa-x-proce",
+            "title": "Aula 14 - Promessa x Processo (Sessão 01)",
+            "type": "video",
+            "driveId": "1jWchNrN_6sgFbdfejmJX8ZQ2_BYVJJ9x",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-15-aula-15-promessa-x-proce",
+            "title": "Aula 15 - Promessa x Processo (Sessão 02)",
+            "type": "video",
+            "driveId": "1mvj_QZLYZ3W5gjjBAdFE25IY-iaWhTSW",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-16-aula-16-promessa-x-proce",
+            "title": "Aula 16 - Promessa x Processo (Sessão 03)",
+            "type": "video",
+            "driveId": "1-_Uvk4WQ3K-kIdC4mtD3Qit5TPamWSAd",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-17-aula-17-composi-o-sess",
+            "title": "Aula 17 - Composição (Sessão 01)",
+            "type": "video",
+            "driveId": "1-szWv2QAqWFl2sANe-zEpzgN70Z6_pqJ",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-18-aula-18-composi-o-sess",
+            "title": "Aula 18 - Composição (Sessão 02)",
+            "type": "video",
+            "driveId": "1arBGGmuDVmaG11Mm8NWIV-KLUzNK89v_",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-19-aula-19-composi-o-sess",
+            "title": "Aula 19 - Composição (Sessão 03)",
+            "type": "video",
+            "driveId": "1xcAGNBpajppXhOiaEHDccWD50PsFo2ex",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-2-aula-02-montando-um-bom-r",
+            "title": "Aula 02 - Montando um bom repertório (Sessão 02)",
+            "type": "video",
+            "driveId": "1YcCGU6Krbb-6fTKxti54RH2Sevfqp0A0",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-20-aula-20-conduta-do-minis",
+            "title": "Aula 20 - Conduta do Ministro de Louvor (Sessão 01)",
+            "type": "video",
+            "driveId": "1JKiVPu0jnZ9VZBRMfKougCK8OjVMcJFv",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-21-aula-21-conduta-do-minis",
+            "title": "Aula 21 - Conduta do Ministro de Louvor (Sessão 02)",
+            "type": "video",
+            "driveId": "1dz_xV-IAuUiC5R2BScALsBEsLwHzxKBk",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-22-aula-22-conduta-do-minis",
+            "title": "Aula 22 - Conduta do Ministro de Louvor (Sessão 03)",
+            "type": "video",
+            "driveId": "16xBCv-O3hee9j60qVp_lkzs8w57lwr74",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-23-aula-23-aprimorando-as-v",
+            "title": "Aula 23 - Aprimorando as Versões (Sessão 01)",
+            "type": "video",
+            "driveId": "1PlH3NALdDEWFEB8pqHFmI9O2ZalEpKt4",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-24-aula-24-aprimorando-as-v",
+            "title": "Aula 24 - Aprimorando as Versões (Sessão 02)",
+            "type": "video",
+            "driveId": "1byOXSJxl3APQmzCeM7QLtFM18W1Q8Ai-",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-25-aula-25-aprimorando-as-v",
+            "title": "Aula 25 - Aprimorando as Versões (Sessão 03)",
+            "type": "video",
+            "driveId": "1dVlNjgXO4PyowxyLMLykTsKoWD_sLBND",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-26-aula-26-respondendo-ao-a",
+            "title": "Aula 26 - Respondendo ao Amor de Deus (Sessão 01)",
+            "type": "video",
+            "driveId": "1K9plFMkRl1x74y-tBK17kecMIz9RjQqa",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-27-aula-27-respondendo-ao-a",
+            "title": "Aula 27 - Respondendo ao Amor de Deus (Sessão 02)",
+            "type": "video",
+            "driveId": "1xNA3-QV2mebNMY4m9d5tG_L6u7XTG-GR",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-3-aula-03-montando-um-bom-r",
+            "title": "Aula 03 - Montando um bom repertório (Sessão 03)",
+            "type": "video",
+            "driveId": "1Dzv1ZDGcvzqnW7bdM5ZihocG4SS3SVv7",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-4-aula-04-entendendo-o-prop",
+            "title": "Aula 04 - Entendendo o Propósito (Sessão 01)",
+            "type": "video",
+            "driveId": "1VkR2Hqzj4Sk08GPWJtA9wQ8A99wpssVG",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-5-aula-05-entendendo-o-prop",
+            "title": "Aula 05 - Entendendo o Propósito (Sessão 02)",
+            "type": "video",
+            "driveId": "1dNdszEaF8vIkjbyzOKyzVoZtP17CSts3",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-6-aula-06-un-o-excel-ncia",
+            "title": "Aula 06 - Unção, excelência e perseverança",
+            "type": "video",
+            "driveId": "1__fW5ow6evzXUzkr-zEazSX2NS99R9pq",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-7-aula-07-cora-o-x-talento",
+            "title": "Aula 07 - Coração x Talento (Sessão 01)",
+            "type": "video",
+            "driveId": "1Ho26PjdtGULbtevidHfbjFaw6iXIiljM",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-8-aula-08-cora-o-x-talento",
+            "title": "Aula 08 - Coração x Talento (Sessão 02)",
+            "type": "video",
+            "driveId": "1pJ4It8KjXPLw5_giKndCpvGG6KpmP-tf",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-9-aula-09-aprimorando-o-lou",
+            "title": "Aula 09 - Aprimorando o Louvor (Parte 01) (Sessão 01)",
+            "type": "video",
+            "driveId": "1V77fyk33CUkKDlq4ojuUUthjqBxunr7R",
+            "sectionTitle": "MÓDULO 1 - Criando Fundamentos"
+          },
+          {
+            "id": "1-1-aula-01-introdu-o-minist",
+            "title": "Aula 01 - Introdução Ministração na Prática",
+            "type": "video",
+            "driveId": "1oT7pN52ym0Ts_EzQcunUEFsLunEjw4x7",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-10-aula-10-n-o-uso-vs-o-qu",
+            "title": "Aula 10 - Não uso VS, o que fazer",
+            "type": "video",
+            "driveId": "1D1HdLIG9BB75K8s8z43od6B6b_MQ7P5f",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-11-aula-11-m-sicas-r-pidas",
+            "title": "Aula 11 - Músicas rápidas e lentas",
+            "type": "video",
+            "driveId": "1HSsXj96I3-FoOMhIc1Gsg-qr-AxdchzK",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-12-aula-12-como-eu-fa-o-os",
+            "title": "Aula 12 - Como eu faço os Medleys",
+            "type": "video",
+            "driveId": "1dNx4GApO7JeGDjaUKnSh2m2YGM-xWb_I",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-13-aula-13-comunica-o-com",
+            "title": "Aula 13 - Comunicação com a Banda",
+            "type": "video",
+            "driveId": "1Bq6MYK2qOIl7gd5nc9qxDqLKHF0sa6a5",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-14-aula-14-postura-no-momen",
+            "title": "Aula 14 - Postura no momento do Louvor",
+            "type": "video",
+            "driveId": "1NNMiCok09GiPm7Iaya1EXIarpnukFD1g",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-15-aula-15-posicionamento-t",
+            "title": "Aula 15 - Posicionamento Técnico",
+            "type": "video",
+            "driveId": "1sa0THCZDhP-8ZgFHgi9Bzsb6Ft5ArHpt",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-2-aula-02-passagem-de-som",
+            "title": "Aula 02 - Passagem de Som (Parte 01)",
+            "type": "video",
+            "driveId": "16EyJiKfAyfyBrwEqaZySBPVn7xYwGAGY",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-3-aula-03-passagem-de-som",
+            "title": "Aula 03 - Passagem de Som (Parte 02)",
+            "type": "video",
+            "driveId": "1V8vRDMar5V9IYwfQbr2WX7QoBI8qs0jW",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-4-aula-04-click-e-vs-na-pr",
+            "title": "Aula 04 - Click e VS na prática",
+            "type": "video",
+            "driveId": "1kMYQKjN3p_68WifZa_NS3_ZfluWrbIYO",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-5-aula-05-formas-de-abrir-o",
+            "title": "Aula 05 - Formas de abrir o culto",
+            "type": "video",
+            "driveId": "1QgiyTTHs6OFcgqMJazOfS42JPMeq6RA5",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-6-aula-06-divis-o-de-vozes",
+            "title": "Aula 06 - Divisão de vozes, intensidade, dinâmica, crescimen",
+            "type": "video",
+            "driveId": "1SD4dnJq4EmiWhrkUjoSnBjaVsfK_cc6c",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-7-aula-07-divis-o-de-vozes",
+            "title": "Aula 07 - Divisão de vozes (Parte 02)",
+            "type": "video",
+            "driveId": "1ivBfyfIRKIxKOguxkEDLxnWjMp7dJSnM",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-8-aula-08-formas-de-abrir-o",
+            "title": "Aula 08 - Formas de abrir o culto (Parte 02)",
+            "type": "video",
+            "driveId": "1MWy-X-GCGXp90fpGA51YDGRUZ1-hldRi",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-9-aula-09-o-que-fazer-quand",
+            "title": "Aula 09 - O que fazer quando perder o tempo da música",
+            "type": "video",
+            "driveId": "1_n1AylNmc4fAZHB-gLvJRAgh0UQkVPNH",
+            "sectionTitle": "MÓDULO 4 - Ministração na Prática"
+          },
+          {
+            "id": "1-1-aula-01-o-poder-da-m-sica",
+            "title": "Aula 01 - O Poder da Música",
+            "type": "video",
+            "driveId": "1jsRdT_2l7NkLI9aP_Umx9v2rOYWcXWsh",
+            "sectionTitle": "MÓDULO 3 - Evoluindo sua Ministração"
+          },
+          {
+            "id": "1-2-aula-02-desvendando-os-se",
+            "title": "Aula 02 - Desvendando os segredos dos Medleys",
+            "type": "video",
+            "driveId": "1FJwuqmgC_k1U9abo4jiwRqRWGlGKVW_5",
+            "sectionTitle": "MÓDULO 3 - Evoluindo sua Ministração"
+          },
+          {
+            "id": "1-3-aula-03-o-que-ser-um-mi",
+            "title": "Aula 03 - O que é ser um MINISTRO",
+            "type": "video",
+            "driveId": "1ESETXeUEr8dRrywnij_qocj_HlbFFFYs",
+            "sectionTitle": "MÓDULO 3 - Evoluindo sua Ministração"
+          },
+          {
+            "id": "1-4-aula-04-ferramentas-e-dic",
+            "title": "Aula 04 - Ferramentas e dicas para sua evolução",
+            "type": "video",
+            "driveId": "1DjDrq8yXEBJQCVqnfdu-IDPppnYuy75W",
+            "sectionTitle": "MÓDULO 3 - Evoluindo sua Ministração"
+          },
+          {
+            "id": "1-5-aula-05-construindo-o-amb",
+            "title": "Aula 05 - Construindo o ambiente para a presença de Deus",
+            "type": "video",
+            "driveId": "1MLYOVst7zZfha0LiO7u8F3PNxS1ItNL-",
+            "sectionTitle": "MÓDULO 3 - Evoluindo sua Ministração"
+          },
+          {
+            "id": "1-1-aula-01-dream-team-viven",
+            "title": "Aula 01 - Dream Team_ vivendo em um só entendimento (Sessão 01)",
+            "type": "video",
+            "driveId": "1RKrV-waVWKIpT4VgfsRsBnoY4gxuDyBP",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-10-aula-10-lideran-a-parte",
+            "title": "Aula 10 - Liderança (Parte 02) (Sessão 02)",
+            "type": "video",
+            "driveId": "1lHIfvVok8V_ofx1ao2we-9-hYpBChyN4",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-11-aula-11-aprimorando-o-lo",
+            "title": "Aula 11 - Aprimorando o Louvor (Parte 01) (Sessão 01)",
+            "type": "video",
+            "driveId": "1S6Ygo0jPB3jhDWjCT-aUNcBsgpWHJxn-",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-12-aula-12-aprimorando-o-lo",
+            "title": "Aula 12 - Aprimorando o Louvor (Parte 01) (Sessão 02)",
+            "type": "video",
+            "driveId": "19MWFspcwIkYAxDws4Kx3_7dako8c6b8W",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-13-aula-13-aprimorando-o-lo",
+            "title": "Aula 13 - Aprimorando o Louvor (Parte 02) (Sessão 01)",
+            "type": "video",
+            "driveId": "1RUS-M2Nfs4SYojS4H3aLhCOe6qASMFOY",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-14-aula-14-aprimorando-o-lo",
+            "title": "Aula 14 - Aprimorando o Louvor (Parte 02) (Sessão 02)",
+            "type": "video",
+            "driveId": "1trbG7EZVoiJxp9uuoIUnuJtuRpuVqERd",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-15-aula-15-adorando-com-a-p",
+            "title": "Aula 15 - Adorando com a Palavra (Sessão 01)",
+            "type": "video",
+            "driveId": "1LYALM51x_-vTynOTPcy999Xmi-XOOebd",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-16-aula-16-adorando-com-a-p",
+            "title": "Aula 16 - Adorando com a Palavra (Sessão 02)",
+            "type": "video",
+            "driveId": "1mfS8Nxkc9G3WaGI1C0UNx1bd9UQ8-VW1",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-17-aula-17-humildade-e-orgu",
+            "title": "Aula 17 - Humildade e Orgulho (Sessão 01)",
+            "type": "video",
+            "driveId": "1LdRp8sEWSNnY16EArZg7TOUyklrKo-Qe",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-18-aula-18-humildade-e-orgu",
+            "title": "Aula 18 - Humildade e Orgulho (Sessão 02)",
+            "type": "video",
+            "driveId": "1TACqhR4486gorsd4-5hzDW8kB-H8lrPF",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-19-aula-19-espont-neos-fund",
+            "title": "Aula 19 - Espontâneos Fundamentos (Sessão 01)",
+            "type": "video",
+            "driveId": "1mfPO7-dNRXeHGSisiJMxBHtqw1WuVtXh",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-2-aula-02-dream-team-vivend",
+            "title": "Aula 02 - Dream Team vivendo em um só entendimento (Sessão 02)",
+            "type": "video",
+            "driveId": "1HQHcv4RGZo9zXsJFcNykvB_t6egOAAnT",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-20-aula-20-espont-neos-fund",
+            "title": "Aula 20 - Espontâneos Fundamentos (Sessão 02)",
+            "type": "video",
+            "driveId": "1jEoR02JyenM-HVfawAQD_sHjjRh4bPCh",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-21-aula-21-espont-neo-part",
+            "title": "Aula 21 - Espontâneo (Parte 02) (Sessão 01)",
+            "type": "video",
+            "driveId": "1MKVVZByze8hCnta2F6ekvBLcEUjy5Oih",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-22-aula-22-espont-neo-part",
+            "title": "Aula 22 - Espontâneo (Parte 02) (Sessão 02)",
+            "type": "video",
+            "driveId": "1B3XqI6m_XutJs3jslA1lT9QGzgmtGG-C",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-3-aula-03-dream-team-vivend",
+            "title": "Aula 03 - Dream Team vivendo em um só entendimento (Sessão 03)",
+            "type": "video",
+            "driveId": "1bhpf_gSCenqb9B1QkT7KX2TrU7ycI1j6",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-4-aula-04-pr-requisito-de",
+            "title": "Aula 04 - Pré-requisito de um mensageiro (Sessão 01)",
+            "type": "video",
+            "driveId": "1PrnDnibqn7x7H1o_BIP6JZPFO493h3Ax",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-5-aula-05-pr-requisito-de",
+            "title": "Aula 05 - Pré-requisito de um mensageiro (Sessão 02)",
+            "type": "video",
+            "driveId": "1kJ7xGfOO7_aQsLKumJIVRvZ70DxVwj2a",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-6-aula-06-pr-requisito-de",
+            "title": "Aula 06 - Pré-requisito de um mensageiro (Sessão 03)",
+            "type": "video",
+            "driveId": "13bpOeEmsHtKzJgabKjrkwd6JvyqHQmhn",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-7-aula-07-lideran-a-parte",
+            "title": "Aula 07 - Liderança (Parte 01) (Sessão 01)",
+            "type": "video",
+            "driveId": "1I0q7lcWcdoVQjV3DqWQAB95IqlPvWhBo",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-8-aula-08-lideran-a-parte",
+            "title": "Aula 08 - Liderança (Parte 01) (Sessão 02)",
+            "type": "video",
+            "driveId": "1d4D-zfKFChOjDeeGXc_Cw8E4Ll-XyCUJ",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-9-aula-09-lideran-a-parte",
+            "title": "Aula 09 - Liderança (Parte 02) (Sessão 01)",
+            "type": "video",
+            "driveId": "1ftAqBS1JqMQB601j11L4lSlGdfKlwYFu",
+            "sectionTitle": "MÓDULO 2 - Ser um Ministro de Excelência"
+          },
+          {
+            "id": "1-1-01-introdu-o-escola-de",
+            "title": "01 - Introdução à Escola de Ministros",
+            "type": "video",
+            "driveId": "1RGI0wP_V9b8QlD31RQ3R98wNhVUEhn0L",
+            "sectionTitle": "INTRODUÇÃO - Comece por aqui"
+          },
+          {
+            "id": "1-2-02-miss-o-vis-o-e-valore",
+            "title": "02 - Missão, Visão e Valores do seu Ministério",
+            "type": "video",
+            "driveId": "1D8rKIY7WcP5BDcFkvfHytudUz16fVZKj",
+            "sectionTitle": "INTRODUÇÃO - Comece por aqui"
           }
         ]
       },
       {
         "id": "trilha-2",
         "title": "TRILHA ADORAÇÃO NA PRÁTICA",
-        "sections": [
+        "lessons": [
           {
             "id": "2-aula-5-adorar-a-partir-de-qu",
             "title": "Aula 5 - Adorar a partir de Quem Ele É",
-            "lessons": [
-              {
-                "id": "2-aula-5-adorar-a-partir-de-qu",
-                "title": "Aula 5 - Adorar a partir de Quem Ele É",
-                "type": "video",
-                "driveId": "189tiXQD-2gorYgy0z67MWML7spg1Ypmz"
-              }
-            ]
+            "type": "video",
+            "driveId": "189tiXQD-2gorYgy0z67MWML7spg1Ypmz",
+            "sectionTitle": "Aula 5 - Adorar a partir de Quem Ele É"
           },
           {
             "id": "2-aula-4-a-beleza-da-arte",
             "title": "Aula 4 - A Beleza da Arte",
-            "lessons": [
-              {
-                "id": "2-aula-4-a-beleza-da-arte",
-                "title": "Aula 4 - A Beleza da Arte",
-                "type": "video",
-                "driveId": "1zCHiVb6fKpORoGSOXsOWouvB0_Hr6CpI"
-              }
-            ]
+            "type": "video",
+            "driveId": "1zCHiVb6fKpORoGSOXsOWouvB0_Hr6CpI",
+            "sectionTitle": "Aula 4 - A Beleza da Arte"
           },
           {
             "id": "2-aula-6-excel-ncia-extremam",
             "title": "Aula 6 - Excelência é extremamente Espiritual",
-            "lessons": [
-              {
-                "id": "2-aula-6-excel-ncia-extremam",
-                "title": "Aula 6 - Excelência é extremamente Espiritual",
-                "type": "video",
-                "driveId": "1wd52ZbQYAVQ9gpmdkw6-1RGKyMnfdt5j"
-              }
-            ]
+            "type": "video",
+            "driveId": "1wd52ZbQYAVQ9gpmdkw6-1RGKyMnfdt5j",
+            "sectionTitle": "Aula 6 - Excelência é extremamente Espiritual"
           },
           {
             "id": "2-aula-3-conduzindo-a-igreja-p",
             "title": "Aula 3 - Conduzindo a Igreja para a Adoração",
-            "lessons": [
-              {
-                "id": "2-aula-3-conduzindo-a-igreja-p",
-                "title": "Aula 3 - Conduzindo a Igreja para a Adoração",
-                "type": "video",
-                "driveId": "1xJPZPIE7zkvRYJEEsfYGp9CxzAqA1PvQ"
-              }
-            ]
+            "type": "video",
+            "driveId": "1xJPZPIE7zkvRYJEEsfYGp9CxzAqA1PvQ",
+            "sectionTitle": "Aula 3 - Conduzindo a Igreja para a Adoração"
           },
           {
             "id": "2-aula-2-sem-zelo-voc-n-o-dur",
             "title": "Aula 2 - Sem zelo você não dura",
-            "lessons": [
-              {
-                "id": "2-aula-2-sem-zelo-voc-n-o-dur",
-                "title": "Aula 2 - Sem zelo você não dura",
-                "type": "video",
-                "driveId": "1IfGioRC0YZw5FwPD_UukvSJVCiFxZSbj"
-              }
-            ]
+            "type": "video",
+            "driveId": "1IfGioRC0YZw5FwPD_UukvSJVCiFxZSbj",
+            "sectionTitle": "Aula 2 - Sem zelo você não dura"
           },
           {
             "id": "2-aula-1-entrar-com-confian-a",
             "title": "Aula 1 - Entrar com confiança na Sala do Trono",
-            "lessons": [
-              {
-                "id": "2-aula-1-entrar-com-confian-a",
-                "title": "Aula 1 - Entrar com confiança na Sala do Trono",
-                "type": "video",
-                "driveId": "1jvveQHKcIQSEU7RpwttYgy7FZBTI8Jq3"
-              }
-            ]
+            "type": "video",
+            "driveId": "1jvveQHKcIQSEU7RpwttYgy7FZBTI8Jq3",
+            "sectionTitle": "Aula 1 - Entrar com confiança na Sala do Trono"
           }
         ]
       },
       {
         "id": "trilha-3",
         "title": "TRILHA FORMAÇÃO DO MINISTRO",
-        "sections": [
+        "lessons": [
           {
             "id": "3-9-live-como-conduzir-plenam",
             "title": "Live - Como Conduzir Plenamente o Momento do Louvor",
-            "lessons": [
-              {
-                "id": "3-9-live-como-conduzir-plenam",
-                "title": "Live - Como Conduzir Plenamente o Momento do Louvor",
-                "type": "pdf",
-                "driveId": "14SLUuEs3bvlHJTPdqbeD9uOnuR_Ag2Vg"
-              },
-              {
-                "id": "3-9-live-como-conduzir-plenam",
-                "title": "Live - Como Conduzir Plenamente o Momento do Louvor",
-                "type": "video",
-                "driveId": "1XhP3_dRhugNizkK3ylxAedcDgpvnUIb_"
-              }
-            ]
+            "type": "pdf",
+            "driveId": "14SLUuEs3bvlHJTPdqbeD9uOnuR_Ag2Vg",
+            "sectionTitle": "Live - Como Conduzir Plenamente o Momento do Louvor"
+          },
+          {
+            "id": "3-9-live-como-conduzir-plenam",
+            "title": "Live - Como Conduzir Plenamente o Momento do Louvor",
+            "type": "video",
+            "driveId": "1XhP3_dRhugNizkK3ylxAedcDgpvnUIb_",
+            "sectionTitle": "Live - Como Conduzir Plenamente o Momento do Louvor"
           },
           {
             "id": "3-6-live-02-escola-de-ministr",
             "title": "Live 02 - Escola de Ministros 2.0",
-            "lessons": [
-              {
-                "id": "3-6-live-02-escola-de-ministr",
-                "title": "Live 02 - Escola de Ministros 2.0",
-                "type": "video",
-                "driveId": "1g84BtH80dk3B8g_lem9iRk8iwZ_2My3q"
-              }
-            ]
+            "type": "video",
+            "driveId": "1g84BtH80dk3B8g_lem9iRk8iwZ_2My3q",
+            "sectionTitle": "Live 02 - Escola de Ministros 2.0"
           },
           {
             "id": "3-5-live-01-escola-de-ministr",
             "title": "Live 01 - Escola de Ministros 2.0",
-            "lessons": [
-              {
-                "id": "3-5-live-01-escola-de-ministr",
-                "title": "Live 01 - Escola de Ministros 2.0",
-                "type": "video",
-                "driveId": "1-bDEcSui4GNh2K_y_rbCB0GRDOCsObKK"
-              }
-            ]
+            "type": "video",
+            "driveId": "1-bDEcSui4GNh2K_y_rbCB0GRDOCsObKK",
+            "sectionTitle": "Live 01 - Escola de Ministros 2.0"
           },
           {
             "id": "3-8-live-04-escola-de-ministr",
             "title": "Live 04 - Escola de Ministros 2.0",
-            "lessons": [
-              {
-                "id": "3-8-live-04-escola-de-ministr",
-                "title": "Live 04 - Escola de Ministros 2.0",
-                "type": "video",
-                "driveId": "1o6fu0INvU73dGVsPXc72eind3QJcsb5d"
-              }
-            ]
+            "type": "video",
+            "driveId": "1o6fu0INvU73dGVsPXc72eind3QJcsb5d",
+            "sectionTitle": "Live 04 - Escola de Ministros 2.0"
           },
           {
             "id": "3-3-live-03-escola-de-ministr",
             "title": "Live 03 - Escola de Ministros",
-            "lessons": [
-              {
-                "id": "3-3-live-03-escola-de-ministr",
-                "title": "Live 03 - Escola de Ministros",
-                "type": "video",
-                "driveId": "1otL1uD8iI1ENAA2PGopWMJNRBeoA-f8t"
-              }
-            ]
+            "type": "video",
+            "driveId": "1otL1uD8iI1ENAA2PGopWMJNRBeoA-f8t",
+            "sectionTitle": "Live 03 - Escola de Ministros"
           },
           {
             "id": "3-2-live-02-escola-de-ministr",
             "title": "Live 02 - Escola de Ministros",
-            "lessons": [
-              {
-                "id": "3-2-live-02-escola-de-ministr",
-                "title": "Live 02 - Escola de Ministros",
-                "type": "video",
-                "driveId": "1sU1wqpZ2Z_Mn-eNIwf5g-fZWenRucuk_"
-              }
-            ]
+            "type": "video",
+            "driveId": "1sU1wqpZ2Z_Mn-eNIwf5g-fZWenRucuk_",
+            "sectionTitle": "Live 02 - Escola de Ministros"
           },
           {
             "id": "3-7-live-03-escola-de-ministr",
             "title": "Live 03 - Escola de Ministros 2.0",
-            "lessons": [
-              {
-                "id": "3-7-live-03-escola-de-ministr",
-                "title": "Live 03 - Escola de Ministros 2.0",
-                "type": "video",
-                "driveId": "1y21vu_81hFVMbIv11gmiQQRg6dEqv-gf"
-              }
-            ]
+            "type": "video",
+            "driveId": "1y21vu_81hFVMbIv11gmiQQRg6dEqv-gf",
+            "sectionTitle": "Live 03 - Escola de Ministros 2.0"
           },
           {
             "id": "3-4-live-04-escola-de-ministr",
             "title": "Live 04 - Escola de Ministros",
-            "lessons": [
-              {
-                "id": "3-4-live-04-escola-de-ministr",
-                "title": "Live 04 - Escola de Ministros",
-                "type": "video",
-                "driveId": "1FzSEG8kSYk7VyKqH_kfN5bkk8dQ_07QN"
-              }
-            ]
+            "type": "video",
+            "driveId": "1FzSEG8kSYk7VyKqH_kfN5bkk8dQ_07QN",
+            "sectionTitle": "Live 04 - Escola de Ministros"
           },
           {
             "id": "3-1-live-01-escola-de-ministr",
             "title": "Live 01 - Escola de Ministros",
-            "lessons": [
-              {
-                "id": "3-1-live-01-escola-de-ministr",
-                "title": "Live 01 - Escola de Ministros",
-                "type": "video",
-                "driveId": "1TryL9ajmfQ9snqOj6pHMEuZ2TAiYDc8o"
-              }
-            ]
+            "type": "video",
+            "driveId": "1TryL9ajmfQ9snqOj6pHMEuZ2TAiYDc8o",
+            "sectionTitle": "Live 01 - Escola de Ministros"
           }
         ]
       },
       {
         "id": "trilha-4",
         "title": "TRILHA FORMAÇÃO TEOLÓGICA E MINISTERIAL - Renato Marinoni",
-        "sections": [
+        "lessons": [
           {
             "id": "4-7-aula-07-m-dulo-01",
             "title": "Aula 07 - Módulo 01",
-            "lessons": [
-              {
-                "id": "4-7-aula-07-m-dulo-01",
-                "title": "Aula 07 - Módulo 01",
-                "type": "video",
-                "driveId": "1r-o0KsJg_vF5NXj2cXmLG-U9KDEi9POO"
-              }
-            ]
+            "type": "video",
+            "driveId": "1r-o0KsJg_vF5NXj2cXmLG-U9KDEi9POO",
+            "sectionTitle": "Aula 07 - Módulo 01"
           },
           {
             "id": "4-6-aula-06-m-dulo-01",
             "title": "Aula 06 - Módulo 01",
-            "lessons": [
-              {
-                "id": "4-6-aula-06-m-dulo-01",
-                "title": "Aula 06 - Módulo 01",
-                "type": "video",
-                "driveId": "1YQsIUla0g3wcD6_gCvBRFt3cIRpyAMIc"
-              }
-            ]
+            "type": "video",
+            "driveId": "1YQsIUla0g3wcD6_gCvBRFt3cIRpyAMIc",
+            "sectionTitle": "Aula 06 - Módulo 01"
           },
           {
             "id": "4-1-aula-01-panorama-da-hist",
             "title": "Aula 01 - Panorama da História da Música Contemporânea",
-            "lessons": [
-              {
-                "id": "4-1-aula-01-panorama-da-hist",
-                "title": "Aula 01 - Panorama da História da Música Contemporânea",
-                "type": "video",
-                "driveId": "1wTId1xZRFLL1eeynCPLulZWunk_-_nmI"
-              }
-            ]
+            "type": "video",
+            "driveId": "1wTId1xZRFLL1eeynCPLulZWunk_-_nmI",
+            "sectionTitle": "Aula 01 - Panorama da História da Música Contemporânea"
           },
           {
             "id": "4-4-aula-04-m-dulo-01",
             "title": "Aula 04 - Módulo 01",
-            "lessons": [
-              {
-                "id": "4-4-aula-04-m-dulo-01",
-                "title": "Aula 04 - Módulo 01",
-                "type": "video",
-                "driveId": "1wEILdXHK6XJoMksrHDCNH6Ab5OSzN5t_"
-              }
-            ]
+            "type": "video",
+            "driveId": "1wEILdXHK6XJoMksrHDCNH6Ab5OSzN5t_",
+            "sectionTitle": "Aula 04 - Módulo 01"
           },
           {
             "id": "4-3-aula-03-m-dulo-01",
             "title": "Aula 03 - Módulo 01",
-            "lessons": [
-              {
-                "id": "4-3-aula-03-m-dulo-01",
-                "title": "Aula 03 - Módulo 01",
-                "type": "video",
-                "driveId": "1bB2tS_AIq5W0TVwDsLxvRz9fGFEXQIE0"
-              }
-            ]
+            "type": "video",
+            "driveId": "1bB2tS_AIq5W0TVwDsLxvRz9fGFEXQIE0",
+            "sectionTitle": "Aula 03 - Módulo 01"
           },
           {
             "id": "4-5-aula-05-m-dulo-01",
             "title": "Aula 05 - Módulo 01",
-            "lessons": [
-              {
-                "id": "4-5-aula-05-m-dulo-01",
-                "title": "Aula 05 - Módulo 01",
-                "type": "video",
-                "driveId": "1trQVaxnG8OB5-CNDhxnh17mxyzJcB3Dq"
-              }
-            ]
+            "type": "video",
+            "driveId": "1trQVaxnG8OB5-CNDhxnh17mxyzJcB3Dq",
+            "sectionTitle": "Aula 05 - Módulo 01"
           },
           {
             "id": "4-2-aula-02-m-dulo-01",
             "title": "Aula 02 - Módulo 01",
-            "lessons": [
-              {
-                "id": "4-2-aula-02-m-dulo-01",
-                "title": "Aula 02 - Módulo 01",
-                "type": "video",
-                "driveId": "1OFZ8B3CAY7hIaar8RHM1YexcBlm72mLY"
-              }
-            ]
+            "type": "video",
+            "driveId": "1OFZ8B3CAY7hIaar8RHM1YexcBlm72mLY",
+            "sectionTitle": "Aula 02 - Módulo 01"
           }
         ]
       },
       {
         "id": "trilha-5",
         "title": "TRILHA FORMAÇÃO TEOLÓGICA E MINISTERIAL - Renato Marinoni",
-        "sections": [
+        "lessons": [
           {
             "id": "5-5-aula-05-pensando-no-culto",
             "title": "Aula 05 - Pensando no culto como um todo",
-            "lessons": [
-              {
-                "id": "5-5-aula-05-pensando-no-culto",
-                "title": "Aula 05 - Pensando no culto como um todo",
-                "type": "video",
-                "driveId": "1ztvMO_vh1MrC5cOTGY4WE_z2LzqXxFn1"
-              }
-            ]
+            "type": "video",
+            "driveId": "1ztvMO_vh1MrC5cOTGY4WE_z2LzqXxFn1",
+            "sectionTitle": "Aula 05 - Pensando no culto como um todo"
           },
           {
             "id": "5-3-aula-03-qualifica-es-do",
             "title": "Aula 03 - Qualificações do líder de louvor",
-            "lessons": [
-              {
-                "id": "5-3-aula-03-qualifica-es-do",
-                "title": "Aula 03 - Qualificações do líder de louvor",
-                "type": "video",
-                "driveId": "10K8xzXZlcuLUaxUdBpJ9sp_ncmbr_ovV"
-              }
-            ]
+            "type": "video",
+            "driveId": "10K8xzXZlcuLUaxUdBpJ9sp_ncmbr_ovV",
+            "sectionTitle": "Aula 03 - Qualificações do líder de louvor"
           },
           {
             "id": "5-6-aula-06-construindo-um-re",
             "title": "Aula 06 - Construindo um repertório que seja equilibrado e coerente",
-            "lessons": [
-              {
-                "id": "5-6-aula-06-construindo-um-re",
-                "title": "Aula 06 - Construindo um repertório que seja equilibrado e coerente",
-                "type": "video",
-                "driveId": "19v1KP8fYJUy8c5eQQmBgjXG3HMWF--T-"
-              }
-            ]
+            "type": "video",
+            "driveId": "19v1KP8fYJUy8c5eQQmBgjXG3HMWF--T-",
+            "sectionTitle": "Aula 06 - Construindo um repertório que seja equilibrado e coerente"
           },
           {
             "id": "5-2-aula-02-a-figura-do-l-der",
             "title": "Aula 02 - A figura do líder de louvor",
-            "lessons": [
-              {
-                "id": "5-2-aula-02-a-figura-do-l-der",
-                "title": "Aula 02 - A figura do líder de louvor",
-                "type": "video",
-                "driveId": "1G2jsQvXxGgHlGIG4bCltFIjBROwuD8sq"
-              }
-            ]
+            "type": "video",
+            "driveId": "1G2jsQvXxGgHlGIG4bCltFIjBROwuD8sq",
+            "sectionTitle": "Aula 02 - A figura do líder de louvor"
           },
           {
             "id": "5-7-aula-07-o-que-devo-falar",
             "title": "Aula 07 - O que devo falar",
-            "lessons": [
-              {
-                "id": "5-7-aula-07-o-que-devo-falar",
-                "title": "Aula 07 - O que devo falar",
-                "type": "video",
-                "driveId": "1wtizTBl657M5n1Nzr-8QU88iJOkXySdo"
-              }
-            ]
+            "type": "video",
+            "driveId": "1wtizTBl657M5n1Nzr-8QU88iJOkXySdo",
+            "sectionTitle": "Aula 07 - O que devo falar"
           },
           {
             "id": "5-4-aula-04-conselhos-para-l",
             "title": "Aula 04 - Conselhos para líderes de louvor",
-            "lessons": [
-              {
-                "id": "5-4-aula-04-conselhos-para-l",
-                "title": "Aula 04 - Conselhos para líderes de louvor",
-                "type": "video",
-                "driveId": "1i-bOS6OwSGMEwyJae3D3AmpacToHIPAV"
-              }
-            ]
+            "type": "video",
+            "driveId": "1i-bOS6OwSGMEwyJae3D3AmpacToHIPAV",
+            "sectionTitle": "Aula 04 - Conselhos para líderes de louvor"
           },
           {
             "id": "5-1-aula-01-o-que-o-grupo-d",
             "title": "Aula 01 - O que é o grupo de louvor",
-            "lessons": [
-              {
-                "id": "5-1-aula-01-o-que-o-grupo-d",
-                "title": "Aula 01 - O que é o grupo de louvor",
-                "type": "video",
-                "driveId": "1QBd_Wfq3NqUDGg44uPPgSPH1VyMmcbBG"
-              }
-            ]
+            "type": "video",
+            "driveId": "1QBd_Wfq3NqUDGg44uPPgSPH1VyMmcbBG",
+            "sectionTitle": "Aula 01 - O que é o grupo de louvor"
           }
         ]
       },
       {
         "id": "trilha-6",
         "title": "TRILHA FORMAÇÃO TEOLÓGICA E MINISTERIAL - Renato Marinoni",
-        "sections": [
+        "lessons": [
           {
             "id": "6-2-aula-02-a-habita-o-de-de",
             "title": "Aula 02 - A habitação de Deus_ os 2 templos e o tabernáculo",
-            "lessons": [
-              {
-                "id": "6-2-aula-02-a-habita-o-de-de",
-                "title": "Aula 02 - A habitação de Deus_ os 2 templos e o tabernáculo",
-                "type": "video",
-                "driveId": "1oOxfCDqJtJrpSPayNpSazfL41aQztYmk"
-              }
-            ]
+            "type": "video",
+            "driveId": "1oOxfCDqJtJrpSPayNpSazfL41aQztYmk",
+            "sectionTitle": "Aula 02 - A habitação de Deus_ os 2 templos e o tabernáculo"
           },
           {
             "id": "6-7-aula-07-a-verdadeira-ador",
             "title": "Aula 07 - A verdadeira adoração x idolatria",
-            "lessons": [
-              {
-                "id": "6-7-aula-07-a-verdadeira-ador",
-                "title": "Aula 07 - A verdadeira adoração x idolatria",
-                "type": "video",
-                "driveId": "1MZMZ1knzAxOBHoGPCHgPNTXE__78grRY"
-              }
-            ]
+            "type": "video",
+            "driveId": "1MZMZ1knzAxOBHoGPCHgPNTXE__78grRY",
+            "sectionTitle": "Aula 07 - A verdadeira adoração x idolatria"
           },
           {
             "id": "6-1-aula-01-princ-pios-de-ado",
             "title": "Aula 01 - Princípios de adoração do AT",
-            "lessons": [
-              {
-                "id": "6-1-aula-01-princ-pios-de-ado",
-                "title": "Aula 01 - Princípios de adoração do AT",
-                "type": "video",
-                "driveId": "1UMUxXWaCiCmEoBXCUny7KobMxo6avMe4"
-              }
-            ]
+            "type": "video",
+            "driveId": "1UMUxXWaCiCmEoBXCUny7KobMxo6avMe4",
+            "sectionTitle": "Aula 01 - Princípios de adoração do AT"
           },
           {
             "id": "6-5-aula-05-a-adora-o-da-nov",
             "title": "Aula 05 - A adoração da Nova Aliança (Parte 02)",
-            "lessons": [
-              {
-                "id": "6-5-aula-05-a-adora-o-da-nov",
-                "title": "Aula 05 - A adoração da Nova Aliança (Parte 02)",
-                "type": "video",
-                "driveId": "1zH0jJlkOpJ-n1DSj0YpHqEZXb46gKOqe"
-              }
-            ]
+            "type": "video",
+            "driveId": "1zH0jJlkOpJ-n1DSj0YpHqEZXb46gKOqe",
+            "sectionTitle": "Aula 05 - A adoração da Nova Aliança (Parte 02)"
           },
           {
             "id": "6-8-aula-08-adora-o-escatol",
             "title": "Aula 08 - Adoração escatológica_ a Nova Jerusalém",
-            "lessons": [
-              {
-                "id": "6-8-aula-08-adora-o-escatol",
-                "title": "Aula 08 - Adoração escatológica_ a Nova Jerusalém",
-                "type": "video",
-                "driveId": "1HA7vSQPY6QRYP4gRm_7fPhq2YrV2Iw9z"
-              }
-            ]
+            "type": "video",
+            "driveId": "1HA7vSQPY6QRYP4gRm_7fPhq2YrV2Iw9z",
+            "sectionTitle": "Aula 08 - Adoração escatológica_ a Nova Jerusalém"
           },
           {
             "id": "6-4-aula-04-a-adora-o-da-nov",
             "title": "Aula 04 - A adoração da Nova Aliança (Parte 01)",
-            "lessons": [
-              {
-                "id": "6-4-aula-04-a-adora-o-da-nov",
-                "title": "Aula 04 - A adoração da Nova Aliança (Parte 01)",
-                "type": "video",
-                "driveId": "1tgyOfpBY-oKSv2WGq3nC3sjHLXimOLJE"
-              }
-            ]
+            "type": "video",
+            "driveId": "1tgyOfpBY-oKSv2WGq3nC3sjHLXimOLJE",
+            "sectionTitle": "Aula 04 - A adoração da Nova Aliança (Parte 01)"
           },
           {
             "id": "6-6-aula-06-entendendo-o-sace",
             "title": "Aula 06 - Entendendo o sacerdócio Levítico e a ordem de Melq",
-            "lessons": [
-              {
-                "id": "6-6-aula-06-entendendo-o-sace",
-                "title": "Aula 06 - Entendendo o sacerdócio Levítico e a ordem de Melq",
-                "type": "video",
-                "driveId": "1cMOiZjXISMIR-RvIkAhvIEvhRdMef52R"
-              }
-            ]
+            "type": "video",
+            "driveId": "1cMOiZjXISMIR-RvIkAhvIEvhRdMef52R",
+            "sectionTitle": "Aula 06 - Entendendo o sacerdócio Levítico e a ordem de Melq"
           },
           {
             "id": "6-3-aula-03-a-habita-o-de-de",
             "title": "Aula 03 - A habitação de Deus_ os 2 templos e o tabernáculo",
-            "lessons": [
-              {
-                "id": "6-3-aula-03-a-habita-o-de-de",
-                "title": "Aula 03 - A habitação de Deus_ os 2 templos e o tabernáculo",
-                "type": "video",
-                "driveId": "1ov3LEpuYHGRFVK8dD2auvyhQ48OTGPRD"
-              }
-            ]
+            "type": "video",
+            "driveId": "1ov3LEpuYHGRFVK8dD2auvyhQ48OTGPRD",
+            "sectionTitle": "Aula 03 - A habitação de Deus_ os 2 templos e o tabernáculo"
           }
         ]
       },
       {
         "id": "trilha-7",
         "title": "TRILHA ADORAÇÃO PROFÉTICA DOS ÚLTIMOS DIAS - Renato Marinoni",
-        "sections": [
+        "lessons": [
           {
             "id": "7-6-aula-06-entendendo-apocal",
             "title": "Aula 06 - Entendendo Apocalipse como um livro de adoração",
-            "lessons": [
-              {
-                "id": "7-6-aula-06-entendendo-apocal",
-                "title": "Aula 06 - Entendendo Apocalipse como um livro de adoração",
-                "type": "video",
-                "driveId": "1iqPDMwP3FxRDnmVsTDFkJisiPWC5WxgT"
-              }
-            ]
+            "type": "video",
+            "driveId": "1iqPDMwP3FxRDnmVsTDFkJisiPWC5WxgT",
+            "sectionTitle": "Aula 06 - Entendendo Apocalipse como um livro de adoração"
           },
           {
             "id": "7-3-aula-03-panorama-hist-ric",
             "title": "Aula 03 - Panorama histórico sobre as principais visões esca",
-            "lessons": [
-              {
-                "id": "7-3-aula-03-panorama-hist-ric",
-                "title": "Aula 03 - Panorama histórico sobre as principais visões esca",
-                "type": "video",
-                "driveId": "1x07W24dpbOyc8grvx7vpd4G8Pdi9cK-i"
-              }
-            ]
+            "type": "video",
+            "driveId": "1x07W24dpbOyc8grvx7vpd4G8Pdi9cK-i",
+            "sectionTitle": "Aula 03 - Panorama histórico sobre as principais visões esca"
           },
           {
             "id": "7-8-aula-08-perspectivas-sobr",
             "title": "Aula 08 - Perspectivas sobre a presença do Espírito no culto",
-            "lessons": [
-              {
-                "id": "7-8-aula-08-perspectivas-sobr",
-                "title": "Aula 08 - Perspectivas sobre a presença do Espírito no culto",
-                "type": "video",
-                "driveId": "1x2VHcm0NV40n-YV2WEMhCp_PBNQd5ptF"
-              }
-            ]
+            "type": "video",
+            "driveId": "1x2VHcm0NV40n-YV2WEMhCp_PBNQd5ptF",
+            "sectionTitle": "Aula 08 - Perspectivas sobre a presença do Espírito no culto"
           },
           {
             "id": "7-5-aula-05-adora-o-como-sin",
             "title": "Aula 05 - Adoração como sinal da nova criação",
-            "lessons": [
-              {
-                "id": "7-5-aula-05-adora-o-como-sin",
-                "title": "Aula 05 - Adoração como sinal da nova criação",
-                "type": "video",
-                "driveId": "1p915rqgY20GsmLwhh7-IaBeWlCjMJoZl"
-              }
-            ]
+            "type": "video",
+            "driveId": "1p915rqgY20GsmLwhh7-IaBeWlCjMJoZl",
+            "sectionTitle": "Aula 05 - Adoração como sinal da nova criação"
           },
           {
             "id": "7-9-aula-09-a-import-ncia-de",
             "title": "Aula 09 - A importância de uma adoração verdadeiramente prof",
-            "lessons": [
-              {
-                "id": "7-9-aula-09-a-import-ncia-de",
-                "title": "Aula 09 - A importância de uma adoração verdadeiramente prof",
-                "type": "video",
-                "driveId": "1rm6v_gqns-xCvf550J8osmryf6riaiky"
-              }
-            ]
+            "type": "video",
+            "driveId": "1rm6v_gqns-xCvf550J8osmryf6riaiky",
+            "sectionTitle": "Aula 09 - A importância de uma adoração verdadeiramente prof"
           },
           {
             "id": "7-7-aula-07-do-den-nova-je",
             "title": "Aula 07 - Do Éden à Nova Jerusalém",
-            "lessons": [
-              {
-                "id": "7-7-aula-07-do-den-nova-je",
-                "title": "Aula 07 - Do Éden à Nova Jerusalém",
-                "type": "video",
-                "driveId": "1WVQxMjoW5V1rLNfAfwiupdGjbEJNhz6r"
-              }
-            ]
+            "type": "video",
+            "driveId": "1WVQxMjoW5V1rLNfAfwiupdGjbEJNhz6r",
+            "sectionTitle": "Aula 07 - Do Éden à Nova Jerusalém"
           },
           {
             "id": "7-4-aula-04-um-panorama-sobre",
             "title": "Aula 04 - Um panorama sobre o que a Igreja já cantou sobre a",
-            "lessons": [
-              {
-                "id": "7-4-aula-04-um-panorama-sobre",
-                "title": "Aula 04 - Um panorama sobre o que a Igreja já cantou sobre a",
-                "type": "video",
-                "driveId": "1D8DcCxnzDSez16J7h7rq9NY22ggRfkj0"
-              }
-            ]
+            "type": "video",
+            "driveId": "1D8DcCxnzDSez16J7h7rq9NY22ggRfkj0",
+            "sectionTitle": "Aula 04 - Um panorama sobre o que a Igreja já cantou sobre a"
           },
           {
             "id": "7-1-aula-01-por-que-devemos-no",
             "title": "Aula 01- Por que devemos nos Importar com a volta de Jesus",
-            "lessons": [
-              {
-                "id": "7-1-aula-01-por-que-devemos-no",
-                "title": "Aula 01- Por que devemos nos Importar com a volta de Jesus",
-                "type": "video",
-                "driveId": "1i503OvzEBxNmiBi4s0kKqMzwxJcqv1Lg"
-              }
-            ]
+            "type": "video",
+            "driveId": "1i503OvzEBxNmiBi4s0kKqMzwxJcqv1Lg",
+            "sectionTitle": "Aula 01- Por que devemos nos Importar com a volta de Jesus"
           },
           {
             "id": "7-2-aula-02-panorama-hist-ric",
             "title": "Aula 02 - Panorama histórico sobre as principais visões esca",
-            "lessons": [
-              {
-                "id": "7-2-aula-02-panorama-hist-ric",
-                "title": "Aula 02 - Panorama histórico sobre as principais visões esca",
-                "type": "video",
-                "driveId": "1Cxv5BacQlv1qNTaecVb_QHIBESYEJgNn"
-              }
-            ]
+            "type": "video",
+            "driveId": "1Cxv5BacQlv1qNTaecVb_QHIBESYEJgNn",
+            "sectionTitle": "Aula 02 - Panorama histórico sobre as principais visões esca"
           }
         ]
       }
