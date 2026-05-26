@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = saved || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal do Curso</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main class="site-shell">
+    <section id="login-view" class="login-view" aria-labelledby="login-title">
+      <div class="login-card">
+        <p class="login-kicker">Portal do Curso</p>
+        <h1 id="login-title">Acesso restrito</h1>
+        <p class="login-description">
+          Informe a senha para acessar as aulas em video e os materiais em PDF.
+        </p>
+
+        <form id="login-form" class="login-form">
+          <label class="field-label" for="password-input">Senha</label>
+          <input
+            id="password-input"
+            class="text-input"
+            type="password"
+            inputmode="text"
+            autocomplete="current-password"
+            placeholder="Digite a senha do curso"
+            required
+          >
+          <p id="login-error" class="form-message" aria-live="polite"></p>
+          <button type="submit" class="button button-primary button-block">Entrar</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="portal-view" class="portal-view hidden" aria-label="Portal do curso">
+      <div id="mobile-overlay" class="mobile-overlay hidden"></div>
+
+      <aside id="sidebar" class="sidebar" aria-label="Navegacao do curso">
+        <div class="sidebar-header">
+          <p class="sidebar-eyebrow">Curso</p>
+          <h2 id="course-title" class="sidebar-title">Carregando...</h2>
+        </div>
+        <div id="module-list" class="module-list"></div>
+      </aside>
+
+      <section class="content-area">
+        <header class="content-header">
+          <div class="header-left">
+            <button id="menu-button" class="icon-button mobile-only" type="button" aria-label="Abrir menu">
+              ☰
+            </button>
+            <div class="header-titles">
+              <p class="header-label">Aula atual</p>
+              <h1 id="current-lesson-title" class="header-title">Selecione uma aula</h1>
+            </div>
+          </div>
+
+          <div class="header-actions">
+            <button id="theme-toggle" class="icon-button" type="button" aria-label="Alternar tema">
+              🌙
+            </button>
+            <button id="logout-button" class="button" type="button">Sair</button>
+          </div>
+        </header>
+
+        <div class="content-scroll">
+          <div id="lesson-meta" class="lesson-meta"></div>
+
+          <div class="viewer-card">
+            <div id="viewer-container" class="viewer-container">
+              <div class="placeholder-state">
+                <h2>Seu conteudo vai aparecer aqui</h2>
+                <p>Escolha uma aula no menu lateral para iniciar.</p>
+              </div>
+            </div>
+
+            <div class="lesson-actions">
+              <div class="navigation-actions">
+                <button id="prev-button" class="button" type="button">← Anterior</button>
+                <button id="next-button" class="button" type="button">Próxima →</button>
+              </div>
+
+              <div class="utility-actions">
+                <a
+                  id="download-button"
+                  class="button"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ⬇ Baixar
+                </a>
+                <button id="mark-watched-button" class="button button-primary" type="button">
+                  ✓ Marcar como assistida
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

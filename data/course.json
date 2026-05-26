@@ -1,0 +1,85 @@
+{
+  "course": {
+    "title": "Formacao Completa de Lideranca",
+    "modules": [
+      {
+        "id": "modulo-1",
+        "title": "Modulo 1 - Fundamentos",
+        "lessons": [
+          {
+            "id": "m1-l1",
+            "title": "Aula 1 - Visao geral do curso",
+            "type": "video",
+            "driveId": "SUBSTITUA_PELO_ID_REAL",
+            "duration": "12:30"
+          },
+          {
+            "id": "m1-l2",
+            "title": "Aula 2 - Principios essenciais",
+            "type": "video",
+            "driveId": "SUBSTITUA_PELO_ID_REAL",
+            "duration": "18:45"
+          },
+          {
+            "id": "m1-l3",
+            "title": "Material de apoio - Fundamentos",
+            "type": "pdf",
+            "driveId": "SUBSTITUA_PELO_ID_REAL"
+          }
+        ]
+      },
+      {
+        "id": "modulo-2",
+        "title": "Modulo 2 - Aplicacao pratica",
+        "lessons": [
+          {
+            "id": "m2-l1",
+            "title": "Aula 1 - Preparacao e planejamento",
+            "type": "video",
+            "driveId": "SUBSTITUA_PELO_ID_REAL",
+            "duration": "21:10"
+          },
+          {
+            "id": "m2-l2",
+            "title": "Material de apoio - Checklist de execucao",
+            "type": "pdf",
+            "driveId": "SUBSTITUA_PELO_ID_REAL"
+          },
+          {
+            "id": "m2-l3",
+            "title": "Aula 3 - Estudo de caso",
+            "type": "video",
+            "driveId": "SUBSTITUA_PELO_ID_REAL",
+            "duration": "15:20"
+          }
+        ]
+      },
+      {
+        "id": "modulo-3",
+        "title": "Modulo 3 - Consolidacao",
+        "lessons": [
+          {
+            "id": "m3-l1",
+            "title": "Aula 1 - Revisao guiada",
+            "type": "video",
+            "driveId": "SUBSTITUA_PELO_ID_REAL",
+            "duration": "16:05"
+          },
+          {
+            "id": "m3-l2",
+            "title": "Aula 2 - Proximos passos",
+            "type": "video",
+            "driveId": "SUBSTITUA_PELO_ID_REAL",
+            "duration": "14:12"
+          },
+          {
+            "id": "m3-l3",
+            "title": "Material final - Resumo em PDF",
+            "type": "pdf",
+            "driveId": "SUBSTITUA_PELO_ID_REAL"
+          }
+        ]
+      }
+    ]
+  }
+}
