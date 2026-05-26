@@ -78,7 +78,17 @@
 
         <div class="header-actions">
           <button data-theme-toggle class="icon-button" type="button" aria-label="Alternar tema">
-            🌙
+            <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="5"/>
+              <line x1="12" y1="1" x2="12" y2="3"/>
+              <line x1="12" y1="21" x2="12" y2="23"/>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+              <line x1="1" y1="12" x2="3" y2="12"/>
+              <line x1="21" y1="12" x2="23" y2="12"/>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
           </button>
           <button data-logout-button class="button" type="button">Sair</button>
         </div>
@@ -97,7 +107,12 @@
 
       <aside id="sidebar" class="sidebar" aria-label="Navegacao do curso">
         <div class="sidebar-header player-sidebar-header">
-          <button id="back-to-home-button" class="button sidebar-back-button" type="button">← Voltar</button>
+          <button id="back-to-home-button" class="button sidebar-back-button" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <polyline points="15,18 9,12 15,6"/>
+            </svg>
+            Voltar
+          </button>
           <div class="sidebar-copy">
             <p class="sidebar-eyebrow">Módulo atual</p>
             <h2 id="current-module-title" class="sidebar-title">Carregando...</h2>
@@ -110,7 +125,11 @@
         <header class="content-header">
           <div class="header-left">
             <button id="menu-button" class="icon-button mobile-only" type="button" aria-label="Abrir menu">
-              ☰
+              <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <line x1="3" y1="6" x2="21" y2="6"/>
+                <line x1="3" y1="12" x2="21" y2="12"/>
+                <line x1="3" y1="18" x2="21" y2="18"/>
+              </svg>
             </button>
             <div class="header-titles">
               <p class="header-label">Aula atual</p>
@@ -120,7 +139,17 @@
 
           <div class="header-actions">
             <button data-theme-toggle class="icon-button" type="button" aria-label="Alternar tema">
-              🌙
+              <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="5"/>
+                <line x1="12" y1="1" x2="12" y2="3"/>
+                <line x1="12" y1="21" x2="12" y2="23"/>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                <line x1="1" y1="12" x2="3" y2="12"/>
+                <line x1="21" y1="12" x2="23" y2="12"/>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+              </svg>
             </button>
             <button data-logout-button class="button" type="button">Sair</button>
           </div>
@@ -139,8 +168,18 @@
 
             <div class="lesson-actions">
               <div class="navigation-actions">
-                <button id="prev-button" class="button" type="button">← Anterior</button>
-                <button id="next-button" class="button" type="button">Próxima →</button>
+                <button id="prev-button" class="button" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <polyline points="15,18 9,12 15,6"/>
+                  </svg>
+                  Anterior
+                </button>
+                <button id="next-button" class="button" type="button">
+                  Próxima
+                  <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <polyline points="9,18 15,12 9,6"/>
+                  </svg>
+                </button>
               </div>
 
               <div class="utility-actions">
@@ -151,10 +190,18 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  ⬇ Baixar
+                  <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7,10 12,15 17,10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                  </svg>
+                  Baixar
                 </a>
                 <button id="mark-watched-button" class="button button-primary" type="button">
-                  ✓ Marcar como assistida
+                  <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                    <polyline points="20,6 9,17 4,12"/>
+                  </svg>
+                  Marcar como assistida
                 </button>
               </div>
             </div>

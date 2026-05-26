@@ -289,6 +289,18 @@ body::-webkit-scrollbar-thumb,
   border-color: var(--color-btn-primary-hover);
 }
 
+.btn-icon,
+.lesson-icon-svg {
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+button svg,
+a svg {
+  pointer-events: none;
+}
+
 .button-block {
   width: 100%;
 }
@@ -400,6 +412,17 @@ body::-webkit-scrollbar-thumb,
   background: var(--color-canvas-inset);
   color: var(--color-accent-fg);
   font-size: 48px;
+}
+
+.module-overview-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+.module-overview-icon-svg {
+  display: block;
 }
 
 .module-overview-info,
@@ -518,6 +541,10 @@ body::-webkit-scrollbar-thumb,
 }
 
 .module-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
   color: var(--color-fg-muted);
   transition: transform 0.2s ease;
 }
@@ -607,11 +634,15 @@ body::-webkit-scrollbar-thumb,
 
 .lesson-icon,
 .lesson-check {
-  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
 }
 
 .lesson-check {
   color: var(--color-success-fg);
+  min-height: 14px;
 }
 
 .lesson-copy {
@@ -735,9 +766,16 @@ body::-webkit-scrollbar-thumb,
 }
 
 .video-placeholder .play-icon {
-  font-size: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
   color: var(--color-accent-fg);
   opacity: 0.7;
+}
+
+.play-icon-svg {
+  display: block;
 }
 
 .video-placeholder p {

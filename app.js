@@ -3,6 +3,113 @@ const THEME_KEY = "theme";
 const WATCHED_PREFIX = "watched_";
 const PASSWORD_BASE64 = "bG91dm9yMjY="; // Gerada com btoa("louvor26")
 
+function createFillIcon(className, width, height, body) {
+  return `
+    <svg xmlns="http://www.w3.org/2000/svg" class="${className}" width="${width}" height="${height}" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      ${body}
+    </svg>
+  `;
+}
+
+function createStrokeIcon(className, width, height, strokeWidth, body) {
+  return `
+    <svg xmlns="http://www.w3.org/2000/svg" class="${className}" width="${width}" height="${height}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="${strokeWidth}" aria-hidden="true">
+      ${body}
+    </svg>
+  `;
+}
+
+const ICONS = {
+  themeSunButton: createStrokeIcon(
+    "btn-icon",
+    16,
+    16,
+    2,
+    `
+      <circle cx="12" cy="12" r="5"/>
+      <line x1="12" y1="1" x2="12" y2="3"/>
+      <line x1="12" y1="21" x2="12" y2="23"/>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+      <line x1="1" y1="12" x2="3" y2="12"/>
+      <line x1="21" y1="12" x2="23" y2="12"/>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+    `
+  ).trim(),
+  themeMoonButton: createStrokeIcon(
+    "btn-icon",
+    16,
+    16,
+    2,
+    `
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    `
+  ).trim(),
+  playLesson: createFillIcon(
+    "lesson-icon-svg",
+    14,
+    14,
+    `
+      <polygon points="5,3 19,12 5,21"/>
+    `
+  ).trim(),
+  pdfLesson: createStrokeIcon(
+    "lesson-icon-svg",
+    14,
+    14,
+    2,
+    `
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+      <polyline points="14,2 14,8 20,8"/>
+    `
+  ).trim(),
+  checkLesson: createStrokeIcon(
+    "lesson-icon-svg",
+    14,
+    14,
+    2.5,
+    `
+      <polyline points="20,6 9,17 4,12"/>
+    `
+  ).trim(),
+  checkButton: createStrokeIcon(
+    "btn-icon",
+    14,
+    14,
+    2.5,
+    `
+      <polyline points="20,6 9,17 4,12"/>
+    `
+  ).trim(),
+  playPlaceholder: createFillIcon(
+    "play-icon-svg",
+    48,
+    48,
+    `
+      <polygon points="5,3 19,12 5,21"/>
+    `
+  ).trim(),
+  playModule: createFillIcon(
+    "module-overview-icon-svg",
+    48,
+    48,
+    `
+      <polygon points="5,3 19,12 5,21"/>
+    `
+  ).trim(),
+  pdfModule: createStrokeIcon(
+    "module-overview-icon-svg",
+    48,
+    48,
+    2,
+    `
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+      <polyline points="14,2 14,8 20,8"/>
+    `
+  ).trim(),
+};
+
 const state = {
   course: null,
   flatLessons: [],
@@ -92,7 +199,7 @@ function handleSystemThemeChange(event) {
 function syncThemeToggle() {
   const currentTheme = document.documentElement.getAttribute("data-theme") || "light";
   elements.themeToggles.forEach((button) => {
-    button.textContent = currentTheme === "dark" ? "☀" : "🌙";
+    button.innerHTML = currentTheme === "dark" ? ICONS.themeSunButton : ICONS.themeMoonButton;
     button.setAttribute(
       "aria-label",
       currentTheme === "dark" ? "Ativar tema claro" : "Ativar tema escuro"
@@ -293,7 +400,7 @@ function renderHome() {
     const progress = totalLessons === 0 ? 0 : Math.round((watchedLessons / totalLessons) * 100);
     const videoLessons = module.lessons.filter((lesson) => lesson.type === "video").length;
     const pdfLessons = totalLessons - videoLessons;
-    const dominantIcon = videoLessons >= pdfLessons ? "▶" : "📄";
+    const dominantIcon = videoLessons >= pdfLessons ? ICONS.playModule : ICONS.pdfModule;
     const moduleCard = document.createElement("button");
     const hasThumbnail = Boolean(module.thumbnail?.trim());
 
@@ -365,7 +472,7 @@ function renderSidebar() {
     const lessonButton = document.createElement("button");
     const watched = isLessonWatched(lesson.id);
     const isActive = lesson.id === state.currentLessonId;
-    const icon = lesson.type === "video" ? "▶" : "📄";
+    const icon = lesson.type === "video" ? ICONS.playLesson : ICONS.pdfLesson;
 
     lessonButton.type = "button";
     lessonButton.className = `lesson-item${isActive ? " is-active" : ""}`;
@@ -380,7 +487,7 @@ function renderSidebar() {
           ${lesson.duration ? `<span class="lesson-duration">${lesson.duration}</span>` : ""}
         </span>
       </span>
-      <span class="lesson-check" aria-label="${watched ? "Assistida" : "Nao assistida"}">${watched ? "✓" : ""}</span>
+      <span class="lesson-check" aria-label="${watched ? "Assistida" : "Nao assistida"}">${watched ? ICONS.checkLesson : ""}</span>
     `;
 
     fragment.appendChild(lessonButton);
@@ -436,7 +543,7 @@ function renderCurrentLesson() {
     const videoPlaceholder = document.createElement("div");
     videoPlaceholder.className = "video-placeholder";
     videoPlaceholder.innerHTML = `
-      <div class="play-icon">▶</div>
+      <div class="play-icon" aria-hidden="true">${ICONS.playPlaceholder}</div>
       <p>Carregando vídeo...</p>
     `;
 
@@ -461,7 +568,9 @@ function renderCurrentLesson() {
   elements.nextButton.disabled = currentIndex === -1 || currentIndex >= state.flatLessons.length - 1;
   elements.downloadButton.href = getDriveDownloadUrl(lesson.driveId);
   elements.markWatchedButton.disabled = false;
-  elements.markWatchedButton.textContent = watched ? "✓ Assistida" : "✓ Marcar como assistida";
+  elements.markWatchedButton.innerHTML = watched
+    ? `${ICONS.checkButton} Assistida`
+    : `${ICONS.checkButton} Marcar como assistida`;
 }
 
 async function handleHomeModuleGridClick(event) {
