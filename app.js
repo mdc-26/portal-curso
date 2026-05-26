@@ -518,11 +518,16 @@ function renderCurrentLesson() {
   const currentIndex = state.flatLessons.findIndex((item) => item.id === lesson.id);
   const watched = isLessonWatched(lesson.id);
   const previewUrl = getDrivePreviewUrl(lesson.driveId);
+  const lessonKind = lesson.type === "video" ? "Video" : "PDF";
+  const moduleMeta = buildLessonMeta(lesson.moduleTitle);
 
   elements.currentLessonTitle.textContent = lesson.title;
   elements.lessonMeta.innerHTML = `
-    <p class="lesson-module-label">${lesson.moduleTitle}</p>
-    <p>${lesson.type === "video" ? "Video" : "PDF"}${lesson.duration ? ` • ${lesson.duration}` : ""}</p>
+    <p class="lesson-module-compact">${moduleMeta.compact}</p>
+    ${moduleMeta.kicker ? `<p class="lesson-module-kicker">${moduleMeta.kicker}</p>` : ""}
+    <p class="lesson-module-label">${moduleMeta.title}</p>
+    ${moduleMeta.supporting ? `<p class="lesson-module-supporting">${moduleMeta.supporting}</p>` : ""}
+    <p class="lesson-meta-type">${lessonKind}${lesson.duration ? ` • ${lesson.duration}` : ""}</p>
   `;
 
   elements.viewerContainer.innerHTML = "";
@@ -571,6 +576,38 @@ function renderCurrentLesson() {
   elements.markWatchedButton.innerHTML = watched
     ? `${ICONS.checkButton} Assistida`
     : `${ICONS.checkButton} Marcar como assistida`;
+}
+
+function buildLessonMeta(moduleTitle) {
+  const normalizedTitle = String(moduleTitle || "").trim();
+
+  if (!normalizedTitle) {
+    return {
+      compact: "",
+      kicker: "",
+      title: "",
+      supporting: "",
+    };
+  }
+
+  const [beforePipe, afterPipe] = normalizedTitle.split("|").map((part) => part.trim());
+  const [beforeDash, afterDash] = beforePipe.split(" - ").map((part) => part.trim());
+
+  if (afterDash) {
+    return {
+      compact: normalizedTitle,
+      kicker: beforeDash,
+      title: afterDash,
+      supporting: afterPipe || "",
+    };
+  }
+
+  return {
+    compact: normalizedTitle,
+    kicker: "",
+    title: beforePipe,
+    supporting: afterPipe || "",
+  };
 }
 
 async function handleHomeModuleGridClick(event) {
@@ -655,6 +692,7 @@ function markCurrentLessonAsWatched() {
   }
 
   localStorage.setItem(`${WATCHED_PREFIX}${lesson.id}`, "true");
+  renderHome();
   renderApp();
 }
 
