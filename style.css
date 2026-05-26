@@ -196,14 +196,50 @@ body::-webkit-scrollbar-thumb,
   font-weight: 600;
 }
 
+.password-field {
+  position: relative;
+}
+
 .text-input {
   width: 100%;
   min-height: 40px;
-  padding: 10px 12px;
+  padding: 10px 44px 10px 12px;
   border: 1px solid var(--color-border-default);
   border-radius: 6px;
   background: var(--color-canvas-default);
   color: var(--color-fg-default);
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--color-fg-muted);
+}
+
+.password-toggle:hover {
+  background: var(--color-accent-subtle);
+  color: var(--color-fg-default);
+}
+
+.password-toggle .password-icon {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .text-input::placeholder {

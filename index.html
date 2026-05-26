@@ -26,15 +26,43 @@
 
         <form id="login-form" class="login-form">
           <label class="field-label" for="password-input">Senha</label>
-          <input
-            id="password-input"
-            class="text-input"
-            type="password"
-            inputmode="text"
-            autocomplete="current-password"
-            placeholder="Digite a senha do curso"
-            required
-          >
+          <div class="password-field">
+            <input
+              id="password-input"
+              class="text-input"
+              type="password"
+              inputmode="text"
+              autocomplete="current-password"
+              placeholder="Digite a senha do curso"
+              required
+            >
+            <button
+              id="password-toggle"
+              class="password-toggle"
+              type="button"
+              aria-label="Mostrar senha"
+              aria-pressed="false"
+            >
+              <svg
+                class="password-icon password-icon-open"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path d="M1.5 12s3.5-7 10.5-7 10.5 7 10.5 7-3.5 7-10.5 7S1.5 12 1.5 12Z"></path>
+                <circle cx="12" cy="12" r="3.5"></circle>
+              </svg>
+              <svg
+                class="password-icon password-icon-closed hidden"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path d="M3 3l18 18"></path>
+                <path d="M10.6 5.1A11.8 11.8 0 0 1 12 5c7 0 10.5 7 10.5 7a17.6 17.6 0 0 1-4 4.8"></path>
+                <path d="M6.7 6.7C3.8 8.5 1.5 12 1.5 12s3.5 7 10.5 7c1.8 0 3.4-.5 4.8-1.2"></path>
+                <path d="M9.9 9.9A3.5 3.5 0 0 0 14.1 14.1"></path>
+              </svg>
+            </button>
+          </div>
           <p id="login-error" class="form-message" aria-live="polite"></p>
           <button type="submit" class="button button-primary button-block">Entrar</button>
         </form>

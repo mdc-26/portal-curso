@@ -39,6 +39,9 @@ function cacheElements() {
   elements.portalView = document.getElementById("portal-view");
   elements.loginForm = document.getElementById("login-form");
   elements.passwordInput = document.getElementById("password-input");
+  elements.passwordToggle = document.getElementById("password-toggle");
+  elements.passwordIconOpen = elements.passwordToggle.querySelector(".password-icon-open");
+  elements.passwordIconClosed = elements.passwordToggle.querySelector(".password-icon-closed");
   elements.loginError = document.getElementById("login-error");
   elements.homeCourseTitle = document.getElementById("home-course-title");
   elements.homeModuleGrid = document.getElementById("home-module-grid");
@@ -60,6 +63,7 @@ function cacheElements() {
 
 function bindEvents() {
   elements.loginForm.addEventListener("submit", handleLoginSubmit);
+  elements.passwordToggle.addEventListener("click", togglePasswordVisibility);
   elements.homeModuleGrid.addEventListener("click", handleHomeModuleGridClick);
   elements.moduleList.addEventListener("click", handleModuleListClick);
   elements.prevButton.addEventListener("click", () => navigateLesson(-1));
@@ -210,7 +214,24 @@ function showLogin() {
   elements.portalView.classList.add("hidden");
   elements.loginView.classList.remove("hidden");
   elements.passwordInput.value = "";
+  setPasswordVisibility(false);
   elements.passwordInput.focus();
+}
+
+function togglePasswordVisibility() {
+  const isVisible = elements.passwordInput.type === "text";
+  setPasswordVisibility(!isVisible);
+}
+
+function setPasswordVisibility(isVisible) {
+  elements.passwordInput.type = isVisible ? "text" : "password";
+  elements.passwordIconOpen.classList.toggle("hidden", isVisible);
+  elements.passwordIconClosed.classList.toggle("hidden", !isVisible);
+  elements.passwordToggle.setAttribute(
+    "aria-label",
+    isVisible ? "Ocultar senha" : "Mostrar senha"
+  );
+  elements.passwordToggle.setAttribute("aria-pressed", String(isVisible));
 }
 
 function logout() {
