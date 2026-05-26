@@ -1,7 +1,7 @@
 const SESSION_KEY = "coursePortalSession";
 const THEME_KEY = "theme";
 const WATCHED_PREFIX = "watched_";
-const PASSWORD_BASE64 = "Y3Vyc28yMDI0"; // Gerada com btoa("curso2024")
+const PASSWORD_BASE64 = "bG91dm9yMjY="; // Gerada com btoa("louvor26")
 
 const state = {
   course: null,
