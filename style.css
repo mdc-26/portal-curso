@@ -1128,26 +1128,55 @@ a svg {
   .content-header {
     left: 0;
     right: 0;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas:
+      "menu actions"
+      "title title";
     align-items: flex-start;
-    flex-wrap: wrap;
+    gap: 12px 16px;
     padding: 14px 16px;
   }
 
   .home-header {
-    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas:
+      "actions spacer"
+      "title title";
     align-items: start;
+    gap: 12px 16px;
     padding: 14px 16px;
   }
 
   .home-header-copy {
-    grid-column: 1;
+    grid-area: title;
     justify-self: start;
     justify-items: start;
     text-align: left;
   }
 
   .home-header .header-actions {
-    grid-column: 2;
+    grid-area: actions;
+    align-self: start;
+    justify-self: start;
+    width: auto;
+    flex-wrap: nowrap;
+  }
+
+  .content-header .header-left {
+    display: contents;
+  }
+
+  .content-header .header-actions {
+    grid-area: actions;
+    justify-self: end;
+    width: auto;
+    flex-wrap: nowrap;
+  }
+
+  .content-header #menu-button {
+    grid-area: menu;
+    justify-self: start;
     align-self: start;
   }
 
@@ -1169,24 +1198,22 @@ a svg {
     gap: 8px;
   }
 
-  .header-left {
-    align-items: flex-start;
-  }
-
   .header-titles {
-    flex: 1 1 220px;
+    grid-area: title;
+    width: 100%;
+    flex: initial;
     min-width: 0;
   }
 
   .content-scroll {
     height: auto;
     min-height: 100vh;
-    padding: 98px 16px 20px;
+    padding: 138px 16px 20px;
   }
 
   .home-scroll {
     min-height: 100vh;
-    padding: 98px 16px 20px;
+    padding: 126px 16px 20px;
   }
 
   .viewer-card {
@@ -1200,8 +1227,7 @@ a svg {
 
   .lesson-actions,
   .navigation-actions,
-  .utility-actions,
-  .header-left {
+  .utility-actions {
     width: 100%;
     flex-wrap: wrap;
   }
@@ -1247,32 +1273,19 @@ a svg {
 @media (max-width: 560px) {
   .content-header,
   .home-header {
-    gap: 12px;
-  }
-
-  .home-header {
-    grid-template-columns: 1fr;
-  }
-
-  .home-header-copy,
-  .home-header .header-actions {
-    grid-column: 1;
-  }
-
-  .home-header .header-actions {
-    justify-self: start;
+    gap: 10px 12px;
   }
 
   .header-actions {
-    width: 100%;
+    width: auto;
   }
 
   .home-scroll {
-    padding-top: 138px;
+    padding-top: 132px;
   }
 
   .content-scroll {
-    padding-top: 132px;
+    padding-top: 144px;
   }
 
   .navigation-actions .button,
@@ -1314,20 +1327,8 @@ a svg {
 
 @media (max-width: 360px) {
   .content-header {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-
-  .header-left {
-    display: grid;
     grid-template-columns: auto minmax(0, 1fr);
-    gap: 10px 12px;
-    align-items: start;
-  }
-
-  .header-titles {
-    grid-column: auto;
+    gap: 10px;
   }
 
   #current-lesson-title {
@@ -1337,7 +1338,7 @@ a svg {
   }
 
   .content-header .header-actions {
-    width: 100%;
+    width: auto;
     justify-content: flex-start;
   }
 
@@ -1348,6 +1349,10 @@ a svg {
   }
 
   .content-scroll {
+    padding: 136px 10px 16px;
+  }
+
+  .home-scroll {
     padding: 136px 10px 16px;
   }
 
@@ -1382,6 +1387,10 @@ a svg {
 
 @media (max-width: 320px) {
   .content-scroll {
+    padding: 146px 6px 14px;
+  }
+
+  .home-scroll {
     padding: 146px 6px 14px;
   }
 
