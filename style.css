@@ -1139,9 +1139,9 @@ a svg {
   }
 
   .home-header {
-    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) auto;
     grid-template-areas:
-      "actions spacer"
+      "spacer actions"
       "title title";
     align-items: start;
     gap: 12px 16px;
@@ -1158,7 +1158,7 @@ a svg {
   .home-header .header-actions {
     grid-area: actions;
     align-self: start;
-    justify-self: start;
+    justify-self: end;
     width: auto;
     flex-wrap: nowrap;
   }
