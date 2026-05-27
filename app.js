@@ -5,6 +5,7 @@ const ACCESS_COUNT_SESSION_KEY = "portalAccessCounted";
 const ACCESS_COUNT_KEY = "portal-curso-louvor26-acessos";
 const COUNT_API_BASE = "https://countapi.mileshilliard.com/api/v1";
 const PASSWORD_BASE64 = "bG91dm9yMjY="; // Gerada com btoa("louvor26")
+const MASTER_PASSWORD_BASE64 = "bWFzdGVyLWxvdXZvcjI2"; // Gerada com btoa("master-louvor26")
 
 function createFillIcon(className, width, height, body) {
   return `
@@ -240,25 +241,42 @@ function isLoggedIn() {
   }
 }
 
-function persistLogin() {
-  sessionStorage.setItem(SESSION_KEY, JSON.stringify({ loggedIn: true }));
+function isMasterLogin() {
+  try {
+    const savedSession = sessionStorage.getItem(SESSION_KEY);
+
+    if (!savedSession) {
+      return false;
+    }
+
+    return JSON.parse(savedSession)?.isMaster === true;
+  } catch (error) {
+    return false;
+  }
+}
+
+function persistLogin(isMaster = false) {
+  sessionStorage.setItem(
+    SESSION_KEY,
+    JSON.stringify({ loggedIn: true, isMaster })
+  );
 }
 
 async function handleLoginSubmit(event) {
   event.preventDefault();
 
   const password = elements.passwordInput.value.trim();
-  const decodedPassword = atob(PASSWORD_BASE64);
-  const encodedPassword = btoa(password);
+  const isMaster = password === atob(MASTER_PASSWORD_BASE64);
+  const isRegular = password === atob(PASSWORD_BASE64);
 
-  if (password !== decodedPassword || encodedPassword !== PASSWORD_BASE64) {
+  if (!isMaster && !isRegular) {
     elements.loginError.textContent = "Senha incorreta. Tente novamente.";
     elements.passwordInput.select();
     return;
   }
 
   elements.loginError.textContent = "";
-  persistLogin();
+  persistLogin(isMaster);
   await openHome();
 }
 
@@ -353,6 +371,16 @@ function logout() {
 
 async function syncAccessCounter() {
   if (!isLoggedIn()) {
+    return;
+  }
+
+  if (isMasterLogin()) {
+    const currentValue = await fetchAccessCount("get");
+
+    if (currentValue != null) {
+      renderAccessCounter(currentValue);
+    }
+
     return;
   }
 
