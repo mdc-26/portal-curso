@@ -1,6 +1,9 @@
 const SESSION_KEY = "coursePortalSession";
 const THEME_KEY = "theme";
 const WATCHED_PREFIX = "watched_";
+const ACCESS_COUNT_SESSION_KEY = "portalAccessCounted";
+const ACCESS_COUNT_KEY = "portal-curso-louvor26-acessos";
+const COUNT_API_BASE = "https://countapi.mileshilliard.com/api/v1";
 const PASSWORD_BASE64 = "bG91dm9yMjY="; // Gerada com btoa("louvor26")
 
 function createFillIcon(className, width, height, body) {
@@ -260,6 +263,7 @@ async function handleLoginSubmit(event) {
 }
 
 async function openHome() {
+  void syncAccessCounter();
   closeDrawer();
   elements.loginView.classList.add("hidden");
   elements.portalView.classList.add("hidden");
@@ -307,6 +311,7 @@ async function openModule(moduleId) {
     elements.loginView.classList.add("hidden");
     elements.homeView.classList.add("hidden");
     elements.portalView.classList.remove("hidden");
+    void syncAccessCounter();
     renderApp();
   } catch (error) {
     renderCourseLoadError(error.message);
@@ -344,6 +349,57 @@ function setPasswordVisibility(isVisible) {
 function logout() {
   sessionStorage.clear();
   showLogin();
+}
+
+async function syncAccessCounter() {
+  if (!isLoggedIn()) {
+    return;
+  }
+
+  const alreadyCounted = sessionStorage.getItem(ACCESS_COUNT_SESSION_KEY) === "1";
+
+  if (!alreadyCounted) {
+    const hitValue = await fetchAccessCount("hit");
+
+    if (hitValue != null) {
+      sessionStorage.setItem(ACCESS_COUNT_SESSION_KEY, "1");
+      renderAccessCounter(hitValue);
+      return;
+    }
+  }
+
+  const currentValue = await fetchAccessCount("get");
+
+  if (currentValue != null) {
+    renderAccessCounter(currentValue);
+  }
+}
+
+async function fetchAccessCount(action) {
+  const endpoint = `${COUNT_API_BASE}/${action}/${ACCESS_COUNT_KEY}`;
+
+  try {
+    const response = await fetch(endpoint);
+
+    if (!response.ok) {
+      return null;
+    }
+
+    const data = await response.json();
+    const value = Number(data?.value ?? data?.count);
+
+    return Number.isFinite(value) ? value : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function renderAccessCounter(value) {
+  const text = String(value);
+
+  document.querySelectorAll("[data-access-counter]").forEach((element) => {
+    element.textContent = text;
+  });
 }
 
 async function loadCourse() {
